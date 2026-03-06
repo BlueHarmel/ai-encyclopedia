@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gemini · 10. 제한사항·주의점</title>
+  <style>
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif;background:#fff;color:#1b2138}
+    .wrap{max-width:980px;margin:0 auto;padding:24px}
+    h1{margin:0 0 6px;font-size:28px}
+    h2{margin:0 0 14px;font-size:22px;border-bottom:1px solid #e8edff;padding-bottom:8px}
+    h3{margin-top:16px;font-size:18px}
+    p,li{line-height:1.68}
+    .box{border:1px solid #dce6ff;background:#f8faff;border-radius:10px;padding:12px;margin:10px 0}
+    .top{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+    .btn{display:inline-block;text-decoration:none;border:1px solid #d8e3ff;background:#eef3ff;color:#1c2d66;padding:6px 10px;border-radius:8px;font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <a class="btn" href="../gemini.html">Gemini 메인으로</a>
+      <a class="btn" href="../index.html">위키 홈</a>
+      <a class="btn" href="./09.html">← 이전</a>
+      <a class="btn" href="./11.html">다음 →</a>
+    </div>
+    <h1>Gemini</h1>
+    <h2>10. 제한사항·주의점(검증 가능한 범위)</h2>
+
+    <h3>주의점 1) 기능 가용성 변동</h3>
+    <ul>
+      <li>기능은 시점/플랜/지역에 따라 달라질 수 있다.</li>
+      <li>공식 Docs/블로그/updates 기준으로 주기 점검이 필요하다.</li>
+    </ul>
+    <div class="box">
+      <strong>예시 블록 1 — 배포 전 공지 재확인</strong>
+      <p>주간 문서 배포 직전에 updates 페이지를 다시 확인하면, 중간 정책 변경으로 인한 오정보 반영을 줄일 수 있다.</p>
+    </div>
+    <div class="box">
+      <strong>예시 블록 2 — 지역 편차 분리</strong>
+      <p>지역별 제공 차이가 의심되면 본문 단정 대신 "직접 확인 필요"로 분리해 배포한다.</p>
+    </div>
+
+    <h3>주의점 2) 출력 사실성 관리</h3>
+    <ul>
+      <li>검증되지 않은 문장을 사실로 단정하지 않는다.</li>
+      <li>근거가 부족한 문장은 "확인 불가/직접 확인 필요"로 분리한다.</li>
+    </ul>
+    <div class="box">
+      <strong>예시 블록 3 — 정책 문장 처리</strong>
+      <p>과금/플랜 문장은 공식 링크가 없으면 FAQ 확정 답변으로 쓰지 않고, 확인 큐로 이동한다.</p>
+    </div>
+    <div class="box">
+      <strong>예시 블록 4 — 3분할 검토</strong>
+      <p>사실/해석/추정 3분할 점검으로 추정 문장이 사실 섹션에 들어가는 실수를 예방한다.</p>
+    </div>
+
+    <h3>주의점 3) 데이터 보안 및 운영 통제</h3>
+    <ul>
+      <li>민감정보/개인정보는 입력 전 마스킹한다.</li>
+      <li>내부 식별자·토큰·비밀키 노출을 방지한다.</li>
+      <li>자동 생성 결과는 승인자 검토 후 외부 공유한다.</li>
+    </ul>
+    <div class="box">
+      <strong>예시 블록 5 — 비밀정보 필터</strong>
+      <p>프롬프트 전처리에서 이메일/토큰 패턴을 자동 마스킹하면 로그 유출 위험을 줄일 수 있다.</p>
+    </div>
+    <div class="box">
+      <strong>예시 블록 6 — 승인형 배포</strong>
+      <p>운영 공지 생성은 "작성자→검토자→승인자" 3단계로 분리하면 품질과 책임 경계가 명확해진다.</p>
+    </div>
+
+    <p><strong>확인 불가/직접 확인 필요:</strong> 플랜별 한도 세부, API 과금 조건, 지역별 정책 차이.</p>
+  </div>
+</body>
+</html>

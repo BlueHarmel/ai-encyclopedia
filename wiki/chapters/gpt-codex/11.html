@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GPT-Codex · 11. 비용/플랜</title>
+  <style>
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif;background:#fff;color:#1b2138}
+    .wrap{max-width:1000px;margin:0 auto;padding:24px}
+    h1{margin:0 0 6px;font-size:28px} h2{margin:0 0 14px;font-size:22px;border-bottom:1px solid #e8edff;padding-bottom:8px}
+    h3{margin-top:16px;font-size:18px} p,li{line-height:1.68}
+    .box{border:1px solid #dce6ff;background:#f8faff;border-radius:10px;padding:12px;margin:10px 0}
+    .top{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+    .btn{display:inline-block;text-decoration:none;border:1px solid #d8e3ff;background:#eef3ff;color:#1c2d66;padding:6px 10px;border-radius:8px;font-size:13px}
+    table{width:100%;border-collapse:collapse;margin:8px 0}
+    th,td{border:1px solid #dce6ff;padding:8px;vertical-align:top;text-align:left;font-size:14px;line-height:1.6}
+    th{background:#eef3ff}
+    .src{font-size:13px;color:#41507a}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <a class="btn" href="../gpt-codex.html">GPT-Codex 메인으로</a>
+      <a class="btn" href="../index.html">위키 홈</a>
+      <a class="btn" href="./10.html">← 이전</a>
+      <a class="btn" href="./12.html">다음 →</a>
+    </div>
+    <h1>GPT-Codex</h1>
+    <h2>11. 비용/플랜(검증 가능 범위 + 확인 필요 분리)</h2>
+
+    <h3>확인 가능한 범위 vs 직접 확인 필요</h3>
+    <table>
+      <tr><th>구분</th><th>문서화 원칙</th><th>확인 경로</th></tr>
+      <tr>
+        <td>확인 가능한 범위</td>
+        <td>기능/변경 이력은 Codex Overview/Changelog 및 GitHub Releases 기준으로 추적한다.</td>
+        <td>developers.openai.com/codex, developers.openai.com/codex/changelog, github.com/openai/codex/releases</td>
+      </tr>
+      <tr>
+        <td>직접 확인 필요</td>
+        <td>실시간 과금 단가, 사용량 한도, 조직 계약 조건은 환경별로 달라 단정하지 않는다.</td>
+        <td>조직 관리자 콘솔, 계약 문서, 공식 가격 안내 페이지</td>
+      </tr>
+    </table>
+
+    <h3>도입 의사결정 체크리스트(숫자 단정 대신 측정 절차)</h3>
+    <ul>
+      <li>파일럿 기간을 2~4주로 고정했는가?</li>
+      <li>측정 지표를 <code>PR 준비시간</code>, <code>테스트 누락률</code>, <code>리뷰 반려율</code>로 통일했는가?</li>
+      <li>파괴적 변경은 dry-run/승인 게이트를 통과하도록 분리했는가?</li>
+      <li>changelog 반영 항목을 즉시/파일럿/보류로 분류했는가?</li>
+      <li>월 단위 회고 문서에 근거 링크와 재검토 날짜를 남겼는가?</li>
+    </ul>
+
+    <div class="box">
+      <strong>예시 블록 1 — PR 준비시간 절감률 계산</strong>
+      <p>도입 전후 2주 평균 PR 준비시간을 비교해 <code>(전-후)/전×100</code>으로 산출한다. 산출값은 changelog 반영 시점과 함께 기록해 원인 추적이 가능하도록 유지한다.</p>
+    </div>
+
+    <div class="box">
+      <strong>예시 블록 2 — 테스트 누락률 기준 운영</strong>
+      <p>주간 샘플 PR 20건에서 정상/예외/경계 테스트 포함 여부를 점검한다. 누락률이 높으면 프롬프트 템플릿에 테스트 3종 요구를 고정한다.</p>
+    </div>
+
+    <div class="box">
+      <strong>예시 블록 3 — 비용 문서 작성 규칙</strong>
+      <p>내부 위키에는 금액 숫자를 고정하지 않고 <code>확인 날짜</code>, <code>확인자</code>, <code>공식 링크</code>만 기록한다. 분기마다 재확인해 최신 상태를 유지한다.</p>
+    </div>
+
+    <h3>확인 불가/직접 확인 필요</h3>
+    <ul>
+      <li>OAuth/API 과금 세부 단가</li>
+      <li>시간/토큰 단위 사용 한도 및 초과 정책</li>
+      <li>조직/플랜별 기능 차등 범위</li>
+    </ul>
+
+    <p class="src"><strong>Source:</strong> Codex Overview, Codex Changelog, openai/codex Repository/Releases</p>
+  </div>
+</body>
+</html>

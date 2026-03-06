@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ko"><head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI 백과사전 · 홈</title>
+  <style>
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif;background:#fff;color:#1f2430;line-height:1.7}
+    .wrap{max-width:980px;margin:0 auto;padding:28px 20px 48px}
+    h1{margin:0 0 8px;font-size:30px} h2{margin:28px 0 10px;font-size:22px}
+    .note{background:#f4f7ff;border:1px solid #d9e4ff;border-radius:12px;padding:14px 16px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+    .card{border:1px solid #e5e9f2;border-radius:12px;padding:14px}
+    code{background:#f3f4f6;padding:2px 6px;border-radius:6px}
+  </style>
+</head>
+<body><div class="wrap">
+  <h1>AI 백과사전 IA v3</h1>
+  <p>기준: <strong>3겹 구조(공통 → 서비스별 → 레시피/비교)</strong>. 위키독스형 내비는 유지하고, 본문은 개발자 실전 문서 기준으로 확장합니다.</p>
+
+  <div class="note">
+    <strong>현재 상태</strong>
+    <ul>
+      <li>AI-encyclopedia 자동 작업은 일시 중지 상태</li>
+      <li>새 IA 뼈대(docs/) 생성 완료</li>
+      <li>서비스별 101은 00-overview부터 채우는 단계</li>
+    </ul>
+  </div>
+
+  <h2>구성 비율</h2>
+  <div class="grid">
+    <div class="card"><strong>공통 20%</strong><br/>용어/정책/검증체크리스트</div>
+    <div class="card"><strong>서비스별 50%</strong><br/>ChatGPT/Claude/Gemini/Genspark/Copilot 101</div>
+    <div class="card"><strong>레시피·비교 30%</strong><br/>백엔드 실전 시나리오 + 서비스 선택 가이드</div>
+  </div>
+
+  <h2>문서 원칙</h2>
+  <ol>
+    <li>코드/명령/프롬프트 예시 중심</li>
+    <li>실패 패턴 + 검증 체크리스트 포함</li>
+    <li>변동 정보는 <code>Last checked</code> 필드로 관리</li>
+    <li>불확실 정보는 <code>확인 필요</code>로 분리</li>
+  </ol>
+</div></body></html>
