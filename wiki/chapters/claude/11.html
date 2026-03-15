@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Claude · 11. 비용/플랜</title>
+  <style>
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif;background:#fff;color:#1b2138}
+    .wrap{max-width:1020px;margin:0 auto;padding:24px}
+    h1{margin:0 0 6px;font-size:28px}
+    h2{margin:0 0 14px;font-size:22px;border-bottom:1px solid #e8edff;padding-bottom:8px}
+    h3{margin-top:16px;font-size:18px}
+    p,li{line-height:1.68}
+    .box{border:1px solid #dce6ff;background:#f8faff;border-radius:10px;padding:12px;margin:10px 0}
+    .top{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+    .btn{display:inline-block;text-decoration:none;border:1px solid #d8e3ff;background:#eef3ff;color:#1c2d66;padding:6px 10px;border-radius:8px;font-size:13px}
+    .src{font-size:13px;color:#41507a}
+    table{width:100%;border-collapse:collapse;margin:8px 0}
+    th,td{border:1px solid #dce6ff;padding:8px;vertical-align:top;text-align:left;font-size:14px;line-height:1.6}
+    th{background:#eef3ff}
+    code{background:#eef2ff;padding:2px 6px;border-radius:6px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <a class="btn" href="../claude.html">Claude 메인으로</a>
+      <a class="btn" href="../index.html">위키 홈</a>
+      <a class="btn" href="./10.html">← 이전</a>
+      <a class="btn" href="./12.html">다음 →</a>
+    </div>
+    <h1>Claude</h1>
+    <h2>11. 비용/플랜(검증 가능한 범위 + 확인 필요 분리)</h2>
+
+    <h3>확인 가능한 범위 vs 직접 확인 필요</h3>
+    <table>
+      <tr><th>구분</th><th>문서화 원칙</th><th>확인 경로</th></tr>
+      <tr>
+        <td>확인 가능한 범위</td>
+        <td>Claude 기능/업데이트 이력은 공식 Docs/API Docs/News/Release Notes 링크 기준으로 추적한다.</td>
+        <td><a href="https://platform.claude.com/docs/en/overview" target="_blank">Claude Docs Overview</a><br/><a href="https://platform.claude.com/docs/en/api/overview" target="_blank">Claude API Overview</a><br/><a href="https://www.anthropic.com/news" target="_blank">Anthropic News</a><br/><a href="https://docs.anthropic.com/en/release-notes/overview" target="_blank">Release Notes</a></td>
+      </tr>
+      <tr>
+        <td>직접 확인 필요</td>
+        <td>실시간 가격 숫자, 조직 계약 조건, 사용량 한도, 지역별 정책 차이는 환경별로 달라 단정하지 않는다.</td>
+        <td>조직 관리자 콘솔, 계약 문서, 공식 가격 안내 페이지</td>
+      </tr>
+    </table>
+
+    <h3>도입 의사결정 체크리스트(숫자 단정 대신 측정 절차)</h3>
+    <ul>
+      <li>파일럿 기간을 2~4주로 고정했는가?</li>
+      <li>측정 지표를 <code>문서당 작성 시간</code>, <code>검토 시간</code>, <code>반려율</code>로 통일했는가?</li>
+      <li>출력 템플릿(<code>요약/근거/확인 필요</code>)을 팀 공통으로 고정했는가?</li>
+      <li>미확정 문장을 "확인 불가/직접 확인 필요"로 분리하는 규칙을 강제했는가?</li>
+      <li>주 1회 회고에서 즉시 적용/파일럿/보류 분류를 갱신하는가?</li>
+    </ul>
+
+    <div class="box">
+      <strong>구체 예시 1 — 회의록 요약 운영 지표</strong>
+      <p>도입 전/후 2주 동안 회의록 20건을 비교해 문서당 작성 시간을 측정한다. 계산식은 <code>(도입 전 평균 - 도입 후 평균) / 도입 전 평균 × 100</code>을 사용한다.</p>
+    </div>
+
+    <div class="box">
+      <strong>구체 예시 2 — 검토 시간 단축 추적</strong>
+      <p>초안에 근거 링크를 의무 포함하면 검토자가 사실 확인에 쓰는 시간을 줄일 수 있다. 회고 문서에는 "근거 링크 누락률"을 함께 기록한다.</p>
+    </div>
+
+    <div class="box">
+      <strong>구체 예시 3 — 가격 문서 관리 규칙</strong>
+      <p>내부 문서에는 가격 숫자를 고정하지 않고 <code>확인 날짜</code>, <code>확인자</code>, <code>공식 링크</code>만 기록한다. 분기마다 재검증한다.</p>
+    </div>
+
+    <h3>확인 불가/직접 확인 필요</h3>
+    <ul>
+      <li>API/앱 플랜별 세부 기능 차이 및 최신 가격 숫자</li>
+      <li>사용량 제한 단위, 과금 세부, 초과 정책</li>
+      <li>조직/지역별 기능 제한 및 롤아웃 시점</li>
+    </ul>
+
+    <p class="src"><strong>Source:</strong> Claude Docs Overview, Claude API Overview, Anthropic News, Anthropic Release Notes(verified)</p>
+  </div>
+</body>
+</html>

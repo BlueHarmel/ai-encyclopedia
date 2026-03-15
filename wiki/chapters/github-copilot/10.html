@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GitHub Copilot · 10. 제한사항·주의점</title>
+  <style>
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif;background:#fff;color:#1b2138}
+    .wrap{max-width:980px;margin:0 auto;padding:24px}
+    h1{margin:0 0 6px;font-size:28px}
+    h2{margin:0 0 14px;font-size:22px;border-bottom:1px solid #e8edff;padding-bottom:8px}
+    h3{margin-top:16px;font-size:18px}
+    p,li{line-height:1.68}
+    .box{border:1px solid #dce6ff;background:#f8faff;border-radius:10px;padding:12px;margin:10px 0}
+    .top{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+    .btn{display:inline-block;text-decoration:none;border:1px solid #d8e3ff;background:#eef3ff;color:#1c2d66;padding:6px 10px;border-radius:8px;font-size:13px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <a class="btn" href="../github-copilot.html">GitHub Copilot 메인으로</a>
+      <a class="btn" href="../index.html">위키 홈</a>
+      <a class="btn" href="./09.html">← 이전</a>
+      <a class="btn" href="./11.html">다음 →</a>
+    </div>
+    <h1>GitHub Copilot</h1>
+    <h2>10. 제한사항·주의점(검증 가능한 범위)</h2>
+
+    <h3>주의점 1) 제안 코드의 검토 필요성</h3>
+    <ul>
+      <li>Copilot 제안은 초안이며 정답이 아니다.</li>
+      <li>사람 리뷰와 테스트 없이 반영하면 회귀 위험이 커진다.</li>
+    </ul>
+    <div class="box">
+      <strong>예시 블록 1 — 리팩터링 반영 규칙</strong>
+      <p>제안된 리팩터링은 "기존 테스트 통과 + 신규 경계 테스트 1개"를 만족할 때만 병합하는 규칙을 두면 안전하다.</p>
+    </div>
+    <div class="box">
+      <strong>예시 블록 2 — 작은 단위 머지</strong>
+      <p>대규모 제안은 기능 단위 PR로 나눠 병합하면 장애 시 원인 추적과 롤백이 쉬워진다.</p>
+    </div>
+
+    <h3>주의점 2) 보안/라이선스 검증</h3>
+    <ul>
+      <li>민감정보(토큰/계정키)가 코드/주석에 노출되지 않도록 점검한다.</li>
+      <li>새 라이브러리 제안은 라이선스/취약점 검토 후 반영한다.</li>
+    </ul>
+    <div class="box">
+      <strong>예시 블록 3 — 시크릿 필터링</strong>
+      <p>PR 전 자동 스캔으로 시크릿 문자열을 확인하면, Copilot 제안 포함 코드의 유출 위험을 줄일 수 있다.</p>
+    </div>
+    <div class="box">
+      <strong>예시 블록 4 — 의존성 승인 절차</strong>
+      <p>외부 패키지 추가 제안은 보안팀/리뷰어 승인 단계를 거쳐야 운영 환경 반영이 가능하도록 제한한다.</p>
+    </div>
+
+    <h3>주의점 3) 기능 가용성 변동</h3>
+    <ul>
+      <li>기능/지원 환경은 GitHub Changelog 시점에 따라 달라질 수 있다.</li>
+      <li>공식 Docs/Changelog 기준으로 월간 재검토 루프를 유지한다.</li>
+    </ul>
+    <div class="box">
+      <strong>예시 블록 5 — Public preview 분리</strong>
+      <p>공개 프리뷰 기능은 전사 즉시 적용 대신 파일럿 저장소에서만 먼저 검증한다.</p>
+    </div>
+    <div class="box">
+      <strong>예시 블록 6 — 정책 불일치 처리</strong>
+      <p>조직 정책으로 비활성화된 기능은 문서에 "확인 불가/직접 확인 필요"로 표시해 오해를 방지한다.</p>
+    </div>
+
+    <p><strong>확인 불가/직접 확인 필요:</strong> 플랜별 세부 기능, 조직 정책별 제한 범위, 모델 선택 옵션.</p>
+  </div>
+</body>
+</html>

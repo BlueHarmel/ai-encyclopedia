@@ -1,0 +1,12 @@
+{
+  "updatedAt": "2026-02-28T21:20:00+09:00",
+  "status": "IA_V3_SCAFFOLD",
+  "note": "서비스별 상세 작성 전에 공식 Source 맵을 사용자 계획 기준으로 확정합니다.",
+  "tools": {
+    "chatgpt-pro": { "officialDocs": [], "officialReleases": [] },
+    "claude-pro": { "officialDocs": [], "officialReleases": [] },
+    "gemini-pro": { "officialDocs": [], "officialReleases": [] },
+    "genspark-plus": { "officialDocs": [], "officialReleases": [] },
+    "github-copilot-pro": { "officialDocs": [], "officialReleases": [] }
+  }
+}

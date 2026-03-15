@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Genspark · 9. 고급 응용</title>
+  <style>
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif;background:#fff;color:#1b2138}
+    .wrap{max-width:1000px;margin:0 auto;padding:24px}
+    h1{margin:0 0 6px;font-size:28px} h2{margin:0 0 14px;font-size:22px;border-bottom:1px solid #e8edff;padding-bottom:8px}
+    h3{margin-top:16px;font-size:18px} p,li{line-height:1.68}
+    .case{border:1px solid #dce6ff;background:#f8faff;border-radius:10px;padding:12px;margin:10px 0}
+    .top{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+    .btn{display:inline-block;text-decoration:none;border:1px solid #d8e3ff;background:#eef3ff;color:#1c2d66;padding:6px 10px;border-radius:8px;font-size:13px}
+    table{width:100%;border-collapse:collapse;margin:8px 0}
+    th,td{border:1px solid #dce6ff;padding:8px;vertical-align:top;text-align:left;font-size:14px;line-height:1.6}
+    th{background:#eef3ff}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <a class="btn" href="../genspark.html">Genspark 메인으로</a>
+      <a class="btn" href="../index.html">위키 홈</a>
+      <a class="btn" href="./08.html">← 이전</a>
+      <a class="btn" href="./10.html">다음 →</a>
+    </div>
+    <h1>Genspark</h1>
+    <h2>9. 고급 응용(자동화/통합)</h2>
+
+    <div class="case">
+      <h3>응용 1) 수집→검증→큐레이션 파이프라인</h3>
+      <table>
+        <tr><th>요소</th><th>내용</th></tr>
+        <tr><td>상황</td><td>주제별 링크가 빠르게 쌓여 수동 정리 비용이 증가한다.</td></tr>
+        <tr><td>입력</td><td>주제 키워드, 수집 링크 목록, 검증 규칙(공식/검증됨 우선)</td></tr>
+        <tr><td>출력</td><td>확정/보류/직접 확인 필요 3분류 결과 + 큐레이션 문서</td></tr>
+        <tr><td>검토포인트</td><td>미검증 링크가 확정 섹션에 포함되지 않았는지 확인</td></tr>
+        <tr><td>실패패턴</td><td>수집 단계 결과를 검증 없이 배포해 신뢰도 저하</td></tr>
+      </table>
+    </div>
+
+    <div class="case">
+      <h3>응용 2) 출처 신뢰도 점수화</h3>
+      <table>
+        <tr><th>요소</th><th>내용</th></tr>
+        <tr><td>상황</td><td>같은 주제에서 출처 품질 편차가 커 반영 기준이 흔들린다.</td></tr>
+        <tr><td>입력</td><td>링크 목록, 평가 기준(공식성/최신성/중복률)</td></tr>
+        <tr><td>출력</td><td>링크별 점수 + 반영 우선순위 + 제외 사유</td></tr>
+        <tr><td>검토포인트</td><td>점수 산정 기준이 문서에 명시되어 재현 가능한지 확인</td></tr>
+        <tr><td>실패패턴</td><td>평가 기준 미기록으로 담당자 교체 시 결과 불일치</td></tr>
+      </table>
+    </div>
+
+    <div class="case">
+      <h3>응용 3) 채널별 출력 자동 변환</h3>
+      <table>
+        <tr><th>요소</th><th>내용</th></tr>
+        <tr><td>상황</td><td>동일 사실을 문서/메신저/브리핑용으로 반복 재작성한다.</td></tr>
+        <tr><td>입력</td><td>핵심 내용, 근거 링크, 채널별 길이 제한</td></tr>
+        <tr><td>출력</td><td>문서형/메신저형/브리핑형 3버전</td></tr>
+        <tr><td>검토포인트</td><td>채널별 금지 포맷, 길이 제한, 링크 유지 여부</td></tr>
+        <tr><td>실패패턴</td><td>메신저형 출력이 장문화되어 전달 실패</td></tr>
+      </table>
+    </div>
+
+    <p><strong>Source:</strong> Genspark 공식 사이트, genspark-ai/sparkle, genspark-ai/omaha</p>
+    <p><strong>확인 불가/직접 확인 필요:</strong> 외부 시스템 통합 한도, 플랜별 자동화 기능 경계.</p>
+  </div>
+</body>
+</html>

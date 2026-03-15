@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Genspark · 1. 서비스 한눈에 보기</title>
+  <style>
+    body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif;background:#fff;color:#1b2138}
+    .wrap{max-width:1040px;margin:0 auto;padding:24px}
+    h1{margin:0 0 6px;font-size:28px} h2{margin:0 0 14px;font-size:22px;border-bottom:1px solid #e8edff;padding-bottom:8px}
+    h3{margin-top:16px;font-size:18px} p,li{line-height:1.68}
+    .top{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}
+    .btn{display:inline-block;text-decoration:none;border:1px solid #d8e3ff;background:#eef3ff;color:#1c2d66;padding:6px 10px;border-radius:8px;font-size:13px}
+    .card{border:1px solid #dce6ff;background:#f8faff;border-radius:10px;padding:12px;margin:10px 0}
+    table{width:100%;border-collapse:collapse;margin-top:8px}
+    th,td{border:1px solid #dce6ff;padding:8px;vertical-align:top;text-align:left;font-size:14px;line-height:1.6}
+    th{background:#eef3ff}.src{font-size:13px;color:#41507a} code{background:#eef2ff;padding:2px 6px;border-radius:6px}
+  </style>
+</head>
+<body><div class="wrap">
+  <div class="top"><a class="btn" href="../genspark.html">Genspark 메인으로</a><a class="btn" href="../index.html">위키 홈</a><a class="btn" href="./02.html">다음 →</a></div>
+  <h1>Genspark</h1>
+  <h2>1. 서비스 한눈에 보기(정의/무엇을 잘하는지/한계)</h2>
+
+  <h3>기본정보 카드</h3>
+  <table>
+    <tr><th>항목</th><th>확인 가능한 내용(공식 Source + verified 기준)</th></tr>
+    <tr><td>서비스명/운영사</td><td>Genspark / Genspark</td></tr>
+    <tr><td>공식 진입 URL</td><td><a href="https://www.genspark.ai/" target="_blank">www.genspark.ai</a> (자동 검증 환경에서 403 가능)</td></tr>
+    <tr><td>지원 인터페이스(Web/App/IDE/CLI/API)</td><td>웹 진입점은 공식 URL로 확인 가능. API/CLI/IDE 범용 지원은 공식 문서 근거 부족으로 직접 확인 필요.</td></tr>
+    <tr><td>지원 작업 유형</td><td>링크 기반 리서치 요약, 비교표 초안, 근거 링크 큐레이션, 운영 다이제스트 초안.</td></tr>
+    <tr><td>계정/인증 방식</td><td>공식 웹 서비스 계정 접근(세부 인증 흐름은 직접 확인 필요).</td></tr>
+    <tr><td>지원 플랫폼(OS/브라우저)</td><td>브라우저 기반 접근 확인. 브라우저/지역 정책에 따른 접근 제약(403) 가능성 존재.</td></tr>
+    <tr><td>팀 기능(공유/권한/협업)</td><td>협업 기능의 세부 권한 모델은 공식 문서 단정 근거 부족(직접 확인 필요).</td></tr>
+    <tr><td>모델/엔진 라인업(확인 가능 범위)</td><td>공식 사이트/공식 GitHub(sparkle, omaha) 공개 범위만 단정.</td></tr>
+    <tr><td>승인/권한 모드(있으면)</td><td>최종 문서 반영 승인 책임은 내부 검토 프로세스로 운영.</td></tr>
+    <tr><td>로그/기록/변경이력 확인 경로</td><td><a href="https://github.com/genspark-ai/sparkle" target="_blank">genspark-ai/sparkle</a>, <a href="https://github.com/genspark-ai/omaha" target="_blank">genspark-ai/omaha</a></td></tr>
+    <tr><td>가격/플랜 확인 경로</td><td>공식 웹사이트 가격 안내 페이지 직접 확인(숫자 단정 금지).</td></tr>
+    <tr><td>보안/제한사항 핵심 3개</td><td>(1) 미검증 링크 단정 금지, (2) 403 발생 시 확인 큐 분리, (3) 배포 전 사람 검토 필수.</td></tr>
+    <tr><td>최근 업데이트 확인 경로</td><td>공식 사이트 공지 + 공식 GitHub 저장소 최근 커밋/릴리즈</td></tr>
+    <tr><td>시작 절차 3단계</td><td>① 주제/출력형식(요약/근거/확인필요) 고정 → ② 링크 기반 초안 생성 → ③ 검증됨 링크만 남기고 배포본 확정</td></tr>
+    <tr><td>확인 불가 항목 목록</td><td>플랜별 실시간 가격 숫자, 팀 권한 세부값, API/CLI 공식 지원 범위.</td></tr>
+  </table>
+
+  <div class="card"><strong>구체 예시 1 — 403 대응 루틴</strong><p>공식 사이트가 403이면 단정 문장을 즉시 제거하고 <code>확인 불가/직접 확인 필요</code> 큐로 이동한 뒤 GitHub 공식 저장소 근거로만 초안을 유지한다.</p></div>
+  <div class="card"><strong>구체 예시 2 — 비교 문서 시작 템플릿</strong><p>처음부터 <code>핵심 요약 5줄 + 근거 링크 + 확인 필요</code> 구조로 출력을 고정하면 재요청 횟수와 검토 시간을 줄일 수 있다.</p></div>
+
+  <p class="src"><strong>Source:</strong> Genspark 공식 사이트, genspark-ai/sparkle, genspark-ai/omaha (sources.json 기준)</p>
+  <p><strong>확인 불가/직접 확인 필요:</strong> 사이트 접근 제한으로 인한 상세 기능/플랜/권한 정보.</p>
+</div></body></html>
