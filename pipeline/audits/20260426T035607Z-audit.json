@@ -1,0 +1,760 @@
+{
+  "generated_at": "2026-04-26T03:56:07.855Z",
+  "document_count": 63,
+  "indexed_mentions": 40,
+  "needs_attention_mentions": 99,
+  "duplicate_table_row_groups": 0,
+  "shortest_documents": [
+    {
+      "path": "services/openclaw/coverage-ledger.md",
+      "words": 74,
+      "links": 1,
+      "indexed": 2,
+      "needs_attention": 3,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/genspark/coverage-ledger.md",
+      "words": 88,
+      "links": 1,
+      "indexed": 1,
+      "needs_attention": 14,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "policy/promotion-rules.md",
+      "words": 92,
+      "links": 0,
+      "indexed": 0,
+      "needs_attention": 2,
+      "last_checked": "",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openai-gpt/codex/coverage-ledger.md",
+      "words": 100,
+      "links": 5,
+      "indexed": 4,
+      "needs_attention": 5,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "policy/verification-checklist.md",
+      "words": 104,
+      "links": 0,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "meta/content-quality-standard.md",
+      "words": 120,
+      "links": 0,
+      "indexed": 1,
+      "needs_attention": 2,
+      "last_checked": "",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openai-gpt/chatgpt-app/coverage-ledger.md",
+      "words": 126,
+      "links": 6,
+      "indexed": 2,
+      "needs_attention": 2,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "index.md",
+      "words": 131,
+      "links": 0,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "people/README.md",
+      "words": 135,
+      "links": 0,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/claude/coverage-ledger.md",
+      "words": 136,
+      "links": 7,
+      "indexed": 4,
+      "needs_attention": 5,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    }
+  ],
+  "highest_attention_documents": [
+    {
+      "path": "services/genspark/pricing-needs-recheck.md",
+      "words": 437,
+      "links": 2,
+      "indexed": 0,
+      "needs_attention": 18,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/genspark/coverage-ledger.md",
+      "words": 88,
+      "links": 1,
+      "indexed": 1,
+      "needs_attention": 14,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/genspark/README.md",
+      "words": 191,
+      "links": 1,
+      "indexed": 0,
+      "needs_attention": 14,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/claude/coverage-ledger.md",
+      "words": 136,
+      "links": 7,
+      "indexed": 4,
+      "needs_attention": 5,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/gemini/coverage-ledger.md",
+      "words": 137,
+      "links": 6,
+      "indexed": 2,
+      "needs_attention": 5,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openai-gpt/codex/coverage-ledger.md",
+      "words": 100,
+      "links": 5,
+      "indexed": 4,
+      "needs_attention": 5,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/gemini/app.md",
+      "words": 335,
+      "links": 6,
+      "indexed": 1,
+      "needs_attention": 4,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/claude/README.md",
+      "words": 256,
+      "links": 7,
+      "indexed": 3,
+      "needs_attention": 3,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/gemini/README.md",
+      "words": 245,
+      "links": 6,
+      "indexed": 1,
+      "needs_attention": 3,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/github-copilot/coverage-ledger.md",
+      "words": 138,
+      "links": 5,
+      "indexed": 1,
+      "needs_attention": 3,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    }
+  ],
+  "rows": [
+    {
+      "path": "index.md",
+      "words": 131,
+      "links": 0,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "meta/content-quality-standard.md",
+      "words": 120,
+      "links": 0,
+      "indexed": 1,
+      "needs_attention": 2,
+      "last_checked": "",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "meta/service-manual-template.md",
+      "words": 173,
+      "links": 0,
+      "indexed": 0,
+      "needs_attention": 2,
+      "last_checked": "",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "people/andrej-karpathy.md",
+      "words": 158,
+      "links": 2,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "people/andrew-ng.md",
+      "words": 146,
+      "links": 2,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "people/README.md",
+      "words": 135,
+      "links": 0,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "people/yann-lecun.md",
+      "words": 154,
+      "links": 2,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "policy/promotion-rules.md",
+      "words": 92,
+      "links": 0,
+      "indexed": 0,
+      "needs_attention": 2,
+      "last_checked": "",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "policy/verification-checklist.md",
+      "words": 104,
+      "links": 0,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/claude/api-docs-facts.md",
+      "words": 203,
+      "links": 0,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/claude/claude-code.md",
+      "words": 241,
+      "links": 0,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/claude/coverage-ledger.md",
+      "words": 136,
+      "links": 7,
+      "indexed": 4,
+      "needs_attention": 5,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/claude/plans-and-usage.md",
+      "words": 984,
+      "links": 19,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/claude/README.md",
+      "words": 256,
+      "links": 7,
+      "indexed": 3,
+      "needs_attention": 3,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/claude/release-notes-tracker.md",
+      "words": 249,
+      "links": 0,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/gemini/api-release-notes.md",
+      "words": 260,
+      "links": 0,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/gemini/api.md",
+      "words": 507,
+      "links": 8,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/gemini/app.md",
+      "words": 335,
+      "links": 6,
+      "indexed": 1,
+      "needs_attention": 4,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/gemini/coverage-ledger.md",
+      "words": 137,
+      "links": 6,
+      "indexed": 2,
+      "needs_attention": 5,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/gemini/models.md",
+      "words": 948,
+      "links": 15,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/gemini/pricing-and-billing.md",
+      "words": 827,
+      "links": 13,
+      "indexed": 0,
+      "needs_attention": 1,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/gemini/README.md",
+      "words": 245,
+      "links": 6,
+      "indexed": 1,
+      "needs_attention": 3,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/gemini/tools.md",
+      "words": 732,
+      "links": 15,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/genspark/confirmed-facts.md",
+      "words": 151,
+      "links": 0,
+      "indexed": 0,
+      "needs_attention": 2,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/genspark/coverage-ledger.md",
+      "words": 88,
+      "links": 1,
+      "indexed": 1,
+      "needs_attention": 14,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/genspark/missing-official-docs.md",
+      "words": 162,
+      "links": 0,
+      "indexed": 0,
+      "needs_attention": 2,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/genspark/pricing-needs-recheck.md",
+      "words": 437,
+      "links": 2,
+      "indexed": 0,
+      "needs_attention": 18,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/genspark/README.md",
+      "words": 191,
+      "links": 1,
+      "indexed": 0,
+      "needs_attention": 14,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/github-copilot/coding-agent.md",
+      "words": 223,
+      "links": 0,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/github-copilot/coverage-ledger.md",
+      "words": 138,
+      "links": 5,
+      "indexed": 1,
+      "needs_attention": 3,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/github-copilot/github-com-features.md",
+      "words": 225,
+      "links": 0,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/github-copilot/ide-features.md",
+      "words": 223,
+      "links": 0,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/github-copilot/plans-and-billing.md",
+      "words": 804,
+      "links": 15,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/github-copilot/README.md",
+      "words": 211,
+      "links": 5,
+      "indexed": 0,
+      "needs_attention": 1,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openai-gpt/chatgpt-app/app.md",
+      "words": 711,
+      "links": 13,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openai-gpt/chatgpt-app/connectors-and-files.md",
+      "words": 581,
+      "links": 15,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openai-gpt/chatgpt-app/coverage-ledger.md",
+      "words": 126,
+      "links": 6,
+      "indexed": 2,
+      "needs_attention": 2,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openai-gpt/chatgpt-app/models.md",
+      "words": 2216,
+      "links": 46,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openai-gpt/chatgpt-app/plans-and-usage.md",
+      "words": 1148,
+      "links": 18,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openai-gpt/chatgpt-app/README.md",
+      "words": 320,
+      "links": 6,
+      "indexed": 1,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openai-gpt/chatgpt-app/release-notes-tracker.md",
+      "words": 789,
+      "links": 21,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openai-gpt/chatgpt-app/tools.md",
+      "words": 694,
+      "links": 11,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openai-gpt/codex/chatgpt-integration.md",
+      "words": 828,
+      "links": 23,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openai-gpt/codex/cli-and-app.md",
+      "words": 260,
+      "links": 0,
+      "indexed": 3,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openai-gpt/codex/codex-changelog.md",
+      "words": 253,
+      "links": 0,
+      "indexed": 3,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openai-gpt/codex/coverage-ledger.md",
+      "words": 100,
+      "links": 5,
+      "indexed": 4,
+      "needs_attention": 5,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openai-gpt/codex/openclaw-oauth.md",
+      "words": 262,
+      "links": 0,
+      "indexed": 3,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openai-gpt/codex/rate-card.md",
+      "words": 900,
+      "links": 19,
+      "indexed": 1,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openai-gpt/codex/README.md",
+      "words": 244,
+      "links": 5,
+      "indexed": 3,
+      "needs_attention": 3,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openai-gpt/openai-api/README.md",
+      "words": 752,
+      "links": 14,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openai-gpt/README.md",
+      "words": 266,
+      "links": 7,
+      "indexed": 2,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openclaw/brain-vault-sync.md",
+      "words": 380,
+      "links": 0,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openclaw/coverage-ledger.md",
+      "words": 74,
+      "links": 1,
+      "indexed": 2,
+      "needs_attention": 3,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openclaw/cron.md",
+      "words": 346,
+      "links": 0,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openclaw/gateway.md",
+      "words": 348,
+      "links": 0,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openclaw/memory.md",
+      "words": 346,
+      "links": 0,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openclaw/README.md",
+      "words": 177,
+      "links": 1,
+      "indexed": 1,
+      "needs_attention": 1,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openclaw/security-approvals.md",
+      "words": 344,
+      "links": 0,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "services/openclaw/telegram.md",
+      "words": 350,
+      "links": 0,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "sources/people-signal-registry.md",
+      "words": 193,
+      "links": 12,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "sources/source-registry.md",
+      "words": 442,
+      "links": 25,
+      "indexed": 0,
+      "needs_attention": 2,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "workflows/encyclopedia-audit.md",
+      "words": 244,
+      "links": 0,
+      "indexed": 1,
+      "needs_attention": 2,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    },
+    {
+      "path": "workflows/source-to-publication.md",
+      "words": 194,
+      "links": 0,
+      "indexed": 0,
+      "needs_attention": 0,
+      "last_checked": "2026-04-26",
+      "duplicate_table_rows": 0
+    }
+  ]
+}
