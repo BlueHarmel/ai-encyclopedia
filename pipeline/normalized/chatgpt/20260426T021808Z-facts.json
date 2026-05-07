@@ -1,0 +1,526 @@
+{
+  "service": "ChatGPT",
+  "generated_at": "2026-04-26T02:18:10.524Z",
+  "facts": [
+    {
+      "service": "ChatGPT",
+      "topic": "plans",
+      "fact": "ChatGPT Pro is a paid ChatGPT subscription documented by OpenAI Help Center.",
+      "source_url": "https://help.openai.com/en/articles/9793128-what-is-chatgpt-pro",
+      "source_title": "About ChatGPT Pro tiers",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/plans-and-usage.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "plans",
+      "fact": "OpenAI documents Pro tiers as including access to Pro models, Codex, deep research, image creation, memory, and file uploads.",
+      "source_url": "https://help.openai.com/en/articles/9793128-what-is-chatgpt-pro",
+      "source_title": "About ChatGPT Pro tiers",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/plans-and-usage.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "plans",
+      "fact": "The Pro article states that ChatGPT Pro offers unlimited access to GPT-5 and legacy models, subject to OpenAI Terms of Use and guardrails.",
+      "source_url": "https://help.openai.com/en/articles/9793128-what-is-chatgpt-pro",
+      "source_title": "About ChatGPT Pro tiers",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/plans-and-usage.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "plans",
+      "fact": "OpenAI documents Plus at $20 per month, billed monthly.",
+      "source_url": "https://help.openai.com/en/articles/6950777-chatgpt-plus",
+      "source_title": "What is ChatGPT Plus?",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/plans-and-usage.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "plans",
+      "fact": "The Plus article states that API usage is separate from ChatGPT Plus and billed independently.",
+      "source_url": "https://help.openai.com/en/articles/6950777-chatgpt-plus",
+      "source_title": "What is ChatGPT Plus?",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/api-vs-app.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "plans",
+      "fact": "The Pro article describes Plus $20, Pro $100, and Pro $200 as separate plan options.",
+      "source_url": "https://help.openai.com/en/articles/9793128-what-is-chatgpt-pro",
+      "source_title": "About ChatGPT Pro tiers",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/plans-and-usage.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "plans",
+      "fact": "The Pro $100 tier is documented as having 5x higher usage than Plus, with 10x Codex usage versus Plus for a limited time.",
+      "source_url": "https://help.openai.com/en/articles/9793128-what-is-chatgpt-pro",
+      "source_title": "About ChatGPT Pro tiers",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/plans-and-usage.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "plans",
+      "fact": "The Pro $200 tier is documented as having 20x higher usage than Plus, with 25x Codex 5-hour limits for a limited time.",
+      "source_url": "https://help.openai.com/en/articles/9793128-what-is-chatgpt-pro",
+      "source_title": "About ChatGPT Pro tiers",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/plans-and-usage.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "plans",
+      "fact": "The Pro article says users can upgrade from the Pricing page or from Settings > My Plan.",
+      "source_url": "https://help.openai.com/en/articles/9793128-what-is-chatgpt-pro",
+      "source_title": "About ChatGPT Pro tiers",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/plans-and-usage.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "plans",
+      "fact": "The Pro article says users can switch between the $100 and $200 Pro tiers from Settings > My Plan.",
+      "source_url": "https://help.openai.com/en/articles/9793128-what-is-chatgpt-pro",
+      "source_title": "About ChatGPT Pro tiers",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/plans-and-usage.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "plans",
+      "fact": "The Pro article says users can change or cancel a subscription from Settings > My Plan.",
+      "source_url": "https://help.openai.com/en/articles/9793128-what-is-chatgpt-pro",
+      "source_title": "About ChatGPT Pro tiers",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/plans-and-usage.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "plans",
+      "fact": "The Pro article says annual billing is not supported for ChatGPT Go, Plus, or Pro subscriptions.",
+      "source_url": "https://help.openai.com/en/articles/9793128-what-is-chatgpt-pro",
+      "source_title": "About ChatGPT Pro tiers",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/plans-and-usage.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "plans",
+      "fact": "The Plus article says annual billing is not supported for ChatGPT Plus subscriptions.",
+      "source_url": "https://help.openai.com/en/articles/6950777-chatgpt-plus",
+      "source_title": "What is ChatGPT Plus?",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/plans-and-usage.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "plans",
+      "fact": "The Plus article says subscription management, invoices, and cancellation are handled from ChatGPT account settings.",
+      "source_url": "https://help.openai.com/en/articles/6950777-chatgpt-plus",
+      "source_title": "What is ChatGPT Plus?",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/plans-and-usage.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "plans",
+      "fact": "The Plus article says refunds are typically processed within 5 to 10 business days after approval.",
+      "source_url": "https://help.openai.com/en/articles/6950777-chatgpt-plus",
+      "source_title": "What is ChatGPT Plus?",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/plans-and-usage.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "models-tools",
+      "fact": "The Plus article says GPT-4o, GPT-4.1, GPT-4.1 mini, OpenAI o4-mini, and GPT-5 Instant and Thinking were retired from ChatGPT as of February 13, 2026.",
+      "source_url": "https://help.openai.com/en/articles/6950777-chatgpt-plus",
+      "source_title": "What is ChatGPT Plus?",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/models-and-tools.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "models-tools",
+      "fact": "The Plus article says API access is unchanged by the February 13, 2026 ChatGPT model retirement.",
+      "source_url": "https://help.openai.com/en/articles/6950777-chatgpt-plus",
+      "source_title": "What is ChatGPT Plus?",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/api-vs-app.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "models-tools",
+      "fact": "The Plus article lists priority access during high-traffic periods as a Plus benefit.",
+      "source_url": "https://help.openai.com/en/articles/6950777-chatgpt-plus",
+      "source_title": "What is ChatGPT Plus?",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/models-and-tools.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "models-tools",
+      "fact": "The Plus article lists access to higher GPT-5.3 limits as a Plus benefit.",
+      "source_url": "https://help.openai.com/en/articles/6950777-chatgpt-plus",
+      "source_title": "What is ChatGPT Plus?",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/models-and-tools.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "models-tools",
+      "fact": "The Plus article lists access to advanced reasoning models as a Plus benefit.",
+      "source_url": "https://help.openai.com/en/articles/6950777-chatgpt-plus",
+      "source_title": "What is ChatGPT Plus?",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/models-and-tools.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "models-tools",
+      "fact": "The Plus article lists voice conversations, image generation, file uploads and analysis, deep research tools, and custom GPT creation and use as expanded Plus features.",
+      "source_url": "https://help.openai.com/en/articles/6950777-chatgpt-plus",
+      "source_title": "What is ChatGPT Plus?",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/models-and-tools.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "models-tools",
+      "fact": "The Pro article says both Pro tiers include the same core capabilities and differ mainly by usage allowance.",
+      "source_url": "https://help.openai.com/en/articles/9793128-what-is-chatgpt-pro",
+      "source_title": "About ChatGPT Pro tiers",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/models-and-tools.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "models-tools",
+      "fact": "The April 21, 2026 ChatGPT release notes introduce ChatGPT Images 2.0 as available on all ChatGPT plans.",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source_title": "ChatGPT release notes",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/models-and-tools.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "models-tools",
+      "fact": "The April 21, 2026 release notes say images with thinking is available on paid ChatGPT plans when selecting Thinking and Pro models.",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source_title": "ChatGPT release notes",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/models-and-tools.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "models-tools",
+      "fact": "The April 9, 2026 release notes say GPT-5.3 Instant Mini replaces GPT-5 Instant Mini as the fallback after users hit GPT-5.3 Instant rate limits.",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source_title": "ChatGPT release notes",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/models-and-tools.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "release-notes",
+      "fact": "The April 22, 2026 release notes introduce Fast answers in ChatGPT for common information-seeking questions.",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source_title": "ChatGPT release notes",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/release-notes-tracker.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "release-notes",
+      "fact": "The April 22, 2026 release notes say Fast answers are available globally on web, iOS, and Android for logged-in and logged-out users across plans.",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source_title": "ChatGPT release notes",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/release-notes-tracker.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "release-notes",
+      "fact": "The April 22, 2026 release notes say Fast answers do not reference past chats or memory.",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source_title": "ChatGPT release notes",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/release-notes-tracker.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "release-notes",
+      "fact": "The April 22, 2026 release notes announce ChatGPT for Clinicians as a free version for verified clinicians in the United States.",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source_title": "ChatGPT release notes",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/release-notes-tracker.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "release-notes",
+      "fact": "The April 16, 2026 release notes say ads are rolling out for Free and Go users in Australia, New Zealand, and Canada, and that Plus, Pro, Business, Enterprise, and Education plans do not have ads.",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source_title": "ChatGPT release notes",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/release-notes-tracker.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "release-notes",
+      "fact": "The April 9, 2026 release notes introduce a new $100 per month Pro plan and updated Codex usage across Plus and Pro.",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source_title": "ChatGPT release notes",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/release-notes-tracker.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "release-notes",
+      "fact": "The April 8, 2026 release notes say Outlook Email and Calendar apps for ChatGPT can work with delegated or shared Outlook resources when the user has access.",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source_title": "ChatGPT release notes",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/connectors-and-files.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "release-notes",
+      "fact": "The April 2, 2026 release notes announce ChatGPT in Apple CarPlay for iOS 26.4 or newer on supported cars.",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source_title": "ChatGPT release notes",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/release-notes-tracker.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "release-notes",
+      "fact": "The March 27, 2026 release notes say updated Box, Notion, Linear, and Dropbox apps add new app actions including write capabilities where supported.",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source_title": "ChatGPT release notes",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/connectors-and-files.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "release-notes",
+      "fact": "The March 25, 2026 release notes say long pastes over 5k characters are converted into attachments for ChatGPT Plus, Pro, and Business users.",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source_title": "ChatGPT release notes",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/connectors-and-files.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "release-notes",
+      "fact": "The March 25, 2026 release notes say Google file connectors in ChatGPT are unified under Google Drive.",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source_title": "ChatGPT release notes",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/connectors-and-files.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "release-notes",
+      "fact": "The March 25, 2026 release notes say Google Drive sync behavior is unchanged for Pro users.",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source_title": "ChatGPT release notes",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/connectors-and-files.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "release-notes",
+      "fact": "The March 26, 2026 release notes say location sharing is optional, off until enabled, and configurable in Settings > Data Controls.",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source_title": "ChatGPT release notes",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/models-and-tools.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "release-notes",
+      "fact": "The March 26, 2026 release notes say precise location data is deleted after it is used to provide a more relevant response.",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source_title": "ChatGPT release notes",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/models-and-tools.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "codex",
+      "fact": "The Codex rate card says Codex pricing was updated on April 2, 2026 to align with API token usage instead of per-message pricing.",
+      "source_url": "https://help.openai.com/en/articles/20001106",
+      "source_title": "Codex rate card",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/codex-integration.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "codex",
+      "fact": "The Codex rate card says the April 23, 2026 token-based pricing update applies to all existing ChatGPT Enterprise plans including Edu, Health, Gov, and ChatGPT for Teachers.",
+      "source_url": "https://help.openai.com/en/articles/20001106",
+      "source_title": "Codex rate card",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/codex-integration.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "codex",
+      "fact": "The Codex rate card says token-based pricing applies to new and existing ChatGPT Plus and Pro customers.",
+      "source_url": "https://help.openai.com/en/articles/20001106",
+      "source_title": "Codex rate card",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/codex-integration.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "codex",
+      "fact": "The Codex rate card says Codex usage is priced based on API token usage for input tokens, cached input tokens, and output tokens.",
+      "source_url": "https://help.openai.com/en/articles/20001106",
+      "source_title": "Codex rate card",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/codex-integration.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "codex",
+      "fact": "The Codex rate card lists GPT-5.5 at 125 credits per 1M input tokens, 12.50 credits per 1M cached input tokens, and 750 credits per 1M output tokens.",
+      "source_url": "https://help.openai.com/en/articles/20001106",
+      "source_title": "Codex rate card",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/codex-integration.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "codex",
+      "fact": "The Codex rate card says code review uses GPT-5.3-Codex.",
+      "source_url": "https://help.openai.com/en/articles/20001106",
+      "source_title": "Codex rate card",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/codex-integration.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "codex",
+      "fact": "The Codex rate card says GPT-5.3-Codex-Spark may be available in Codex as a research preview and credit rates are not final.",
+      "source_url": "https://help.openai.com/en/articles/20001106",
+      "source_title": "Codex rate card",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/codex-integration.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "codex",
+      "fact": "The Codex rate card says users can monitor token usage in Codex settings > Usage.",
+      "source_url": "https://help.openai.com/en/articles/20001106",
+      "source_title": "Codex rate card",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/codex-integration.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "codex",
+      "fact": "The March 26, 2026 ChatGPT release notes say Codex includes a curated plugins directory for packaged workflows built from apps and skills.",
+      "source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source_title": "ChatGPT release notes",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/codex-integration.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "api-vs-app",
+      "fact": "The OpenAI API docs are separate from ChatGPT product documentation and include API reference, Codex, ChatGPT developer docs, Apps SDK, and Commerce sections.",
+      "source_url": "https://platform.openai.com/docs",
+      "source_title": "OpenAI API Platform Documentation",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/api-vs-app.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "api-vs-app",
+      "fact": "The API docs list core concepts including text generation, code generation, images and vision, audio and speech, structured outputs, function calling, Responses API, and tools.",
+      "source_url": "https://platform.openai.com/docs",
+      "source_title": "OpenAI API Platform Documentation",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/api-vs-app.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "api-vs-app",
+      "fact": "The API docs list separate API tools including web search, MCP and connectors, skills, shell, computer use, file search, retrieval, tool search, local shell, image generation, and code interpreter.",
+      "source_url": "https://platform.openai.com/docs",
+      "source_title": "OpenAI API Platform Documentation",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/api-vs-app.md"
+    },
+    {
+      "service": "ChatGPT",
+      "topic": "api-vs-app",
+      "fact": "The API docs list run-and-scale topics including conversation state, background mode, streaming, WebSocket mode, webhooks, file inputs, compaction, token counting, and prompt caching.",
+      "source_url": "https://platform.openai.com/docs",
+      "source_title": "OpenAI API Platform Documentation",
+      "last_checked": "2026-04-26",
+      "status": "covered",
+      "target_page": "docs/services/chatgpt/api-vs-app.md"
+    }
+  ]
+}
