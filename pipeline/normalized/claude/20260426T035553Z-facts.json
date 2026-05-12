@@ -1,0 +1,76 @@
+{
+  "service": "Claude",
+  "generated_at": "2026-04-26T03:55:59.683Z",
+  "facts": [
+    {
+      "service": "Claude",
+      "topic": "source-collection",
+      "fact": "Claude release notes was collected for source-backed extraction.",
+      "source_url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "source_title": "Claude release notes",
+      "last_checked": "2026-04-26",
+      "status": "indexed",
+      "target_page": ""
+    },
+    {
+      "service": "Claude",
+      "topic": "source-collection",
+      "fact": "Claude Pro plan was collected for source-backed extraction.",
+      "source_url": "https://support.claude.com/en/articles/8325606-what-is-claude",
+      "source_title": "Claude Pro plan",
+      "last_checked": "2026-04-26",
+      "status": "indexed",
+      "target_page": ""
+    },
+    {
+      "service": "Claude",
+      "topic": "source-collection",
+      "fact": "Claude usage and length limits was collected for source-backed extraction.",
+      "source_url": "https://support.claude.com/en/articles/11647753-understanding-usage-and-length-",
+      "source_title": "Claude usage and length limits",
+      "last_checked": "2026-04-26",
+      "status": "indexed",
+      "target_page": ""
+    },
+    {
+      "service": "Claude",
+      "topic": "source-collection",
+      "fact": "Claude plan chooser was collected for source-backed extraction.",
+      "source_url": "https://support.claude.com/en/articles/11049762-choosing-a-claude-plan",
+      "source_title": "Claude plan chooser",
+      "last_checked": "2026-04-26",
+      "status": "indexed",
+      "target_page": ""
+    },
+    {
+      "service": "Claude",
+      "topic": "source-collection",
+      "fact": "Claude docs was collected for source-backed extraction.",
+      "source_url": "https://docs.claude.com/",
+      "source_title": "Claude docs",
+      "last_checked": "2026-04-26",
+      "status": "indexed",
+      "target_page": ""
+    },
+    {
+      "service": "Claude",
+      "topic": "source-collection",
+      "fact": "Anthropic docs was collected for source-backed extraction.",
+      "source_url": "https://docs.anthropic.com/",
+      "source_title": "Anthropic docs",
+      "last_checked": "2026-04-26",
+      "status": "indexed",
+      "target_page": ""
+    },
+    {
+      "service": "Claude",
+      "topic": "source-collection",
+      "fact": "Claude Code docs was collected for source-backed extraction.",
+      "source_url": "https://code.claude.com/docs",
+      "source_title": "Claude Code docs",
+      "last_checked": "2026-04-26",
+      "status": "indexed",
+      "target_page": ""
+    }
+  ]
+}

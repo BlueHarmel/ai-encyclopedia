@@ -1,0 +1,20 @@
+﻿{
+  "generatedAt": "2026-04-26",
+  "policy": "official-first, signal-second, no-secret-publication",
+  "services": [
+    "ChatGPT",
+    "Claude",
+    "Gemini",
+    "Genspark",
+    "GitHub Copilot",
+    "GPT Codex",
+    "OpenClaw"
+  ],
+  "registries": [
+    "docs/sources/source-registry.md",
+    "docs/sources/people-signal-registry.md"
+  ]
+}
+
+
+
