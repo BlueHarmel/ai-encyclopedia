@@ -1,0 +1,83 @@
+{
+  "service": "Claude",
+  "runStamp": "20260512T210627Z",
+  "sources": [
+    {
+      "title": "Claude release notes",
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "id": "claude-release-notes-1",
+      "fetched_at": "2026-05-12T21:06:27.110Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 20010
+    },
+    {
+      "title": "Claude Pro plan",
+      "url": "https://support.claude.com/en/articles/8325606-what-is-claude",
+      "id": "claude-pro-plan-2",
+      "fetched_at": "2026-05-12T21:06:31.711Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://support.claude.com/en/articles/8325606-what-is-the-pro-plan",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 4435
+    },
+    {
+      "title": "Claude usage and length limits",
+      "url": "https://support.claude.com/en/articles/11647753-understanding-usage-and-length-",
+      "id": "claude-usage-and-length-limits-3",
+      "fetched_at": "2026-05-12T21:06:35.847Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://support.claude.com/en/articles/11647753-how-do-usage-and-length-limits-work",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 5933
+    },
+    {
+      "title": "Claude plan chooser",
+      "url": "https://support.claude.com/en/articles/11049762-choosing-a-claude-plan",
+      "id": "claude-plan-chooser-4",
+      "fetched_at": "2026-05-12T21:06:38.677Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://support.claude.com/en/articles/11049762-choosing-a-claude-plan",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 1524
+    },
+    {
+      "title": "Claude docs",
+      "url": "https://docs.claude.com/",
+      "id": "claude-docs-5",
+      "fetched_at": "2026-05-12T21:06:40.345Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://platform.claude.com/docs/en/home",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 3252
+    },
+    {
+      "title": "Anthropic docs",
+      "url": "https://docs.anthropic.com/",
+      "id": "anthropic-docs-6",
+      "fetched_at": "2026-05-12T21:06:52.015Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://platform.claude.com/docs/en/home",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 3252
+    },
+    {
+      "title": "Claude Code docs",
+      "url": "https://code.claude.com/docs",
+      "id": "claude-code-docs-7",
+      "fetched_at": "2026-05-12T21:07:03.149Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://code.claude.com/docs",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 11486
+    }
+  ]
+}
