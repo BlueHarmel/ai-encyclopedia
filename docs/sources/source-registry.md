@@ -14,6 +14,8 @@ Last verified: 2026-04-26
 | Genspark | Genspark official site | partial fact; help/changelog/pricing needs-recheck |
 | GitHub Copilot | GitHub Copilot docs, plans, subscriber management, GitHub changelog | fact fast path |
 | OpenClaw | OpenClaw docs + local config/cron/scripts/log summaries | local-source-backed, secrets excluded |
+| Meshy.ai | Meshy.ai official site, docs, pricing, blog | fact fast path |
+| Manus | Manus official site, blog, pricing | fact fast path |
 
 ## Official URLs
 
@@ -42,6 +44,13 @@ Last verified: 2026-04-26
 - GitHub Copilot changelog: https://github.blog/changelog/label/copilot/
 - Genspark official site: https://www.genspark.ai/
 - OpenClaw docs: https://docs.openclaw.ai/
+- Meshy.ai official site: https://www.meshy.ai/
+- Meshy.ai docs: https://docs.meshy.ai/
+- Meshy.ai pricing: https://www.meshy.ai/pricing
+- Meshy.ai blog: https://www.meshy.ai/blog
+- Manus official site: https://manus.im/
+- Manus blog: https://manus.im/blog
+- Manus pricing: https://manus.im/pricing
 
 ## Signal Sources
 
