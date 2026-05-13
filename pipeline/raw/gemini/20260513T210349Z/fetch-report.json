@@ -1,0 +1,72 @@
+{
+  "service": "Gemini",
+  "runStamp": "20260513T210349Z",
+  "sources": [
+    {
+      "title": "Gemini API docs",
+      "url": "https://ai.google.dev/gemini-api/docs",
+      "id": "gemini-api-docs-1",
+      "fetched_at": "2026-05-13T21:03:49.305Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://ai.google.dev/gemini-api/docs?hl=bn",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 8113
+    },
+    {
+      "title": "Gemini API release notes",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "id": "gemini-api-release-notes-2",
+      "fetched_at": "2026-05-13T21:03:58.208Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 32060
+    },
+    {
+      "title": "Gemini API pricing",
+      "url": "https://ai.google.dev/pricing",
+      "id": "gemini-api-pricing-3",
+      "fetched_at": "2026-05-13T21:04:00.778Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://ai.google.dev/gemini-api/docs/pricing",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 43514
+    },
+    {
+      "title": "Gemini app",
+      "url": "https://gemini.google.com/",
+      "id": "gemini-app-4",
+      "fetched_at": "2026-05-13T21:04:05.106Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://gemini.google.com/",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 22
+    },
+    {
+      "title": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/",
+      "id": "google-ai-blog-5",
+      "fetched_at": "2026-05-13T21:04:07.888Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://blog.google/innovation-and-ai/technology/ai/",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 5313
+    },
+    {
+      "title": "Google Developers Blog",
+      "url": "https://developers.googleblog.com/",
+      "id": "google-developers-blog-6",
+      "fetched_at": "2026-05-13T21:04:12.638Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://developers.googleblog.com/",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 9838
+    }
+  ]
+}
