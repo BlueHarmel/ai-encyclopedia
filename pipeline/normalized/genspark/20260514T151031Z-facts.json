@@ -1,0 +1,16 @@
+{
+  "service": "Genspark",
+  "generated_at": "2026-05-14T15:10:35.138Z",
+  "facts": [
+    {
+      "service": "Genspark",
+      "topic": "source-collection",
+      "fact": "Genspark official site was collected for source-backed extraction.",
+      "source_url": "https://www.genspark.ai/",
+      "source_title": "Genspark official site",
+      "last_checked": "2026-05-14",
+      "status": "indexed",
+      "target_page": ""
+    }
+  ]
+}
