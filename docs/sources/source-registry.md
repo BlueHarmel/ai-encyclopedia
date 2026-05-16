@@ -16,6 +16,7 @@ Last verified: 2026-04-26
 | OpenClaw | OpenClaw docs + local config/cron/scripts/log summaries | local-source-backed, secrets excluded |
 | Meshy.ai | Meshy.ai official site, docs, pricing, blog | fact fast path |
 | Manus | Manus official site, blog, pricing | fact fast path |
+| Runway ML | Runway ML official site, docs, pricing | fact fast path |
 
 ## Official URLs
 
@@ -51,6 +52,9 @@ Last verified: 2026-04-26
 - Manus official site: https://manus.im/
 - Manus blog: https://manus.im/blog
 - Manus pricing: https://manus.im/pricing
+- Runway ML official site: https://runwayml.com/
+- Runway ML docs: https://help.runwayml.com/
+- Runway ML pricing: https://runwayml.com/pricing
 
 ## Signal Sources
 
@@ -59,5 +63,3 @@ Last verified: 2026-04-26
 ## Public Safety
 
 로컬 OpenClaw 설정은 유용한 운영 근거지만, 공개 문서에는 token, OAuth credential, 개인 chat id, 원문 로그를 포함하지 않는다.
-
-
