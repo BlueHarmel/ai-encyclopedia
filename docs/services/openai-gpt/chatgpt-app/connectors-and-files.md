@@ -1,30 +1,18 @@
-# OpenAI / GPT / ChatGPT App / Connectors And Files
+# ChatGPT / Connectors And Files
 
 Last verified: 2026-04-26
 
-## Summary
+## What The Official Docs Say
 
-Connector와 file 기능은 대상 서비스와 동작이 중요하다. 서비스/기능/근거를 나눠 보는 integration table이 맞다.
+This page explains ChatGPT file and connector facts from official release notes. It covers long-paste attachment behavior, Google Drive connector consolidation, Outlook delegated resources, and connector actions for services such as Box, Notion, Linear, and Dropbox.
 
-## What The Sources Say
+## How To Use This Page
 
-- The April 8, 2026 release notes say Outlook Email and Calendar apps for ChatGPT can work with delegated or shared Outlook resources when the user has access. ([ChatGPT release notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes))
-- The March 27, 2026 release notes say updated Box, Notion, Linear, and Dropbox apps add new app actions including write capabilities where supported. ([ChatGPT release notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes))
-- The March 25, 2026 release notes say long pastes over 5k characters are converted into attachments for ChatGPT Plus, Pro, and Business users. ([ChatGPT release notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes))
-- The March 25, 2026 release notes say Google file connectors in ChatGPT are unified under Google Drive. ([ChatGPT release notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes))
-- The March 25, 2026 release notes say Google Drive sync behavior is unchanged for Pro users. ([ChatGPT release notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes))
+- Use this page when the question is about file upload behavior, long pasted text, Google Drive, Outlook, or app connector capabilities.
+- Connector write actions must be treated as source-specific because the release note says they exist where supported.
+- Data-control and location facts belong here only when official release notes or help articles document them.
 
-## Feature Map
-
-| Area | Source-backed note | Source |
-| --- | --- | --- |
-| Models | The April 8, 2026 release notes say Outlook Email and Calendar apps for ChatGPT can work with delegated or shared Outlook resources when the user has access. | [ChatGPT release notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
-| Tools / connectors | The March 27, 2026 release notes say updated Box, Notion, Linear, and Dropbox apps add new app actions including write capabilities where supported. | [ChatGPT release notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
-| Models | The March 25, 2026 release notes say long pastes over 5k characters are converted into attachments for ChatGPT Plus, Pro, and Business users. | [ChatGPT release notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
-| Models | The March 25, 2026 release notes say Google file connectors in ChatGPT are unified under Google Drive. | [ChatGPT release notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
-| Tools / connectors | The March 25, 2026 release notes say Google Drive sync behavior is unchanged for Pro users. | [ChatGPT release notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) |
-
-## Source-Backed Details
+## Fact Table
 
 | Fact | Source | Last checked |
 | --- | --- | --- |
@@ -34,3 +22,8 @@ Connector와 file 기능은 대상 서비스와 동작이 중요하다. 서비�
 | The March 25, 2026 release notes say Google file connectors in ChatGPT are unified under Google Drive. | [ChatGPT release notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) | 2026-04-26 |
 | The March 25, 2026 release notes say Google Drive sync behavior is unchanged for Pro users. | [ChatGPT release notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) | 2026-04-26 |
 
+## Extraction Notes
+
+- This page includes only official OpenAI source facts.
+- Add new rows only after the source URL is listed in coverage-ledger.md.
+- If a fact affects price, usage, model availability, or a temporary promotion, update Last verified after checking the official source again.
