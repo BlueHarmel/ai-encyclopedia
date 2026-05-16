@@ -1,0 +1,31 @@
+{
+  "name": "ai-encyclopedia",
+  "version": "1.0.0",
+  "description": "Updated: 2026-05-12",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BlueHarmel/ai-encyclopedia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BlueHarmel/ai-encyclopedia/issues"
+  },
+  "homepage": "https://github.com/BlueHarmel/ai-encyclopedia#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^14.0.3",
+    "globby": "^11.0.4",
+    "js-yaml": "^4.1.1",
+    "node-fetch": "^2.6.7",
+    "p-limit": "^3.1.0"
+  }
+}
