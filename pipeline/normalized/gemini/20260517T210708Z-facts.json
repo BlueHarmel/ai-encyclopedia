@@ -1,0 +1,66 @@
+{
+  "service": "Gemini",
+  "generated_at": "2026-05-17T21:07:38.477Z",
+  "facts": [
+    {
+      "service": "Gemini",
+      "topic": "source-collection",
+      "fact": "Gemini API docs was collected for source-backed extraction.",
+      "source_url": "https://ai.google.dev/gemini-api/docs",
+      "source_title": "Gemini API docs",
+      "last_checked": "2026-05-17",
+      "status": "indexed",
+      "target_page": ""
+    },
+    {
+      "service": "Gemini",
+      "topic": "source-collection",
+      "fact": "Gemini API release notes was collected for source-backed extraction.",
+      "source_url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "source_title": "Gemini API release notes",
+      "last_checked": "2026-05-17",
+      "status": "indexed",
+      "target_page": ""
+    },
+    {
+      "service": "Gemini",
+      "topic": "source-collection",
+      "fact": "Gemini API pricing was collected for source-backed extraction.",
+      "source_url": "https://ai.google.dev/pricing",
+      "source_title": "Gemini API pricing",
+      "last_checked": "2026-05-17",
+      "status": "indexed",
+      "target_page": ""
+    },
+    {
+      "service": "Gemini",
+      "topic": "source-collection",
+      "fact": "Gemini app was collected for source-backed extraction.",
+      "source_url": "https://gemini.google.com/",
+      "source_title": "Gemini app",
+      "last_checked": "2026-05-17",
+      "status": "indexed",
+      "target_page": ""
+    },
+    {
+      "service": "Gemini",
+      "topic": "source-collection",
+      "fact": "Google AI Blog was collected for source-backed extraction.",
+      "source_url": "https://blog.google/technology/ai/",
+      "source_title": "Google AI Blog",
+      "last_checked": "2026-05-17",
+      "status": "indexed",
+      "target_page": ""
+    },
+    {
+      "service": "Gemini",
+      "topic": "source-collection",
+      "fact": "Google Developers Blog was collected for source-backed extraction.",
+      "source_url": "https://developers.googleblog.com/",
+      "source_title": "Google Developers Blog",
+      "last_checked": "2026-05-17",
+      "status": "indexed",
+      "target_page": ""
+    }
+  ]
+}
