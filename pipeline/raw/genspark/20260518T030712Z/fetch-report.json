@@ -1,0 +1,17 @@
+{
+  "service": "Genspark",
+  "runStamp": "20260518T030712Z",
+  "sources": [
+    {
+      "title": "Genspark official site",
+      "url": "https://www.genspark.ai/",
+      "id": "genspark-official-site-1",
+      "fetched_at": "2026-05-18T03:07:12.003Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://www.genspark.ai/",
+      "content_type": "text/html;charset=utf-8",
+      "text_chars": 2919
+    }
+  ]
+}
