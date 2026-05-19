@@ -1,0 +1,39 @@
+{
+  "service": "Runway ML",
+  "runStamp": "20260519T030427Z",
+  "sources": [
+    {
+      "title": "Runway ML official site",
+      "url": "https://runwayml.com/",
+      "id": "runway-ml-official-site-1",
+      "fetched_at": "2026-05-19T03:04:27.537Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://runwayml.com/",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 5455
+    },
+    {
+      "title": "Runway ML docs",
+      "url": "https://help.runwayml.com/",
+      "id": "runway-ml-docs-2",
+      "fetched_at": "2026-05-19T03:04:30.919Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://help.runwayml.com/hc/en-us",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 1770
+    },
+    {
+      "title": "Runway ML pricing",
+      "url": "https://runwayml.com/pricing",
+      "id": "runway-ml-pricing-3",
+      "fetched_at": "2026-05-19T03:04:38.538Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://runwayml.com/pricing",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 3645
+    }
+  ]
+}
