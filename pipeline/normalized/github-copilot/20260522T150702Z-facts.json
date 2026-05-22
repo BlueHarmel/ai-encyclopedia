@@ -1,0 +1,36 @@
+{
+  "service": "GitHub Copilot",
+  "generated_at": "2026-05-22T15:07:05.822Z",
+  "facts": [
+    {
+      "service": "GitHub Copilot",
+      "topic": "source-collection",
+      "fact": "GitHub Copilot docs was collected for source-backed extraction.",
+      "source_url": "https://docs.github.com/en/copilot",
+      "source_title": "GitHub Copilot docs",
+      "last_checked": "2026-05-22",
+      "status": "indexed",
+      "target_page": ""
+    },
+    {
+      "service": "GitHub Copilot",
+      "topic": "source-collection",
+      "fact": "Copilot plans was collected for source-backed extraction.",
+      "source_url": "https://docs.github.com/en/copilot/get-started/plans",
+      "source_title": "Copilot plans",
+      "last_checked": "2026-05-22",
+      "status": "indexed",
+      "target_page": ""
+    },
+    {
+      "service": "GitHub Copilot",
+      "topic": "source-collection",
+      "fact": "GitHub Copilot changelog was collected for source-backed extraction.",
+      "source_url": "https://github.blog/changelog/label/copilot/",
+      "source_title": "GitHub Copilot changelog",
+      "last_checked": "2026-05-22",
+      "status": "indexed",
+      "target_page": ""
+    }
+  ]
+}
