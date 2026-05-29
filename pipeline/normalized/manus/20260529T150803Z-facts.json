@@ -1,0 +1,36 @@
+{
+  "service": "Manus",
+  "generated_at": "2026-05-29T15:08:09.870Z",
+  "facts": [
+    {
+      "service": "Manus",
+      "topic": "source-collection",
+      "fact": "Manus official site was collected for source-backed extraction.",
+      "source_url": "https://manus.im/",
+      "source_title": "Manus official site",
+      "last_checked": "2026-05-29",
+      "status": "indexed",
+      "target_page": ""
+    },
+    {
+      "service": "Manus",
+      "topic": "source-collection",
+      "fact": "Manus blog was collected for source-backed extraction.",
+      "source_url": "https://manus.im/blog",
+      "source_title": "Manus blog",
+      "last_checked": "2026-05-29",
+      "status": "indexed",
+      "target_page": ""
+    },
+    {
+      "service": "Manus",
+      "topic": "source-collection",
+      "fact": "Manus pricing was collected for source-backed extraction.",
+      "source_url": "https://manus.im/pricing",
+      "source_title": "Manus pricing",
+      "last_checked": "2026-05-29",
+      "status": "indexed",
+      "target_page": ""
+    }
+  ]
+}
