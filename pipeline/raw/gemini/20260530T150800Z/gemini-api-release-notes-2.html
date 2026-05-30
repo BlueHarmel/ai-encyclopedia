@@ -1,0 +1,3578 @@
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html 
+      lang="vi-x-mtfrom-en"
+      dir="ltr">
+  <head>
+    <meta name="google-signin-client-id" content="157101835696-ooapojlodmuabs2do2vuhhnf90bccmoi.apps.googleusercontent.com"><meta name="google-signin-scope"
+          content="profile email https://www.googleapis.com/auth/developerprofiles https://www.googleapis.com/auth/developerprofiles.award https://www.googleapis.com/auth/devprofiles.full_control.firstparty"><meta property="og:site_name" content="Google AI for Developers">
+    <meta property="og:type" content="website"><meta name="theme-color" content="#1967d2"><meta charset="utf-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+    <link rel="manifest" href="/_pwa/googledevai/manifest.json"
+          crossorigin="use-credentials">
+    <link rel="preconnect" href="//www.gstatic.com" crossorigin>
+    <link rel="preconnect" href="//fonts.googleapis.com" crossorigin>
+    <link rel="preconnect" href="//www.google-analytics.com" crossorigin><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700|Inter:400,500|Inter+Tight:300,500,600&display=swap">
+      <link rel="stylesheet"
+            href="//fonts.googleapis.com/css2?family=Material+Icons&family=Material+Symbols+Outlined&display=block"><link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noto+Sans"><link rel="stylesheet" href="https://www.gstatic.com/devrel-devsite/prod/v6ae673272608590539f8a06b3f3271c0f5688cde07499d1c9e644aeb66c8c060/googledevai/css/app.css">
+      
+        <link rel="stylesheet" href="https://www.gstatic.com/devrel-devsite/prod/v6ae673272608590539f8a06b3f3271c0f5688cde07499d1c9e644aeb66c8c060/googledevai/css/dark-theme.css" disabled>
+      <link rel="shortcut icon" href="https://www.gstatic.com/devrel-devsite/prod/v6ae673272608590539f8a06b3f3271c0f5688cde07499d1c9e644aeb66c8c060/googledevai/images/favicon-new.png">
+    <link rel="apple-touch-icon" href="https://www.gstatic.com/devrel-devsite/prod/v6ae673272608590539f8a06b3f3271c0f5688cde07499d1c9e644aeb66c8c060/googledevai/images/touchicon-180-new.png"><link rel="canonical" href="https://ai.google.dev/gemini-api/docs/changelog?hl=vi"><link rel="search" type="application/opensearchdescription+xml"
+            title="Google AI for Developers" href="https://ai.google.dev/s/opensearch.xml?hl=vi">
+      <link rel="alternate" hreflang="en"
+          href="https://ai.google.dev/gemini-api/docs/changelog" /><link rel="alternate" hreflang="x-default" href="https://ai.google.dev/gemini-api/docs/changelog" /><link rel="alternate" hreflang="ar"
+          href="https://ai.google.dev/gemini-api/docs/changelog?hl=ar" /><link rel="alternate" hreflang="bn"
+          href="https://ai.google.dev/gemini-api/docs/changelog?hl=bn" /><link rel="alternate" hreflang="zh-Hans"
+          href="https://ai.google.dev/gemini-api/docs/changelog?hl=zh-cn" /><link rel="alternate" hreflang="zh-Hant"
+          href="https://ai.google.dev/gemini-api/docs/changelog?hl=zh-tw" /><link rel="alternate" hreflang="fa"
+          href="https://ai.google.dev/gemini-api/docs/changelog?hl=fa" /><link rel="alternate" hreflang="fr"
+          href="https://ai.google.dev/gemini-api/docs/changelog?hl=fr" /><link rel="alternate" hreflang="de"
+          href="https://ai.google.dev/gemini-api/docs/changelog?hl=de" /><link rel="alternate" hreflang="he"
+          href="https://ai.google.dev/gemini-api/docs/changelog?hl=he" /><link rel="alternate" hreflang="hi"
+          href="https://ai.google.dev/gemini-api/docs/changelog?hl=hi" /><link rel="alternate" hreflang="id"
+          href="https://ai.google.dev/gemini-api/docs/changelog?hl=id" /><link rel="alternate" hreflang="it"
+          href="https://ai.google.dev/gemini-api/docs/changelog?hl=it" /><link rel="alternate" hreflang="ja"
+          href="https://ai.google.dev/gemini-api/docs/changelog?hl=ja" /><link rel="alternate" hreflang="ko"
+          href="https://ai.google.dev/gemini-api/docs/changelog?hl=ko" /><link rel="alternate" hreflang="pl"
+          href="https://ai.google.dev/gemini-api/docs/changelog?hl=pl" /><link rel="alternate" hreflang="pt-BR"
+          href="https://ai.google.dev/gemini-api/docs/changelog?hl=pt-br" /><link rel="alternate" hreflang="ru"
+          href="https://ai.google.dev/gemini-api/docs/changelog?hl=ru" /><link rel="alternate" hreflang="es-419"
+          href="https://ai.google.dev/gemini-api/docs/changelog?hl=es-419" /><link rel="alternate" hreflang="th"
+          href="https://ai.google.dev/gemini-api/docs/changelog?hl=th" /><link rel="alternate" hreflang="tr"
+          href="https://ai.google.dev/gemini-api/docs/changelog?hl=tr" /><link rel="alternate" hreflang="vi"
+          href="https://ai.google.dev/gemini-api/docs/changelog?hl=vi" /><link rel="alternate" hreflang="sq"
+          href="https://ai.google.dev/gemini-api/docs/changelog?hl=sq" /><title>Ghi chú phát hành &nbsp;|&nbsp; Gemini API &nbsp;|&nbsp; Google AI for Developers</title>
+
+<meta property="og:title" content="Ghi chú phát hành &nbsp;|&nbsp; Gemini API &nbsp;|&nbsp; Google AI for Developers"><meta name="description" content="Theo dõi thông tin cập nhật về Gemini API">
+  <meta property="og:description" content="Theo dõi thông tin cập nhật về Gemini API"><meta property="og:url" content="https://ai.google.dev/gemini-api/docs/changelog?hl=vi"><meta property="og:image" content="https://ai.google.dev/static/site-assets/images/release-notes.png?hl=vi">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="675"><meta property="og:locale" content="vi"><meta name="twitter:card" content="summary_large_image"><script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    
+    "headline": "Ghi chú phát hành"
+  }
+</script><script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [{
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Gemini API",
+      "item": "https://ai.google.dev/gemini-api"
+    },{
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Ghi chú phát hành",
+      "item": "https://ai.google.dev/gemini-api/docs/changelog"
+    }]
+  }
+  </script><link rel="alternate machine-translated-from" hreflang="en"
+        href="https://ai.google.dev/gemini-api/docs/changelog?hl=en">
+  
+
+  
+
+  
+
+  
+
+  
+
+
+    </head>
+  <body class="gemini-api color-scheme--light"
+        template="page"
+        theme="googledevai-theme"
+        type="article"
+        
+        appearance
+        
+        layout="docs"
+        
+        
+        
+        
+        
+        display-toc
+        pending>
+  
+    <devsite-progress type="indeterminate" id="app-progress"></devsite-progress>
+  
+  
+    <a href="#main-content" class="skip-link button">
+      
+      Chuyển ngay đến nội dung chính
+    </a>
+    <section class="devsite-wrapper">
+      <devsite-cookie-notification-bar></devsite-cookie-notification-bar>
+        <devsite-header role="banner" keep-tabs-visible>
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="devsite-header--inner" data-nosnippet>
+  <div class="devsite-top-logo-row-wrapper-wrapper">
+    <div class="devsite-top-logo-row-wrapper">
+      <div class="devsite-top-logo-row">
+        <button type="button" id="devsite-hamburger-menu"
+          class="devsite-header-icon-button button-flat material-icons gc-analytics-event"
+          data-category="Site-Wide Custom Events"
+          data-label="Navigation menu button"
+          visually-hidden
+          aria-label="Mở trình đơn">
+        </button>
+        
+<div class="devsite-product-name-wrapper">
+
+  <a href="/" class="devsite-site-logo-link gc-analytics-event"
+   data-category="Site-Wide Custom Events" data-label="Site logo" track-type="globalNav"
+   track-name="geminiAPI" track-metadata-position="nav"
+   track-metadata-eventDetail="nav">
+  
+  <picture>
+    
+    <source srcset="https://ai.google.dev/_static/googledevai/images/gemini-api-logo-dark-theme.svg?hl=vi"
+            media="(prefers-color-scheme: dark)"
+            class="devsite-dark-theme">
+    
+    <img src="https://ai.google.dev/_static/googledevai/images/gemini-api-logo.svg?hl=vi" class="devsite-site-logo" alt="Gemini API">
+  </picture>
+  
+</a>
+
+
+
+  
+  
+  <span class="devsite-product-name">
+    <ul class="devsite-breadcrumb-list"
+  >
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+      
+    
+  </li>
+  
+</ul>
+  </span>
+
+</div>
+        <div class="devsite-top-logo-row-middle">
+          <div class="devsite-header-upper-tabs">
+            
+           </div>
+          
+<devsite-search
+    enable-signin
+    enable-search
+    enable-suggestions
+      enable-query-completion
+    
+    enable-search-summaries
+    project-name="Gemini API"
+    tenant-name="Google AI for Developers"
+    project-scope="/gemini-api"
+    url-scoped="https://ai.google.dev/s/results/gemini-api?hl=vi"
+    
+    
+    
+    >
+  <form class="devsite-search-form" action="https://ai.google.dev/s/results?hl=vi" method="GET">
+    <div class="devsite-search-container">
+      <button type="button"
+              search-open
+              class="devsite-search-button devsite-header-icon-button button-flat material-icons"
+              
+              aria-label="Mở hộp tìm kiếm"></button>
+      <div class="devsite-searchbox">
+        <input
+          aria-activedescendant=""
+          aria-autocomplete="list"
+          
+          aria-label="Tìm kiếm"
+          aria-expanded="false"
+          aria-haspopup="listbox"
+          autocomplete="off"
+          class="devsite-search-field devsite-search-query"
+          name="q"
+          
+          placeholder="Tìm kiếm"
+          role="combobox"
+          type="text"
+          value=""
+          >
+          <div class="devsite-search-image material-icons" aria-hidden="true">
+            
+              <svg class="devsite-search-ai-image" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_6641_386)">
+                    <path d="M19.6 21L13.3 14.7C12.8 15.1 12.225 15.4167 11.575 15.65C10.925 15.8833 10.2333 16 9.5 16C7.68333 16 6.14167 15.375 4.875 14.125C3.625 12.8583 3 11.3167 3 9.5C3 7.68333 3.625 6.15 4.875 4.9C6.14167 3.63333 7.68333 3 9.5 3C10.0167 3 10.5167 3.05833 11 3.175C11.4833 3.275 11.9417 3.43333 12.375 3.65L10.825 5.2C10.6083 5.13333 10.3917 5.08333 10.175 5.05C9.95833 5.01667 9.73333 5 9.5 5C8.25 5 7.18333 5.44167 6.3 6.325C5.43333 7.19167 5 8.25 5 9.5C5 10.75 5.43333 11.8167 6.3 12.7C7.18333 13.5667 8.25 14 9.5 14C10.6667 14 11.6667 13.625 12.5 12.875C13.35 12.1083 13.8417 11.15 13.975 10H15.975C15.925 10.6333 15.7833 11.2333 15.55 11.8C15.3333 12.3667 15.05 12.8667 14.7 13.3L21 19.6L19.6 21ZM17.5 12C17.5 10.4667 16.9667 9.16667 15.9 8.1C14.8333 7.03333 13.5333 6.5 12 6.5C13.5333 6.5 14.8333 5.96667 15.9 4.9C16.9667 3.83333 17.5 2.53333 17.5 0.999999C17.5 2.53333 18.0333 3.83333 19.1 4.9C20.1667 5.96667 21.4667 6.5 23 6.5C21.4667 6.5 20.1667 7.03333 19.1 8.1C18.0333 9.16667 17.5 10.4667 17.5 12Z" fill="#5F6368"/>
+                  </g>
+                <defs>
+                <clipPath id="clip0_6641_386">
+                <rect width="24" height="24" fill="white"/>
+                </clipPath>
+                </defs>
+              </svg>
+            
+          </div>
+          <div class="devsite-search-shortcut-icon-container" aria-hidden="true">
+            <kbd class="devsite-search-shortcut-icon">/</kbd>
+          </div>
+      </div>
+    </div>
+  </form>
+  <button type="button"
+          search-close
+          class="devsite-search-button devsite-header-icon-button button-flat material-icons"
+          
+          aria-label="Đóng hộp tìm kiếm"></button>
+</devsite-search>
+
+        </div>
+
+        
+
+          
+
+          
+
+          
+
+          <devsite-appearance-selector></devsite-appearance-selector>
+
+          
+<devsite-language-selector>
+  <ul role="presentation">
+    
+    
+    <li role="presentation">
+      <a role="menuitem" lang="en"
+        >English</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="de"
+        >Deutsch</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es_419"
+        >Español – América Latina</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fr"
+        >Français</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="id"
+        >Indonesia</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="it"
+        >Italiano</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pl"
+        >Polski</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pt_br"
+        >Português – Brasil</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="sq"
+        >Shqip</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="vi"
+        >Tiếng Việt</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="tr"
+        >Türkçe</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ru"
+        >Русский</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="he"
+        >עברית</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ar"
+        >العربيّة</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fa"
+        >فارسی</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="hi"
+        >हिंदी</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="bn"
+        >বাংলা</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="th"
+        >ภาษาไทย</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_cn"
+        >中文 – 简体</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_tw"
+        >中文 – 繁體</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ja"
+        >日本語</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ko"
+        >한국어</a>
+    </li>
+    
+  </ul>
+</devsite-language-selector>
+
+
+          
+            <a class="devsite-header-link devsite-top-button button gc-analytics-event "
+    href="https://aistudio.google.com/apikey?hl=vi"
+    data-category="Site-Wide Custom Events"
+    data-label="Site header link: Lấy khoá API"
+    
+      
+        target="_blank"
+      
+    >
+  Lấy khoá API
+</a>
+          
+            <a class="devsite-header-link devsite-top-button button gc-analytics-event "
+    href="https://github.com/google-gemini/cookbook"
+    data-category="Site-Wide Custom Events"
+    data-label="Site header link: Sổ tay nấu ăn"
+    
+      
+        target="_blank"
+      
+    >
+  Sổ tay nấu ăn
+</a>
+          
+            <a class="devsite-header-link devsite-top-button button gc-analytics-event "
+    href="https://discuss.ai.google.dev/c/gemini-api/?hl=vi"
+    data-category="Site-Wide Custom Events"
+    data-label="Site header link: Cộng đồng"
+    
+      
+        target="_blank"
+      
+    >
+  Cộng đồng
+</a>
+          
+
+        
+
+        
+          <devsite-user 
+                        
+                        
+                          enable-profiles
+                        
+                        
+                        id="devsite-user">
+            
+              
+              <span class="button devsite-top-button" aria-hidden="true" visually-hidden>Đăng nhập</span>
+            
+          </devsite-user>
+        
+        
+        
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="devsite-collapsible-section
+    ">
+    <div class="devsite-header-background">
+      
+        
+      
+      
+        <div class="devsite-doc-set-nav-row">
+          
+          
+            
+            
+  <devsite-tabs class="lower-tabs">
+
+    <nav class="devsite-tabs-wrapper" aria-label="Thẻ cấp dưới">
+      
+        
+          <tab  class="devsite-active">
+            
+    <a href="https://ai.google.dev/gemini-api/docs?hl=vi"
+    class="devsite-tabs-content gc-analytics-event "
+      track-metadata-eventdetail="https://ai.google.dev/gemini-api/docs?hl=vi"
+    
+       track-type="nav"
+       track-metadata-position="nav - tài liệu"
+       track-metadata-module="primary nav"
+       aria-label="Tài liệu, selected" 
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Tài liệu"
+         
+           track-name="tài liệu"
+         
+       >
+    Tài liệu
+  
+    </a>
+    
+  
+          </tab>
+        
+      
+        
+          <tab  >
+            
+    <a href="https://ai.google.dev/api?hl=vi"
+    class="devsite-tabs-content gc-analytics-event "
+      track-metadata-eventdetail="https://ai.google.dev/api?hl=vi"
+    
+       track-type="nav"
+       track-metadata-position="nav - tài liệu tham khảo api"
+       track-metadata-module="primary nav"
+       
+       
+         
+           data-category="Site-Wide Custom Events"
+         
+           data-label="Tab: Tài liệu tham khảo API"
+         
+           track-name="tài liệu tham khảo api"
+         
+       >
+    Tài liệu tham khảo API
+  
+    </a>
+    
+  
+          </tab>
+        
+      
+    </nav>
+
+  </devsite-tabs>
+
+          
+          
+        </div>
+      
+    </div>
+  </div>
+
+</div>
+
+
+
+  
+
+  
+</devsite-header>
+        <devsite-book-nav scrollbars >
+          
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="devsite-book-nav-filter"
+     hidden>
+  <span class="filter-list-icon material-icons" aria-hidden="true"></span>
+  <input type="text"
+         placeholder="Lọc"
+         
+         aria-label="Nhập để lọc"
+         role="searchbox">
+  
+  <span class="filter-clear-button hidden"
+        data-title="Xoá bộ lọc"
+        aria-label="Xoá bộ lọc"
+        role="button"
+        tabindex="0"></span>
+</div>
+
+<nav class="devsite-book-nav devsite-nav nocontent" data-nosnippet
+     aria-label="Trình đơn bên">
+  <div class="devsite-mobile-header">
+    <button type="button"
+            id="devsite-close-nav"
+            class="devsite-header-icon-button button-flat material-icons gc-analytics-event"
+            data-category="Site-Wide Custom Events"
+            data-label="Close navigation"
+            aria-label="Đóng trình đơn điều hướng">
+    </button>
+    <div class="devsite-product-name-wrapper">
+
+  <a href="/" class="devsite-site-logo-link gc-analytics-event"
+   data-category="Site-Wide Custom Events" data-label="Site logo" track-type="globalNav"
+   track-name="geminiAPI" track-metadata-position="nav"
+   track-metadata-eventDetail="nav">
+  
+  <picture>
+    
+    <source srcset="https://ai.google.dev/_static/googledevai/images/gemini-api-logo-dark-theme.svg?hl=vi"
+            media="(prefers-color-scheme: dark)"
+            class="devsite-dark-theme">
+    
+    <img src="https://ai.google.dev/_static/googledevai/images/gemini-api-logo.svg?hl=vi" class="devsite-site-logo" alt="Gemini API">
+  </picture>
+  
+</a>
+
+
+  
+      <span class="devsite-product-name">
+        
+        
+        <ul class="devsite-breadcrumb-list"
+  >
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+      
+    
+  </li>
+  
+</ul>
+      </span>
+    
+
+</div>
+  </div>
+
+  <div class="devsite-book-nav-wrapper">
+    <div class="devsite-mobile-nav-top">
+      
+        <ul class="devsite-nav-list">
+          
+            <li class="devsite-nav-item">
+              
+  
+  <a href="/gemini-api/docs"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              devsite-nav-active"
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Gemini API"
+      
+        track-name="gemini api"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Gemini API"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Gemini API
+   </span>
+    
+  
+  </a>
+  
+
+  
+              
+                <ul class="devsite-nav-responsive-tabs">
+                  
+                    
+                    
+                    
+                    <li class="devsite-nav-item">
+                      
+  
+  <a href="/gemini-api/docs"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              devsite-nav-active"
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Tài liệu"
+      
+        track-name="tài liệu"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Tài liệu"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip menu="_book">
+      Tài liệu
+   </span>
+    
+  
+  </a>
+  
+
+  
+                    </li>
+                  
+                    
+                    
+                    
+                    <li class="devsite-nav-item">
+                      
+  
+  <a href="/api"
+    
+       class="devsite-nav-title gc-analytics-event
+              
+              "
+    
+
+    
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Tab: Tài liệu tham khảo API"
+      
+        track-name="tài liệu tham khảo api"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Tài liệu tham khảo API"
+     track-type="globalNav"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Tài liệu tham khảo API
+   </span>
+    
+  
+  </a>
+  
+
+  
+                    </li>
+                  
+                </ul>
+              
+            </li>
+          
+          
+    
+    
+<li class="devsite-nav-item">
+
+  
+  <a href="https://aistudio.google.com/apikey"
+    
+       class="devsite-nav-title gc-analytics-event "
+    
+
+    
+      
+        target="_blank"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Lấy khoá API"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Lấy khoá API
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+  
+    
+    
+<li class="devsite-nav-item">
+
+  
+  <a href="https://github.com/google-gemini/cookbook"
+    
+       class="devsite-nav-title gc-analytics-event "
+    
+
+    
+      
+        target="_blank"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Sổ tay nấu ăn"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Sổ tay nấu ăn
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+  
+    
+    
+<li class="devsite-nav-item">
+
+  
+  <a href="https://discuss.ai.google.dev/c/gemini-api/"
+    
+       class="devsite-nav-title gc-analytics-event "
+    
+
+    
+      
+        target="_blank"
+      
+    
+     data-category="Site-Wide Custom Events"
+     data-label="Responsive Tab: Cộng đồng"
+     track-type="navMenu"
+     track-metadata-eventDetail="globalMenu"
+     track-metadata-position="nav">
+  
+    <span class="devsite-nav-text" tooltip >
+      Cộng đồng
+   </span>
+    
+  
+  </a>
+  
+
+</li>
+
+  
+          
+        </ul>
+      
+    </div>
+    
+      <div class="devsite-mobile-nav-bottom">
+        
+          
+          <ul class="devsite-nav-list" menu="_book">
+            <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Bắt đầu</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Tổng quan</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/quickstart"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Bắt đầu nhanh</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/api-key"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Khóa API</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/libraries"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Thư viện</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/pricing"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Mức giá</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-beta"><a href="/gemini-api/docs/interactions-overview"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Interactions API</span><span class="devsite-nav-icon material-icons"
+        data-icon="beta"
+        data-title="Beta"
+        aria-hidden="true"></span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/coding-agents"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Thiết lập tác nhân mã hoá</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Mô hình</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/models"
+        class="devsite-nav-title"
+      
+        alt-paths=" /gemini-api/docs/models/gemini-3.1-flash-image /gemini-api/docs/models/gemini-3.1-pro-preview /gemini-api/docs/models/gemini-3-pro-preview /gemini-api/docs/models/gemini-3-pro-image /gemini-api/docs/models/gemini-3.5-flash /gemini-api/docs/models/gemini-3-flash-preview /gemini-api/docs/models/gemini-3.1-flash-tts-preview /gemini-api/docs/models/veo-3.1-lite-generate-preview /gemini-api/docs/models/gemini-3.1-flash-live-preview /gemini-api/docs/models/gemini-3.1-flash-lite /gemini-api/docs/models/gemini-3.1-flash-lite-preview /gemini-api/docs/models/gemini-2.5-flash /gemini-api/docs/models/gemini-2.5-flash-preview-09-2025 /gemini-api/docs/models/gemini-2.5-flash-image /gemini-api/docs/models/gemini-2.5-flash-native-audio-preview-12-2025 /gemini-api/docs/models/gemini-2.5-flash-preview-tts /gemini-api/docs/models/gemini-2.5-flash-lite /gemini-api/docs/models/gemini-2.5-flash-lite-preview-09-2025 /gemini-api/docs/models/gemini-2.5-pro /gemini-api/docs/models/gemini-2.5-pro-preview-tts /gemini-api/docs/models/gemini-2.0-flash /gemini-api/docs/models/gemini-2.0-flash-lite /gemini-api/docs/models/imagen /gemini-api/docs/models/veo-3.1-generate-preview /gemini-api/docs/models/veo-2.0-generate-001 /gemini-api/docs/models/gemini-embedding-001 /gemini-api/docs/models/gemini-embedding-2 /gemini-api/docs/models/gemini-robotics-er-1.5-preview /gemini-api/docs/models/gemini-robotics-er-1.6-preview /gemini-api/docs/models/deep-research-pro-preview-12-2025 /gemini-api/docs/models/deep-research-preview-04-2026 /gemini-api/docs/models/deep-research-max-preview-04-2026 /gemini-api/docs/models/antigravity-preview-05-2026 /gemini-api/docs/models/lyria-realtime-exp /gemini-api/docs/models/lyria-3-clip-preview /gemini-api/docs/models/lyria-3-pro-preview "><span class="devsite-nav-text" tooltip>Tất cả mẫu xe</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/whats-new-gemini-3.5"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Hiện tại: Gemini 3.5</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/image-generation"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Nano Banana</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/video"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Veo</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-preview"><a href="/gemini-api/docs/music-generation"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Lyria 3</span><span class="devsite-nav-icon material-icons"
+        data-icon="preview"
+        data-title="Xem trước"
+        aria-hidden="true"></span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/realtime-music-generation"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Lyria RealTime</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/imagen"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Imagen</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/speech-generation"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Chuyển văn bản thành giọng nói</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/embeddings"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Mục nhúng</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-preview"><a href="/gemini-api/docs/robotics-overview"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Người máy học</span><span class="devsite-nav-icon material-icons"
+        data-icon="preview"
+        data-title="Xem trước"
+        aria-hidden="true"></span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Các chức năng cốt lõi</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/text-generation"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Text</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Image</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/gemini-api/docs/image-generation"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Tạo hình ảnh 🍌</span></a></li><li class="devsite-nav-item"><a href="/gemini-api/docs/image-understanding"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Hiểu hình ảnh</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Video</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/gemini-api/docs/video"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Tạo video</span></a></li><li class="devsite-nav-item"><a href="/gemini-api/docs/video-understanding"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Hiểu video</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/document-processing"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Tài liệu</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Lời nói và âm thanh</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item
+           devsite-nav-preview"><a href="/gemini-api/docs/speech-generation"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Tạo lời nói</span><span class="devsite-nav-icon material-icons"
+        data-icon="preview"
+        data-title="Xem trước"
+        aria-hidden="true"></span></a></li><li class="devsite-nav-item"><a href="/gemini-api/docs/audio"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Hiểu âm thanh</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Đang suy nghĩ</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/gemini-api/docs/thinking"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Đang suy nghĩ</span></a></li><li class="devsite-nav-item"><a href="/gemini-api/docs/thought-signatures"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Chữ ký suy nghĩ</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/structured-output"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Kết quả có cấu trúc</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/function-calling"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Gọi hàm</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/long-context"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Ngữ cảnh dài</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Nhân viên hỗ trợ</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/agents"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Tổng quan</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/managed-agents-quickstart"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Bắt đầu nhanh</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-preview"><a href="/gemini-api/docs/antigravity-agent"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Tác nhân Antigravity</span><span class="devsite-nav-icon material-icons"
+        data-icon="preview"
+        data-title="Xem trước"
+        aria-hidden="true"></span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/custom-agents"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Tạo tác nhân được quản lý</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/agent-environment"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Môi trường</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-preview"><a href="/gemini-api/docs/interactions/deep-research"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Deep Research Agent</span><span class="devsite-nav-icon material-icons"
+        data-icon="preview"
+        data-title="Xem trước"
+        aria-hidden="true"></span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Công cụ</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/tools"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Tổng quan</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/google-search"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Google Search</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/maps-grounding"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Google Maps</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/code-execution"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Thực thi mã</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/url-context"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Ngữ cảnh URL</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-preview"><a href="/gemini-api/docs/computer-use"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Sử dụng máy tính</span><span class="devsite-nav-icon material-icons"
+        data-icon="preview"
+        data-title="Xem trước"
+        aria-hidden="true"></span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/file-search"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Tìm kiếm tệp</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-preview"><a href="/gemini-api/docs/tool-combination"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Kết hợp Công cụ và Lệnh gọi hàm</span><span class="devsite-nav-icon material-icons"
+        data-icon="preview"
+        data-title="Xem trước"
+        aria-hidden="true"></span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>API trực tiếp</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/live-api"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Tổng quan</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Bắt đầu</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/gemini-api/docs/live-api/get-started-sdk"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Bắt đầu sử dụng GenAI SDK</span></a></li><li class="devsite-nav-item"><a href="/gemini-api/docs/live-api/get-started-websocket"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Bắt đầu sử dụng WebSocket thô</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/live-api/capabilities"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Chức năng</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/live-api/tools"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Sử dụng công cụ</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/live-api/session-management"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Quản lý phiên</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/live-api/ephemeral-tokens"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Mã thông báo tạm thời</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/live-api/best-practices"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Các phương pháp hay nhất</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Tối ưu hoá</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/optimization"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Tổng quan</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/batch-api"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>API xử lý hàng loạt</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-preview"><a href="/gemini-api/docs/webhooks"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Webhook</span><span class="devsite-nav-icon material-icons"
+        data-icon="preview"
+        data-title="Xem trước"
+        aria-hidden="true"></span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-preview"><a href="/gemini-api/docs/flex-inference"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Suy luận linh hoạt</span><span class="devsite-nav-icon material-icons"
+        data-icon="preview"
+        data-title="Xem trước"
+        aria-hidden="true"></span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-preview"><a href="/gemini-api/docs/priority-inference"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Suy luận mức độ ưu tiên</span><span class="devsite-nav-icon material-icons"
+        data-icon="preview"
+        data-title="Xem trước"
+        aria-hidden="true"></span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/caching"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Lưu ngữ cảnh vào bộ nhớ đệm</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Hướng dẫn</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/interactions/streaming"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Phát trực tiếp</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Nhập tệp</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/gemini-api/docs/file-input-methods"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Phương thức nhập</span></a></li><li class="devsite-nav-item"><a href="/gemini-api/docs/files"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>API Tệp</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/openai"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Khả năng tương thích với OpenAI</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/media-resolution"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Độ phân giải nội dung nghe nhìn</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/tokens"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Tính số lượng mã thông báo</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/prompting-strategies"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Kỹ thuật gợi ý</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Nhật ký và tập dữ liệu</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/gemini-api/docs/logs-datasets"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Làm quen với nhật ký</span></a></li><li class="devsite-nav-item"><a href="/gemini-api/docs/logs-policy"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Ghi nhật ký và chia sẻ dữ liệu</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>An toàn</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/gemini-api/docs/safety-settings"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Cài đặt an toàn</span></a></li><li class="devsite-nav-item"><a href="/gemini-api/docs/safety-guidance"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Hướng dẫn về an toàn</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Khung</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/gemini-api/docs/langgraph-example"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>LangChain và LangGraph</span></a></li><li class="devsite-nav-item"><a href="/gemini-api/docs/crewai-example"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>CrewAI</span></a></li><li class="devsite-nav-item"><a href="/gemini-api/docs/llama-index"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>LlamaIndex</span></a></li><li class="devsite-nav-item"><a href="/gemini-api/docs/vercel-ai-sdk-example"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Vercel AI SDK</span></a></li><li class="devsite-nav-item"><a href="/gemini-api/docs/temporal-example"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Tạm thời</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Tài nguyên</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/changelog"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Ghi chú phát hành</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/deprecations"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Bản không dùng nữa</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Di chuyển</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/gemini-api/docs/migrate"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Di chuyển sang SDK Gen AI</span></a></li><li class="devsite-nav-item"><a href="/gemini-api/docs/migrate-to-interactions"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Di chuyển sang Interactions API</span></a></li><li class="devsite-nav-item"><a href="/gemini-api/docs/interactions-breaking-changes-may-2026"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Các thay đổi gây ảnh hưởng đến lượt tương tác (tháng 5 năm 2026)</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/rate-limits"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Giới hạn số lượng yêu cầu</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/billing"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Thông tin về việc lập hóa đơn</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/troubleshooting"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Khắc phục sự cố API</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-external"><a href="https://aistudio.google.com/status"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Trạng thái</span><span class="devsite-nav-icon material-icons"
+        data-icon="external"
+        data-title="Bên ngoài"
+        aria-hidden="true"></span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/partner-integration"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Tích hợp với đối tác và thư viện</span></a></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Google AI Studio</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/gemini-api/docs/ai-studio-quickstart"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Bắt đầu nhanh</span></a></li><li class="devsite-nav-item"><a href="/gemini-api/docs/aistudio-build-mode"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Lập trình theo cảm hứng ở Chế độ tạo</span></a></li><li class="devsite-nav-item"><a href="/gemini-api/docs/aistudio-fullstack"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Phát triển ứng dụng Full-Stack</span></a></li><li class="devsite-nav-item"><a href="/gemini-api/docs/aistudio-android"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Tạo ứng dụng Android</span></a></li><li class="devsite-nav-item"><a href="/gemini-api/docs/aistudio-deploying"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Triển khai ứng dụng</span></a></li><li class="devsite-nav-item"><a href="/gemini-api/docs/aistudio-agents"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Tác nhân trong AI Studio Playground</span></a></li><li class="devsite-nav-item
+           devsite-nav-experimental"><a href="/gemini-api/docs/learnlm"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Dùng thử LearnLM</span><span class="devsite-nav-icon material-icons"
+        data-icon="experimental"
+        data-title="Thử nghiệm!"
+        aria-hidden="true"></span></a></li><li class="devsite-nav-item"><a href="/gemini-api/docs/troubleshoot-ai-studio"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Khắc phục sự cố</span></a></li><li class="devsite-nav-item"><a href="/gemini-api/docs/workspace"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Quyền truy cập dành cho người dùng Workspace</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-expandable"><div class="devsite-expandable-nav">
+      <a class="devsite-nav-toggle" aria-hidden="true"></a><div class="devsite-nav-title devsite-nav-title-no-path" tabindex="0" role="button">
+        <span class="devsite-nav-text" tooltip>Google Cloud Platform</span>
+      </div><ul class="devsite-nav-section"><li class="devsite-nav-item"><a href="/gemini-api/docs/migrate-to-cloud"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Gemini Enterprise Agent Platform Gemini API</span></a></li><li class="devsite-nav-item"><a href="/gemini-api/docs/oauth"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Xác thực OAuth</span></a></li></ul></div></li>
+
+  <li class="devsite-nav-item
+           devsite-nav-heading"><div class="devsite-nav-title devsite-nav-title-no-path">
+        <span class="devsite-nav-text" tooltip>Chính sách</span>
+      </div></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/terms"
+        class="devsite-nav-title"
+      
+        alt-paths=" /gemini-api/docs/zdr "><span class="devsite-nav-text" tooltip>Điều khoản dịch vụ</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/available-regions"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Khu vực khả dụng</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/usage-policies"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Giám sát hành vi sai trái</span></a></li>
+
+  <li class="devsite-nav-item"><a href="/gemini-api/docs/feedback-policies"
+        class="devsite-nav-title"
+      ><span class="devsite-nav-text" tooltip>Thông tin phản hồi</span></a></li>
+          </ul>
+        
+        
+          
+    
+  
+        
+        
+          
+    
+  
+    
+  
+        
+      </div>
+    
+  </div>
+</nav>
+          
+        </devsite-book-nav>
+      
+      <section id="gc-wrapper">
+        <main role="main" id="main-content" class="devsite-main-content"
+            
+              has-book-nav
+              has-sidebar
+            >
+          <div class="devsite-sidebar">
+            <div class="devsite-sidebar-content">
+                
+                <devsite-toc class="devsite-nav"
+                            role="navigation"
+                            aria-label="Trên trang này"
+                            depth="2"
+                            scrollbars
+                            data-nosnippet
+                  ></devsite-toc>
+                <devsite-recommendations-sidebar class="nocontent devsite-nav" data-nosnippet>
+                </devsite-recommendations-sidebar>
+            </div>
+          </div>
+          <devsite-content>
+            
+              
+
+
+
+
+
+
+
+
+
+
+<article class="devsite-article"><style>
+      /* Styles inlined from /site-assets/css/style.css */
+body[theme="googledevai-theme"] {
+  --devsite-background-0: var(--devsite-background-1);
+  --devsite-button-border: 1px solid #747775;
+  --devsite-button-border-radius: 20rem;
+  --devsite-button-font: 500 14px/36px 'Google Sans Text', Roboto, sans-serif;
+  --devsite-code-font-family: 'Google Sans Mono', Roboto Mono, monospace;
+  --devsite-primary-font-family: 'Google Sans Text', Roboto, sans-serif;
+  --devsite-table-heading-font: 500 14px/20px 'Google Sans Text', Roboto, sans-serif;
+  --googledevai-border-color: #c4c7c5;
+  --googledevai-blue-light: #d7e6ff;
+  --googledevai-blue-dark: #2e64de;
+  --googledevai-cyan-light: #c7e4ff;
+  --googledevai-cyan-dark: #3c8fe3;
+  --googledevai-purple-light: #dce2ff;
+  --googledevai-purple-dark: #987be9;
+  --googledevai-purple: #ac87eb;
+  --googledevai-red: #ee4d5d;
+  --googledevai-secondary-text: #001d35;
+  --googledevai-button-gradient-light: linear-gradient(90deg, var(--googledevai-blue-light), var(--googledevai-cyan-light), var(--googledevai-purple-light));
+  --googledevai-button-gradient-dark: linear-gradient(90deg, var(--googledevai-blue), var(--googledevai-cyan), var(--googledevai-purple));
+}
+
+body[theme="googledevai-theme"]:not([type="reference"]){
+  --googledevai-page-width: 1100px;
+}
+
+body[layout=docs][theme="googledevai-theme"]:not([type="reference"]) .devsite-main-content,
+body[layout=docs][theme="googledevai-theme"]:not([type="reference"]) .devsite-main-content[has-book-nav][has-sidebar] {
+  grid-template-columns: minmax(269px, 1fr) minmax(752px, var(--googledevai-page-width)) minmax(160px, 1fr);
+  grid-gap: 3rem;
+}
+
+body[layout=docs][theme="googledevai-theme"] devsite-content {
+  max-width: var(--googledevai-page-width);
+}
+
+body[layout=docs][theme="googledevai-theme"] .devsite-article {
+  box-shadow: unset;
+}
+
+body[theme="googledevai-theme"] {
+  --googledevai-header-gradient: linear-gradient(90deg, var(--googledevai-blue) 50%, var(--googledevai-cyan), var(--googledevai-purple), var(--googledevai-red));
+}
+
+body[theme="googledevai-theme"].color-scheme--dark {
+  --googledevai-header-gradient: linear-gradient(90deg, var(--googledevai-blue) 75%, var(--googledevai-cyan), var(--googledevai-purple));
+  --googledevai-border-color: #444746;
+}
+
+/* Ensure that full-bleed pages get the full width. */
+body[theme="googledevai-theme"][layout="full"] .devsite-main-content {
+  max-width: none;
+  padding: 0;
+}
+
+/* And ensure that any site banners/ACL warnings/etc don't get hidden on
+ * full-bleed pages. */
+body[theme="googledevai-theme"][layout="full"] .devsite-banner {
+  margin: 0;
+}
+
+tab:has(> a.hidden-tab) {
+  display: none;
+}
+
+body[theme="googledevai-theme"] devsite-toc > .devsite-nav-list {
+  border-inline-start: unset;
+}
+
+/* Banner notice */
+[layout=docs] .devsite-banner:first-of-type {
+  background: var(--googledevai-cyan-light);
+  border-radius: 10px;
+  color: var(--googledevai-secondary-text);
+  margin: -2.5rem -0.25rem 2.5rem;
+  display: flex;
+}
+
+/* Banner notice smaller screens */
+@media (max-width: 840px) {
+  [layout=docs] .devsite-banner:first-of-type {
+    margin: -0.25rem -0.25rem 2.5rem;
+  }
+}
+
+/* Asides */
+.devsite-article-body>aside:not([class*=attempt])  {
+  border-radius: 2px;
+}
+
+/* Tables */
+table:not(.tfo-notebook-buttons) {
+  border: 1px solid var(--googledevai-border-color);
+  border-collapse: unset;
+  border-radius: 9px;
+  margin: auto;
+  width: 100%;
+}
+
+.gemini-api-model-table tr:not(:last-child) td:not(:first-child),
+.gemini-api-model-table tr:not(:last-child) th,
+th,
+table:not(.gemini-api-model-table):not(.tfo-notebook-buttons) tr:not(:last-child) td {
+  border-bottom: 1px solid var(--googledevai-border-color);
+}
+
+th,
+td {
+  background: transparent;
+  padding: 1rem;
+}
+
+/* Notebooks */
+devsite-code .tfo-notebook-code-cell-output {
+  max-height: 300px;
+  overflow: auto;
+  background: rgba(237, 247, 255, 1);  /* blue bg to distinguish from input code cells */
+}
+
+devsite-code .tfo-notebook-code-cell-output + .devsite-code-buttons-container button {
+  background: rgba(237, 247, 255, .7);  /* blue bg to distinguish from input code cells */
+}
+
+.color-scheme--dark devsite-code .tfo-notebook-code-cell-output {
+  background: rgba(var(--devsite-background-2), 1);
+}
+
+.color-scheme--dark devsite-code .tfo-notebook-code-cell-output + .devsite-code-buttons-container button {
+  background: rgba(var(--devsite-background-2), .7);
+}
+
+devsite-code[dark-code] .tfo-notebook-code-cell-output {
+  background: rgba(64, 78, 103, 1);  /* medium slate */
+}
+
+devsite-code[dark-code] .tfo-notebook-code-cell-output + .devsite-code-buttons-container button {
+  background: rgba(64, 78, 103, .7);  /* medium slate */
+}
+
+.devsite-article-body>devsite-code {
+  --devsite-code-buttons-container-right: 0;
+  --devsite-code-margin: 0 0;
+  --devsite-code-padding-block: 14px;
+  border-radius: 8px;
+}
+
+.devsite-article-body>.beta:not([class*=attempt]),
+.devsite-article-body>.caution:not([class*=attempt]),
+.devsite-article-body>.deprecated:not([class*=attempt]),
+.devsite-article-body>.dogfood:not([class*=attempt]),
+.devsite-article-body>.experimental:not([class*=attempt]),
+.devsite-article-body>.key-point:not([class*=attempt]),
+.devsite-article-body>.key-term:not([class*=attempt]),
+.devsite-article-body>.note:not([class*=attempt]),
+.devsite-article-body>.objective:not([class*=attempt]),
+.devsite-article-body>.preview:not([class*=attempt]),
+.devsite-article-body>.special:not([class*=attempt]),
+.devsite-article-body>.success:not([class*=attempt]),
+.devsite-article-body>.tip:not([class*=attempt]),
+.devsite-article-body>.warning:not([class*=attempt]),
+.devsite-article-body>aside:not([class*=attempt]) {
+  --devsite-notice-margin: 0 0;
+  border-radius: 8px;
+}
+
+/* override default table styles for notebook buttons */
+.devsite-table-wrapper .tfo-notebook-buttons {
+  display: block;
+  width: auto;
+}
+
+.tfo-notebook-buttons td {
+  display: inline-block;
+  padding: 0 16px 16px 0;
+}
+
+/* from DevSite's buttons.scss */
+.tfo-notebook-buttons a,
+.tfo-notebook-buttons :link,
+.tfo-notebook-buttons :visited {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  align-self: var(--devsite-button-align-self);
+  background: var(--devsite-button-background, var(--devsite-background-1));
+  border: var(--devsite-button-border, 0);
+  border-radius: var(--devsite-button-border-radius, 2px);
+  box-sizing: border-box;
+  color: var(--devsite-button-color);
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font: var(--devsite-button-font, 500 14px/36px var(--devsite-primary-font-family));
+  height: var(--devsite-button-height, 36px);
+  letter-spacing: var(--devsite-button-letter-spacing, 0);
+  line-height: var(--devsite-button-line-height, 36px);
+  margin: var(--devsite-button-margin, 0);
+  margin-inline-end: var(--devsite-button-margin-x-end);
+  max-width: var(--devsite-button-max-width, none);
+  min-width: 36px;
+  outline: 0;
+  overflow: hidden;
+  padding: var(--devsite-button-with-icon-padding, 0 16px);
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  text-transform: var(--devsite-button-text-transform, uppercase);
+  transition:
+    background-color .2s,
+    border .2s;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: var(--devsite-button-width, auto);
+}
+
+.tfo-notebook-buttons a:hover,
+.tfo-notebook-buttons a:focus {
+  background: var(--devsite-button-background-hover);
+  border: var(--devsite-button-border-hover, 0);
+  color: var(--devsite-button-color-hover, var(--devsite-button-color));
+  text-decoration: var(--devsite-button-text-decoration-hover, none);
+}
+
+.tfo-notebook-buttons a:active {
+  background: var(--devsite-button-background-active);
+  border: var(--devsite-button-border-active, 0);
+  transform: var(--devsite-button-transform-active, none);
+}
+
+.tfo-notebook-buttons tr {
+  background: 0;
+  border: 0;
+}
+
+/* on rendered notebook page,
+   remove link to webpage since we're already here */
+.tfo-notebook-buttons:not(.tfo-api) td:first-child {
+  display: none;
+}
+
+.tfo-notebook-buttons td > a > img {
+  margin: 0 8px 0 -4px;
+  height: 20px;
+}
+
+[appearance='dark'] .tfo-notebook-buttons td > a > img {
+  filter: invert(1);
+}
+
+@media (prefers-color-scheme: dark) {
+  [appearance='device'] .tfo-notebook-buttons td > a > img {
+    filter: invert(1);
+  }
+  .sub-heading {
+    background-color: #333;
+    color: #bdbdbd;
+  }
+}
+
+[appearance='dark'] .sub-heading {
+  background-color: #333;
+  color: #bdbdbd;
+}
+
+.sub-heading {
+  background-color: #f2f2f2;
+  color: #5f6368;
+}
+
+@media screen and (max-width: 600px) {
+  .tfo-notebook-buttons td {
+    display: block;
+  }
+}
+
+devsite-nav-buttons button {
+  margin-left: 0;
+  margin-top: 5px;
+}
+
+code {
+  border-radius: 6px
+}
+
+devsite-book-nav .devsite-nav-list>.devsite-nav-heading:not(.devsite-nav-divider) {
+  border-top: 0;
+  padding-bottom: 0.9rem;
+  font-size: 1rem;
+}
+
+/*
+ * TODO(b/439059414): Remove this workaround in favor of a project-level
+ * body_class when possible.
+ */
+.ais-theme-marker {
+  display: none;
+}
+
+/*
+ * Gemini API body class.
+ * https://source.corp.google.com/piper///depot/google3/third_party/devsite/googledevai/en/gemini-api/_project.yaml;l=7
+ */
+.gemini-api devsite-thumb-rating[position="header"],
+.gemini-api devsite-feedback[position="header"] {
+  /* Hide the thumb rating and feedback widgets at the top of the page. */
+  display: none;
+}
+
+/*
+ * Shaded table styles look like a .pricing-table but are more flexible around
+ * content sizes in each column.
+ */
+.shaded-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.shaded-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 8px;
+}
+
+/* These should use theme colours for light too, so we don't
+ * need an override. */
+.color-scheme--dark .shaded-table th {
+  background-color: var(--devsite-ref-palette--grey800);
+}
+
+.shaded-table td {
+    padding: 8px;
+}
+
+.shaded-table th:first-child {
+  border-top-left-radius: 8px;
+}
+
+.shaded-table th:last-child {
+  border-top-right-radius: 8px;
+}
+
+.shaded-table tr:last-child td:first-child {
+  border-bottom-left-radius: 8px;
+}
+
+.shaded-table tr:last-child td:last-child {
+  border-bottom-right-radius: 8px;
+}
+
+.devsite-nav {
+    font-size: var(--devsite-nav-font-size, 14px);
+}
+
+.devsite-nav-item {
+    line-height: var(--devsite-nav-item-line-height, 20px);
+}
+
+.devsite-book-nav-bg, devsite-book-nav {
+    width: 210px;
+    scrollbar-width: thin;
+}
+
+/* Hide the old toggle button immediately */
+.devsite-expandable-nav > .devsite-nav-toggle {
+    display: none !important;
+}
+
+/* Ion setup: Default State (Chevron Right) */
+.devsite-expandable-nav > .devsite-nav-title::after {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1;
+    color: #888;
+    /* Default: Chevron Right */
+    content: "\e5cc";
+    flex-shrink: 0;
+    margin-left: 8px;
+}
+
+/* Down state logic */
+.devsite-expandable-nav.expanded > .devsite-nav-title::after,
+.devsite-expandable-nav:has(.devsite-nav-active) > .devsite-nav-title::after,
+.devsite-expandable-nav > .devsite-nav-title[aria-expanded="true"]::after {
+    content: "\e313";
+}
+
+/* Close state logic */
+.devsite-expandable-nav > .devsite-nav-title[aria-expanded="false"]::after {
+    content: "\e5cc" !important;
+}
+
+/* Hovercard styling */
+.gemini-api .heading:has(devsite-gemini-api-hovercard-button) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.gemini-api .heading:has(devsite-gemini-api-hovercard-button) h1 {
+  margin-bottom: 0;
+}
+
+devsite-gemini-api-hovercard,
+devsite-gemini-api-hovercard-button {
+  /* Render above any code blocks on the page */
+  z-index: 1;
+}
+
+.devsite-nav-icon[data-icon="beta"], .devsite-nav-icon[data-icon="preview"],
+.devsite-nav-icon[data-icon="experimental"] {
+  margin: -5px 0 -1px 4px;
+}
+      </style>
+  
+  
+  
+    <div class="devsite-banner devsite-banner-announcement nocontent" data-nosnippet
+      
+        
+    background="google-blue"
+  
+      >
+      <div class="devsite-banner-message">
+        <div class="devsite-banner-message-text">
+          
+    <a href="https://ai.google.dev/gemini-api/docs/deep-research?hl=vi" style="color: black;">Tính năng Nghiên cứu chuyên sâu của Gemini</a> hiện đang ở giai đoạn xem trước, với các tính năng lập kế hoạch cộng tác, hình ảnh hoá, hỗ trợ MCP và nhiều tính năng khác.
+
+  
+        </div>
+      </div>
+    </div>
+  
+  
+  
+  <div class="devsite-banner devsite-banner-translated nocontent">
+      <div class="devsite-banner-message">
+        <div class="devsite-banner-message-text">
+          <img src="https://ai.google.dev/_static/images/translated.svg?hl=vi"
+               class="devsite-banner-translated-image invert"
+               alt="">
+          <span class="devsite-banner-translated-text">
+            
+            Google uses AI technology to translate content into your preferred language. AI translations can contain errors.
+          </span>
+        </div>
+        <devsite-switch-to-english-button></devsite-switch-to-english-button>
+      </div>
+    </div>
+  
+
+  <div class="devsite-article-meta nocontent" role="navigation" data-nosnippet>
+    
+    
+    <ul class="devsite-breadcrumb-list"
+  
+    aria-label="Tập hợp liên kết phân cấp">
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+    
+    
+      
+        
+  <a href="https://ai.google.dev/?hl=vi"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="1"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="1"
+      
+        track-metadata-eventdetail=""
+      
+    >
+    
+          Trang chủ
+        
+  </a>
+  
+      
+    
+  </li>
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+      
+      <div class="devsite-breadcrumb-guillemet material-icons" aria-hidden="true"></div>
+    
+    
+    
+      
+        
+  <a href="https://ai.google.dev/gemini-api?hl=vi"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="2"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="2"
+      
+        track-metadata-eventdetail="Gemini API"
+      
+    >
+    
+          Gemini API
+        
+  </a>
+  
+      
+    
+  </li>
+  
+  <li class="devsite-breadcrumb-item
+             ">
+    
+      
+      <div class="devsite-breadcrumb-guillemet material-icons" aria-hidden="true"></div>
+    
+    
+    
+      
+        
+  <a href="https://ai.google.dev/gemini-api/docs?hl=vi"
+      
+        class="devsite-breadcrumb-link gc-analytics-event"
+      
+        data-category="Site-Wide Custom Events"
+      
+        data-label="Breadcrumbs"
+      
+        data-value="3"
+      
+        track-type="globalNav"
+      
+        track-name="breadcrumb"
+      
+        track-metadata-position="3"
+      
+        track-metadata-eventdetail=""
+      
+    >
+    
+          Tài liệu
+        
+  </a>
+  
+      
+    
+  </li>
+  
+</ul>
+    
+      
+    <devsite-thumb-rating position="header">
+    </devsite-thumb-rating>
+  
+    
+    <devsite-gemini-api-switcher class="nocontent"></devsite-gemini-api-switcher>
+  </div>
+  
+    <devsite-feedback
+  position="header"
+  project-name="Gemini API"
+  product-id="5292923"
+  bucket="documentation"
+  context=""
+  version="t-devsite-webserver-20260521-r00-rc00.477732451397888703"
+  data-label="Send Feedback Button"
+  track-type="feedback"
+  track-name="sendFeedbackLink"
+  track-metadata-position="header"
+  class="nocontent"
+  data-nosnippet
+  
+  
+  
+    project-icon="https://www.gstatic.com/devrel-devsite/prod/v6ae673272608590539f8a06b3f3271c0f5688cde07499d1c9e644aeb66c8c060/googledevai/images/touchicon-180-new.png"
+  
+  
+  
+  >
+
+  <button>
+  
+    
+    Gửi ý kiến phản hồi
+  
+  </button>
+</devsite-feedback>
+  
+    <h1 class="devsite-page-title" tabindex="-1">
+      Ghi chú phát hành<devsite-actions hidden data-nosnippet>
+    <devsite-llm-tools></devsite-llm-tools></devsite-actions>
+  
+      
+    </h1>
+  <div class="devsite-page-title-meta"><devsite-view-release-notes></devsite-view-release-notes></div>
+  
+
+  <devsite-toc class="devsite-nav"
+    depth="2"
+    devsite-toc-embedded
+    >
+  </devsite-toc>
+  
+    
+  <div class="devsite-article-body clearfix
+  ">
+
+  
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<p>
+</p>
+
+
+
+<p>Trang này ghi lại nội dung cập nhật của Gemini API.</p>
+
+<h2 data-text="Ngày 28 tháng 5 năm 2026" id="05-28-2026" tabindex="-1">Ngày 28 tháng 5 năm 2026</h2>
+
+<ul>
+<li><p>Phát hành <code dir="ltr" translate="no">gemini-3.1-flash-image</code> (Nano Banana 2) và <code dir="ltr" translate="no">gemini-3-pro-image</code>
+(Nano Banana Pro), các phiên bản được cung cấp công khai (GA) của mô hình thị giác gốc <a href="https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image?hl=vi">Gemini 3.1 Flash Image</a> và <a href="https://ai.google.dev/gemini-api/docs/models/gemini-3-pro-image?hl=vi">Gemini 3.1 Pro Image</a>.</p></li>
+<li><p><strong>Hỗ trợ tạo hình ảnh từ video</strong>: Giờ đây, bạn có thể truyền tệp video (thông qua tính năng tải lên trực tiếp hoặc dưới dạng URL công khai trên YouTube) làm ngữ cảnh đa phương thức cùng với một câu lệnh dạng văn bản để tạo hình thu nhỏ chất lượng cao, áp phích phim đậm chất điện ảnh hoặc ảnh đồ hoạ tóm tắt. Tính năng này chỉ được hỗ trợ trên mẫu <code dir="ltr" translate="no">gemini-3.1-flash-image</code>. Để tìm hiểu thêm, hãy xem hướng dẫn <a href="https://ai.google.dev/gemini-api/docs/image-generation?hl=vi#video-to-image">Tạo hình ảnh từ video</a>.</p></li>
+<li><p>Thông báo ngừng cung cấp: Các mô hình <code dir="ltr" translate="no">gemini-3.1-flash-image-preview</code> và <code dir="ltr" translate="no">gemini-3-pro-image-preview</code> sẽ ngừng hoạt động và <a href="https://ai.google.dev/gemini-api/docs/deprecations?hl=vi">tắt</a> vào ngày 25 tháng 6 năm 2026.</p></li>
+</ul>
+
+<h2 data-text="Ngày 25 tháng 5 năm 2026" id="05-25-2026" tabindex="-1">Ngày 25 tháng 5 năm 2026</h2>
+
+<ul>
+<li>Mô hình <code dir="ltr" translate="no">gemini-3.1-flash-lite-preview</code> đã <a href="https://ai.google.dev/gemini-api/docs/deprecations?hl=vi">tắt</a>. Thay vào đó, hãy sử dụng <a href="https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite?hl=vi"><code dir="ltr" translate="no">gemini-3.1-flash-lite</code></a>.</li>
+</ul>
+
+<h2 data-text="Ngày 19 tháng 5 năm 2026" id="05-19-2026" tabindex="-1">Ngày 19 tháng 5 năm 2026</h2>
+
+<ul>
+<li><p>Phát hành <code dir="ltr" translate="no">gemini-3.5-flash</code>, phiên bản phát hành rộng rãi (GA) của <a href="https://ai.google.dev/gemini-api/docs/models/gemini-3.5-flash?hl=vi">Gemini 3.5 Flash</a>, mô hình thông minh nhất của chúng tôi để duy trì hiệu suất vượt trội trong các tác vụ tác nhân và lập trình.</p></li>
+<li><p>Phát hành <strong>Các tác nhân được quản lý trong Gemini API</strong> ở bản dùng thử công khai. Điều này cho phép các nhà phát triển tạo và triển khai các tác nhân tự trị, có trạng thái chạy trong môi trường hộp cát Linux an toàn, biệt lập do Google lưu trữ. Để tìm hiểu thêm, hãy xem trang <a href="https://ai.google.dev/gemini-api/docs/agents?hl=vi">Tổng quan về các tác nhân</a> và hướng dẫn <a href="https://ai.google.dev/gemini-api/docs/managed-agents-quickstart?hl=vi">Bắt đầu nhanh</a>.</p></li>
+<li><p>Phát hành tác nhân được quản lý <strong>Antigravity Agent</strong> cho mục đích chung (<a href="https://ai.google.dev/gemini-api/docs/models/antigravity-preview-05-2026?hl=vi"><code dir="ltr" translate="no">antigravity-preview-05-2026</code></a>) trong bản dùng thử công khai.
+Tác nhân Antigravity có thể tự lập kế hoạch, suy luận, viết và thực thi mã, quản lý tệp và duyệt web trong vùng chứa hộp cát của tác nhân. Hãy xem hướng dẫn về <a href="https://ai.google.dev/gemini-api/docs/antigravity-agent?hl=vi">Antigravity Agent</a> để biết các mẫu mã và quy cách.</p></li>
+</ul>
+
+<h2 data-text="Ngày 7 tháng 5 năm 2026" id="05-07-2026" tabindex="-1">Ngày 7 tháng 5 năm 2026</h2>
+
+<ul>
+<li><p>Phát hành <code dir="ltr" translate="no">gemini-3.1-flash-lite</code>, phiên bản phát hành rộng rãi (GA) của <a href="https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite?hl=vi">Gemini 3.1 Flash-Lite</a>, được tối ưu hoá về tốc độ, quy mô và hiệu quả chi phí.</p></li>
+<li><p>Thông báo ngừng hoạt động: Mô hình <code dir="ltr" translate="no">gemini-3.1-flash-lite-preview</code> sẽ ngừng hoạt động vào ngày 11 tháng 5 năm 2026 và sẽ <a href="https://ai.google.dev/gemini-api/docs/deprecations?hl=vi">tắt</a> vào ngày 25 tháng 5 năm 2026.</p></li>
+</ul>
+
+<h2 data-text="Ngày 6 tháng 5 năm 2026" id="05-06-2026" tabindex="-1">Ngày 6 tháng 5 năm 2026</h2>
+
+<ul>
+<li><strong>Thay đổi có thể gây lỗi sắp tới</strong>: Sơ đồ yêu cầu và phản hồi <a href="https://ai.google.dev/gemini-api/docs/interactions?hl=vi">Interactions API</a> (<code dir="ltr" translate="no">outputs</code> → <code dir="ltr" translate="no">steps</code>) và cấu hình định dạng đầu ra (<code dir="ltr" translate="no">response_format</code>) đang thay đổi. Lược đồ mới sẽ trở thành lược đồ mặc định vào <strong>ngày 26 tháng 5</strong> và lược đồ cũ sẽ bị xoá vào <strong>ngày 8 tháng 6</strong>.
+Hãy xem <a href="https://ai.google.dev/gemini-api/docs/interactions-breaking-changes-may-2026?hl=vi">hướng dẫn di chuyển</a> để biết thông tin chi tiết.</li>
+</ul>
+
+<h2 data-text="Ngày 5 tháng 5 năm 2026" id="05-05-2026" tabindex="-1">Ngày 5 tháng 5 năm 2026</h2>
+
+<ul>
+<li>Cập nhật tính năng <strong>Tìm kiếm tệp</strong> để hỗ trợ tìm kiếm đa phương thức. Giờ đây, bạn có thể nhúng và tìm kiếm hình ảnh một cách tự nhiên bằng mô hình <code dir="ltr" translate="no">gemini-embedding-2</code>.
+Siêu dữ liệu cơ sở hiện bao gồm <code dir="ltr" translate="no">media_id</code> cho trích dẫn trực quan và <code dir="ltr" translate="no">page_numbers</code> cho biết nơi tìm thấy thông tin. Để tìm hiểu thêm, hãy xem hướng dẫn về <a href="https://ai.google.dev/gemini-api/docs/file-search?hl=vi">Tìm kiếm tệp</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 4 tháng 5 năm 2026" id="05-04-2026" tabindex="-1">Ngày 4 tháng 5 năm 2026</h2>
+
+<ul>
+<li>Ra mắt tính năng hỗ trợ <a href="https://ai.google.dev/gemini-api/docs/webhooks?hl=vi">Webhook</a> dựa trên sự kiện trong Gemini API để thay thế quy trình thăm dò ý kiến cho Batch API và các thao tác kéo dài.</li>
+</ul>
+
+<h2 data-text="Ngày 30 tháng 4 năm 2026" id="04-30-2026" tabindex="-1">Ngày 30 tháng 4 năm 2026</h2>
+
+<ul>
+<li>Mô hình <code dir="ltr" translate="no">gemini-robotics-er-1.5-preview</code> đã <a href="https://ai.google.dev/gemini-api/docs/deprecations?hl=vi">tắt</a>. Thay vào đó, hãy sử dụng <a href="https://ai.google.dev/gemini-api/docs/models/gemini-robotics-er-1.6-preview?hl=vi"><code dir="ltr" translate="no">gemini-robotics-er-1.6-preview</code></a>.</li>
+</ul>
+
+<h2 data-text="Ngày 22 tháng 4 năm 2026" id="04-22-2026" tabindex="-1">Ngày 22 tháng 4 năm 2026</h2>
+
+<ul>
+<li>Phát hành <code dir="ltr" translate="no">gemini-embedding-2</code> dưới dạng bản phát hành rộng rãi (GA). Để tìm hiểu thêm, hãy xem trang <a href="https://ai.google.dev/gemini-api/docs/embeddings?hl=vi">Embeddings</a> (Nhúng).</li>
+</ul>
+
+<h2 data-text="Ngày 21 tháng 4 năm 2026" id="04-21-2026" tabindex="-1">Ngày 21 tháng 4 năm 2026</h2>
+
+<ul>
+<li><p>Phát hành các phiên bản mới của tác nhân <a href="https://ai.google.dev/gemini-api/docs/deep-research?hl=vi">Deep Research</a> (Nghiên cứu chuyên sâu) với tính năng lập kế hoạch cộng tác, hỗ trợ trực quan hoá, tích hợp máy chủ MCP và tính năng Tìm kiếm tệp:</p>
+
+<ul>
+<li><a href="https://ai.google.dev/gemini-api/docs/models/deep-research-preview-04-2026?hl=vi"><code dir="ltr" translate="no">deep-research-preview-04-2026</code></a>: Được thiết kế để đạt tốc độ và hiệu quả cao, lý tưởng để truyền trực tuyến trở lại giao diện người dùng của ứng dụng.</li>
+<li><a href="https://ai.google.dev/gemini-api/docs/models/deep-research-max-preview-04-2026?hl=vi"><code dir="ltr" translate="no">deep-research-max-preview-04-2026</code></a>: Mức độ toàn diện tối đa để tự động thu thập và tổng hợp bối cảnh.</li>
+</ul></li>
+</ul>
+
+<h2 data-text="Ngày 15 tháng 4 năm 2026" id="04-15-2026" tabindex="-1">Ngày 15 tháng 4 năm 2026</h2>
+
+<ul>
+<li>Ra mắt <a href="https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-tts-preview?hl=vi">Gemini 3.1 Flash TTS Preview</a>, mô hình chuyển văn bản sang lời nói có chi phí hợp lý, giàu biểu cảm và có thể điều hướng. Hãy đọc tài liệu về <a href="https://ai.google.dev/gemini-api/docs/speech-generation?hl=vi">Chuyển văn bản sang lời nói</a> để tìm hiểu thêm.</li>
+</ul>
+
+<h2 data-text="Ngày 14 tháng 4 năm 2026" id="04-14-2026" tabindex="-1">Ngày 14 tháng 4 năm 2026</h2>
+
+<ul>
+<li><p>Phát hành <code dir="ltr" translate="no">gemini-robotics-er-1.6-preview</code>, mô hình robot được cập nhật của chúng tôi.
+Giờ đây, mô hình này có các chức năng mới như đọc nhạc cụ, cải thiện khả năng suy luận không gian và vật lý. Để tìm hiểu thêm, hãy xem trang <a href="https://ai.google.dev/gemini-api/docs/robotics-overview?hl=vi">Gemini Robotics-ER</a> và <a href="https://deepmind.google/blog/gemini-robotics-er-1-6?hl=vi">blog</a>.</p></li>
+<li><p>Thông báo về việc ngừng cung cấp: Mô hình <code dir="ltr" translate="no">gemini-robotics-er-1.5-preview</code> sẽ <a href="https://ai.google.dev/gemini-api/docs/deprecations?hl=vi">tắt</a> vào lúc 9:00 ngày 30 tháng 4 năm 2026 (giờ Thái Bình Dương).</p></li>
+</ul>
+
+<h2 data-text="Ngày 2 tháng 4 năm 2026" id="04-02-2026" tabindex="-1">Ngày 2 tháng 4 năm 2026</h2>
+
+<ul>
+<li>Phát hành <code dir="ltr" translate="no">gemma-4-26b-a4b-it</code> và <code dir="ltr" translate="no">gemma-4-31b-it</code>, có trên <a href="https://aistudio.google.com?hl=vi">AI Studio</a> và thông qua Gemini API, trong đợt ra mắt <a href="https://ai.google.dev/gemma/docs/core?hl=vi">Gemma 4</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 1 tháng 4 năm 2026" id="04-01-2026" tabindex="-1">Ngày 1 tháng 4 năm 2026</h2>
+
+<ul>
+<li>Giới thiệu các cấp suy luận <a href="https://ai.google.dev/gemini-api/docs/flex-inference?hl=vi">Flex</a> và <a href="https://ai.google.dev/gemini-api/docs/priority-inference?hl=vi">Priority</a> mới, cung cấp nhiều lựa chọn hơn để tối ưu hoá chi phí hoặc độ trễ.</li>
+</ul>
+
+<h2 data-text="Ngày 31 tháng 3 năm 2026" id="03-31-2026" tabindex="-1">Ngày 31 tháng 3 năm 2026</h2>
+
+<ul>
+<li><p>Ra mắt Veo 3.1 Lite Preview, <a href="https://ai.google.dev/gemini-api/docs/models/veo-3.1-lite-generate-preview?hl=vi"><code dir="ltr" translate="no">veo-3.1-lite-generate-preview</code></a>, mô hình <a href="https://ai.google.dev/gemini-api/docs/video?hl=vi">tạo video</a> tiết kiệm chi phí nhất của chúng tôi, được thiết kế để lặp lại nhanh chóng và xây dựng các ứng dụng có khối lượng lớn.</p></li>
+<li><p>Mô hình <code dir="ltr" translate="no">gemini-2.5-flash-lite-preview-09-2025</code> đã ngừng hoạt động. Thay vào đó, hãy sử dụng <a href="https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-preview?hl=vi"><code dir="ltr" translate="no">gemini-3.1-flash-lite-preview</code></a>.</p></li>
+</ul>
+
+<h2 data-text="Ngày 26 tháng 3 năm 2026" id="03-26-2026" tabindex="-1">Ngày 26 tháng 3 năm 2026</h2>
+
+<ul>
+<li>Được phát hành vào <a href="https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-live-preview?hl=vi"><code dir="ltr" translate="no">gemini-3.1-flash-live-preview</code></a>, mô hình âm thanh sang âm thanh (A2A) mới nhất được thiết kế cho các ứng dụng AI ưu tiên giọng nói và lời thoại theo thời gian thực. Hãy đọc tài liệu về <a href="https://ai.google.dev/gemini-api/docs/live-api?hl=vi">Live API</a> để bắt đầu.</li>
+</ul>
+
+<h2 data-text="Ngày 25 tháng 3 năm 2026" id="03-25-2026" tabindex="-1">Ngày 25 tháng 3 năm 2026</h2>
+
+<ul>
+<li>Ra mắt các mô hình tạo nhạc <a href="https://ai.google.dev/gemini-api/docs/music-generation?hl=vi">Lyria 3</a>: <a href="https://ai.google.dev/gemini-api/docs/models/lyria-3-clip-preview?hl=vi"><code dir="ltr" translate="no">lyria-3-clip-preview</code></a> (đoạn nhạc dài 30 giây) và <a href="https://ai.google.dev/gemini-api/docs/models/lyria-3-pro-preview?hl=vi"><code dir="ltr" translate="no">lyria-3-pro-preview</code></a> (bài hát trọn vẹn). Cả hai mô hình này đều chấp nhận văn bản và hình ảnh đầu vào, đồng thời tạo ra âm thanh nổi 48 kHz chất lượng cao. Hãy xem hướng dẫn về <a href="https://ai.google.dev/gemini-api/docs/music-generation?hl=vi">Tạo nhạc</a> để biết thông tin chi tiết và các mẫu mã.</li>
+</ul>
+
+<h2 data-text="Ngày 23 tháng 3 năm 2026" id="03-23-2026" tabindex="-1">Ngày 23 tháng 3 năm 2026</h2>
+
+<ul>
+<li>Ra mắt <a href="https://ai.google.dev/gemini-api/docs/billing?hl=vi">Gói thanh toán trả trước và trả sau</a> trong AI Studio. Các tài khoản hiện có có thể bị ảnh hưởng; hãy đọc tài liệu về <a href="https://ai.google.dev/gemini-api/docs/billing?hl=vi">Thanh toán</a> để biết thêm thông tin.</li>
+</ul>
+
+<h2 data-text="Ngày 18 tháng 3 năm 2026" id="03-18-2026" tabindex="-1">Ngày 18 tháng 3 năm 2026</h2>
+
+<ul>
+<li>Phát hành tính năng mới <a href="https://ai.google.dev/gemini-api/docs/tool-combination?hl=vi">Kết hợp công cụ tích hợp và tính năng Gọi hàm</a>, cho phép sử dụng các công cụ tích hợp của Gemini cùng với các công cụ gọi hàm tuỳ chỉnh trong một lệnh gọi API duy nhất.</li>
+<li><a href="https://ai.google.dev/gemini-api/docs/maps-grounding?hl=vi#supported_models">Tính năng căn cứ vào Google Maps</a> hiện được hỗ trợ cho các mô hình Gemini 3 trong tương lai.</li>
+</ul>
+
+<h2 data-text="Ngày 16 tháng 3 năm 2026" id="03-16-2026" tabindex="-1">Ngày 16 tháng 3 năm 2026</h2>
+
+<ul>
+<li>Ra mắt <a href="https://ai.google.dev/gemini-api/docs/billing?hl=vi#about-billing">Bậc sử dụng</a> và <a href="https://ai.google.dev/gemini-api/docs/billing?hl=vi#tier-spend-caps">hạn mức chi tiêu của Tài khoản thanh toán</a> mới để cải thiện trải nghiệm thanh toán của người dùng.</li>
+</ul>
+
+<h2 data-text="Ngày 12 tháng 3 năm 2026" id="03-12-2026" tabindex="-1">Ngày 12 tháng 3 năm 2026</h2>
+
+<ul>
+<li>Giới thiệu <a href="https://ai.google.dev/gemini-api/docs/billing?hl=vi#project-spend-caps">hạn mức chi tiêu ở cấp dự án</a> cho hoạt động thanh toán trong AI Studio.</li>
+</ul>
+
+<h2 data-text="Ngày 10 tháng 3 năm 2026" id="03-10-2026" tabindex="-1">Ngày 10 tháng 3 năm 2026</h2>
+
+<ul>
+<li><p>Phát hành <code dir="ltr" translate="no">gemini-embedding-2-preview</code>, mô hình nhúng đa phương thức đầu tiên của chúng tôi.
+Mô hình này hỗ trợ văn bản, hình ảnh, video, âm thanh và tệp PDF đầu vào, ánh xạ tất cả các phương thức vào một không gian nhúng hợp nhất. Để tìm hiểu thêm, hãy xem phần <a href="https://ai.google.dev/gemini-api/docs/embeddings?hl=vi">Nhúng</a>.</p></li>
+<li><p>Thông báo ngừng hoạt động: Mô hình <code dir="ltr" translate="no">gemini-2.5-flash-lite-preview-09-2025</code> sẽ <a href="https://ai.google.dev/gemini-api/docs/deprecations?hl=vi">ngừng hoạt động</a> vào ngày 31 tháng 3 năm 2026.</p></li>
+</ul>
+
+<h2 data-text="Ngày 9 tháng 3 năm 2026" id="03-09-2026" tabindex="-1">Ngày 9 tháng 3 năm 2026</h2>
+
+<ul>
+<li>Mô hình Gemini 3 Pro Preview đã <a href="https://ai.google.dev/gemini-api/docs/deprecations?hl=vi">tắt</a>. <code dir="ltr" translate="no">gemini-3-pro-preview</code> hiện trỏ đến <a href="https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview?hl=vi"><code dir="ltr" translate="no">gemini-3.1-pro-preview</code></a>.</li>
+</ul>
+
+<h2 data-text="Ngày 3 tháng 3 năm 2026" id="03-03-2026" tabindex="-1">Ngày 3 tháng 3 năm 2026</h2>
+
+<ul>
+<li>Ra mắt Bản xem trước Gemini 3.1 Flash-Lite, mô hình Flash-Lite đầu tiên trong dòng Gemini 3. Đọc <a href="https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-lite-preview?hl=vi">trang mô hình</a> để biết thông số kỹ thuật, các bản cập nhật cụ thể và hướng dẫn dành cho nhà phát triển.</li>
+</ul>
+
+<h2 data-text="Ngày 26 tháng 2 năm 2026" id="02-26-2026" tabindex="-1">Ngày 26 tháng 2 năm 2026</h2>
+
+<ul>
+<li><p>Ra mắt Nano Banana 2, <a href="https://ai.google.dev/gemini-api/docs/models/gemini-3.1-flash-image-preview?hl=vi">Gemini 3.1 Flash Image Preview</a>, một mô hình có hiệu suất cao được tối ưu hoá cho tốc độ và các trường hợp sử dụng với khối lượng lớn.</p></li>
+<li><p>Thông báo ngừng hoạt động: Gemini 3 Pro Preview (<code dir="ltr" translate="no">gemini-3-pro-preview</code>) sẽ <a href="https://ai.google.dev/gemini-api/docs/deprecations?hl=vi">ngừng hoạt động</a> từ ngày 9 tháng 3 năm 2026.</p></li>
+</ul>
+
+<h2 data-text="Ngày 19 tháng 2 năm 2026" id="02-19-2026" tabindex="-1">Ngày 19 tháng 2 năm 2026</h2>
+
+<ul>
+<li>Phát hành <a href="https://ai.google.dev/gemini-api/docs/models/gemini-3.1-pro-preview?hl=vi">Gemini 3.1 Pro Preview</a>, phiên bản mới nhất trong dòng Gemini 3 mới.</li>
+<li>Ra mắt một điểm cuối riêng biệt <code dir="ltr" translate="no">gemini-3.1-pro-preview-customtools</code>, có khả năng ưu tiên các công cụ tuỳ chỉnh tốt hơn cho những người dùng tạo bằng cách kết hợp bash và các công cụ.</li>
+</ul>
+
+<h2 data-text="Ngày 18 tháng 2 năm 2026" id="02-18-2026" tabindex="-1">Ngày 18 tháng 2 năm 2026</h2>
+
+<ul>
+<li><p>Thông báo về việc ngừng cung cấp: Các mẫu sau đây sẽ <a href="https://ai.google.dev/gemini-api/docs/deprecations?hl=vi">ngừng hoạt động</a> từ ngày 1 tháng 6 năm 2026:</p>
+
+<ul>
+<li><code dir="ltr" translate="no">gemini-2.0-flash</code></li>
+<li><code dir="ltr" translate="no">gemini-2.0-flash-001</code></li>
+<li><code dir="ltr" translate="no">gemini-2.0-flash-lite</code></li>
+<li><code dir="ltr" translate="no">gemini-2.0-flash-lite-001</code></li>
+</ul></li>
+</ul>
+
+<h2 data-text="Ngày 17 tháng 2 năm 2026" id="02-17-2026" tabindex="-1">Ngày 17 tháng 2 năm 2026</h2>
+
+<ul>
+<li><p>Các mô hình sau đây sẽ <a href="https://ai.google.dev/gemini-api/docs/deprecations?hl=vi">tắt</a>:</p>
+
+<ul>
+<li><code dir="ltr" translate="no">gemini-2.5-flash-preview-09-25</code></li>
+<li><code dir="ltr" translate="no">imagen-4.0-generate-preview-06-06</code></li>
+<li><code dir="ltr" translate="no">imagen-4.0-ultra-generate-preview-06-06</code></li>
+</ul></li>
+</ul>
+
+<h2 data-text="Ngày 29 tháng 1 năm 2026" id="01-29-2026" tabindex="-1">Ngày 29 tháng 1 năm 2026</h2>
+
+<ul>
+<li>Ra mắt dịch vụ hỗ trợ cho công cụ Sử dụng máy tính ở <code dir="ltr" translate="no">gemini-3-pro-preview</code> và <code dir="ltr" translate="no">gemini-3-flash-preview</code>.</li>
+</ul>
+
+<h2 data-text="Ngày 21 tháng 1 năm 2026" id="01-21-2026" tabindex="-1">Ngày 21 tháng 1 năm 2026</h2>
+
+<ul>
+<li><p>Đã thay đổi các bí danh <code dir="ltr" translate="no">latest</code>:</p>
+
+<ul>
+<li><code dir="ltr" translate="no">gemini-pro-latest</code> đã chuyển sang <code dir="ltr" translate="no">gemini-3-pro-preview</code></li>
+<li><code dir="ltr" translate="no">gemini-flash-latest</code> đã chuyển sang <code dir="ltr" translate="no">gemini-3-flash-preview</code></li>
+</ul></li>
+</ul>
+
+<h2 data-text="Ngày 15 tháng 1 năm 2026" id="01-15-2026" tabindex="-1">Ngày 15 tháng 1 năm 2026</h2>
+
+<ul>
+<li><p>Thông báo về việc ngừng hoạt động: Các mô hình sau đây sẽ <a href="https://ai.google.dev/gemini-api/docs/deprecations?hl=vi">ngừng hoạt động</a> từ ngày 17 tháng 2 năm 2026:</p>
+
+<ul>
+<li><code dir="ltr" translate="no">gemini-2.5-flash-preview-09-25</code></li>
+<li><code dir="ltr" translate="no">imagen-4.0-generate-preview-06-06</code></li>
+<li><code dir="ltr" translate="no">imagen-4.0-ultra-generate-preview-06-06</code></li>
+</ul></li>
+<li><p>Mô hình <code dir="ltr" translate="no">gemini-2.5-flash-image-preview</code> đã ngừng hoạt động.</p></li>
+</ul>
+
+<h2 data-text="Ngày 14 tháng 1 năm 2026" id="01-14-2026" tabindex="-1">Ngày 14 tháng 1 năm 2026</h2>
+
+<ul>
+<li>Mô hình <code dir="ltr" translate="no">text-embedding-004</code> đã <a href="https://ai.google.dev/gemini-api/docs/deprecations?hl=vi">tắt</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 13 tháng 1 năm 2026" id="01-13-2026" tabindex="-1">Ngày 13 tháng 1 năm 2026</h2>
+
+<ul>
+<li>Thêm độ phân giải đầu ra 4K cho <a href="https://ai.google.dev/gemini-api/docs/video?hl=vi">Veo</a> và tăng cường hỗ trợ video dọc ở mọi độ phân giải.</li>
+</ul>
+
+<h2 data-text="Ngày 12 tháng 1 năm 2026" id="01-12-2026" tabindex="-1">Ngày 12 tháng 1 năm 2026</h2>
+
+<ul>
+<li><p>Ra mắt tính năng vòng đời của mô hình. Giờ đây, một số mô hình sẽ chỉ định giai đoạn vòng đời và tiến trình ngừng hoạt động. Hãy xem tài liệu sau để biết thêm thông tin:</p>
+
+<ul>
+<li><a href="https://ai.google.dev/api/generate-content?hl=vi#ModelStatus">Các giai đoạn của mô hình</a></li>
+</ul></li>
+</ul>
+
+<h2 data-text="Ngày 8 tháng 1 năm 2026" id="01-08-2026" tabindex="-1">Ngày 8 tháng 1 năm 2026</h2>
+
+<ul>
+<li>Ra mắt tính năng hỗ trợ các bộ chứa Cloud Storage và mọi URL công khai và riêng tư đã ký trước DB làm nguồn dữ liệu đầu vào cho Gemini API. Giới hạn kích thước tệp cũng tăng từ 20 MB lên 100 MB. Để biết thông tin chi tiết, hãy xem <a href="https://ai.google.dev/gemini-api/docs/file-input-methods?hl=vi">Hướng dẫn về phương thức nhập tệp</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 19 tháng 12 năm 2025" id="12-19-2025" tabindex="-1">Ngày 19 tháng 12 năm 2025</h2>
+
+<ul>
+<li>Giới thiệu một thay đổi có thể gây lỗi cho bản dùng thử công khai Interactions API trong phiên bản v1beta. Trường <code dir="ltr" translate="no">total_reasoning_tokens</code> đã được đổi tên thành <code dir="ltr" translate="no">total_thought_tokens</code> để phù hợp hơn với khái niệm "suy nghĩ" trong các mô hình tư duy.</li>
+</ul>
+
+<h2 data-text="Ngày 17 tháng 12 năm 2025" id="12-17-2025" tabindex="-1">Ngày 17 tháng 12 năm 2025</h2>
+
+<ul>
+<li><p>Ra mắt bản dùng thử Gemini 3 Flash, <code dir="ltr" translate="no">gemini-3-flash-preview</code>, mang đến hiệu suất nhanh chóng ở đẳng cấp tiên tiến, ngang bằng với các mô hình lớn hơn nhưng chỉ với một phần nhỏ chi phí. Với khả năng lập trình dựa trên tác nhân, cũng như khả năng suy luận về không gian và hình ảnh được nâng cấp. Đọc tài liệu về một số tính năng mới, bao gồm:</p>
+
+<ul>
+<li><a href="https://ai.google.dev/gemini-api/docs/function-calling?hl=vi#multimodal">Phản hồi bằng hàm đa phương thức</a></li>
+<li><a href="https://ai.google.dev/gemini-api/docs/code-execution?hl=vi#images">Thực thi mã bằng hình ảnh</a></li>
+</ul></li>
+</ul>
+
+<h2 data-text="Ngày 12 tháng 12 năm 2025" id="12-12-2025" tabindex="-1">Ngày 12 tháng 12 năm 2025</h2>
+
+<ul>
+<li>Phát hành <code dir="ltr" translate="no">gemini-2.5-flash-native-audio-preview-12-2025</code>, một mô hình âm thanh gốc mới cho Live API. Bản cập nhật này cải thiện khả năng xử lý các quy trình làm việc phức tạp của mô hình. Để tìm hiểu thêm, hãy xem <a href="https://ai.google.dev/gemini-api/docs/live-guide?hl=vi">hướng dẫn về Live API</a> và <a href="https://ai.google.dev/gemini-api/docs/models/gemini-2.5-flash-live?hl=vi">Gemini 2.5 Flash Native Audio</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 11 tháng 12 năm 2025" id="12-11-2025" tabindex="-1">Ngày 11 tháng 12 năm 2025</h2>
+
+<ul>
+<li><p>Phát hành Interactions API ở giai đoạn thử nghiệm. API này cung cấp một giao diện hợp nhất để tương tác với các mô hình và tác nhân Gemini. Để tìm hiểu thêm, hãy xem hướng dẫn về <a href="https://ai.google.dev/gemini-api/docs/interactions?hl=vi">Interactions API</a>.</p></li>
+<li><p>Ra mắt Tác nhân Deep Research của Gemini ở chế độ xem trước. Tính năng này có thể tự động lên kế hoạch, thực thi và tổng hợp kết quả cho các tác vụ nghiên cứu nhiều bước. Xem hướng dẫn về tính năng <a href="https://ai.google.dev/gemini-api/docs/deep-research?hl=vi">Deep Research</a> để biết thông tin chi tiết.</p></li>
+</ul>
+
+<h2 data-text="Ngày 10 tháng 12 năm 2025" id="12-10-2025" tabindex="-1">Ngày 10 tháng 12 năm 2025</h2>
+
+<ul>
+<li>Ra mắt các điểm cải tiến cho <a href="https://ai.google.dev/gemini-api/docs/speech-generation?hl=vi">mô hình chuyển văn bản sang lời nói</a>, bản dùng thử Gemini 2.5 Flash TTS (được tối ưu hoá cho độ trễ thấp) và bản dùng thử Gemini 2.5 Pro TTS (được tối ưu hoá cho chất lượng), bao gồm khả năng diễn đạt nâng cao, tốc độ chính xác và đối thoại liền mạch.</li>
+</ul>
+
+<h2 data-text="Ngày 9 tháng 12 năm 2025" id="12-09-2025" tabindex="-1">Ngày 9 tháng 12 năm 2025</h2>
+
+<ul>
+<li>Các mô hình Gemini Live API sau đây hiện đã ngừng hoạt động:
+<ul>
+<li><code dir="ltr" translate="no">gemini-2.0-flash-live-001</code></li>
+<li><code dir="ltr" translate="no">gemini-live-2.5-flash-preview</code></li>
+</ul></li>
+</ul>
+
+<h2 data-text="Ngày 5 tháng 12 năm 2025" id="12-05-2025" tabindex="-1">Ngày 5 tháng 12 năm 2025</h2>
+
+<ul>
+<li>Gemini 3 sẽ bắt đầu tính phí cho tính năng <a href="https://ai.google.dev/gemini-api/docs/google-search?hl=vi">Bám sát nguồn bằng Google Tìm kiếm</a> từ ngày 5 tháng 1 năm 2026.</li>
+</ul>
+
+<h2 data-text="Ngày 4 tháng 12 năm 2025" id="12-04-2025" tabindex="-1">Ngày 4 tháng 12 năm 2025</h2>
+
+<ul>
+<li>Thông báo ngừng sử dụng: Mô hình <code dir="ltr" translate="no">gemini-2.5-flash-image-preview</code> sẽ ngừng hoạt động từ ngày 15 tháng 1 năm 2026.</li>
+</ul>
+
+<h2 data-text="Ngày 3 tháng 12 năm 2025" id="12-03-2025" tabindex="-1">Ngày 3 tháng 12 năm 2025</h2>
+
+<ul>
+<li>Thông báo ngừng cung cấp: Mô hình <code dir="ltr" translate="no">text-embedding-004</code> sẽ ngừng hoạt động vào ngày 14 tháng 1 năm 2026.</li>
+</ul>
+
+<h2 data-text="Ngày 20 tháng 11 năm 2025" id="11-20-2025" tabindex="-1">Ngày 20 tháng 11 năm 2025</h2>
+
+<ul>
+<li>Ra mắt bản xem trước hình ảnh của Gemini 3 Pro, <code dir="ltr" translate="no">gemini-3-pro-image-preview</code>, phiên bản tiếp theo của mô hình Nano Banana. Hãy đọc trang <a href="https://ai.google.dev/gemini-api/docs/image-generation?hl=vi">Tạo hình ảnh</a> để biết thêm thông tin chi tiết.</li>
+</ul>
+
+<h2 data-text="Ngày 18 tháng 11 năm 2025" id="11-18-2025" tabindex="-1">Ngày 18 tháng 11 năm 2025</h2>
+
+<ul>
+<li><p>Ra mắt mô hình đầu tiên thuộc dòng Gemini 3, <code dir="ltr" translate="no">gemini-3-pro-preview</code>, mô hình suy luận và hiểu biết đa phương thức tiên tiến của chúng tôi với khả năng lập trình và tác nhân mạnh mẽ.</p>
+
+<p>Ngoài những điểm cải tiến về trí thông minh và hiệu suất, Gemini 3 Pro Preview còn có hành vi mới liên quan đến:</p>
+
+<ul>
+<li><a href="https://ai.google.dev/gemini-api/docs/media-resolution?hl=vi">Độ phân giải của nội dung nghe nhìn</a></li>
+<li><a href="https://ai.google.dev/gemini-api/docs/thought-signatures?hl=vi">Chữ ký tư duy</a></li>
+<li><a href="https://ai.google.dev/gemini-api/docs/thinking?hl=vi#thinking-levels">Cấp độ tư duy</a></li>
+</ul>
+
+<p>Hãy đọc <a href="https://ai.google.dev/gemini-api/docs/gemini-3?hl=vi">Hướng dẫn dành cho nhà phát triển về Gemini 3</a> để biết thông tin về việc di chuyển, các tính năng mới và thông số kỹ thuật.</p></li>
+</ul>
+
+<h2 data-text="Ngày 11 tháng 11 năm 2025" id="11-11-2025" tabindex="-1">Ngày 11 tháng 11 năm 2025</h2>
+
+<ul>
+<li><p>Thông báo ngừng sử dụng: Các mô hình sau đây sẽ ngừng hoạt động:</p>
+
+<ul>
+<li><p>Ngày 12 tháng 11:</p>
+
+<ul>
+<li><code dir="ltr" translate="no">veo-3.0-fast-generate-preview</code></li>
+<li><code dir="ltr" translate="no">veo-3.0-generate-preview</code></li>
+</ul></li>
+<li><p>Ngày 14 tháng 11:</p>
+
+<ul>
+<li><code dir="ltr" translate="no">gemini-2.0-flash-exp-image-generation</code></li>
+<li><code dir="ltr" translate="no">gemini-2.0-flash-preview-image-generation</code></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<h2 data-text="Ngày 10 tháng 11 năm 2025" id="11-10-2025" tabindex="-1">Ngày 10 tháng 11 năm 2025</h2>
+
+<ul>
+<li><p>Mô hình sau đây sẽ ngừng hoạt động:</p>
+
+<ul>
+<li><code dir="ltr" translate="no">imagen-3.0-generate-002</code></li>
+</ul>
+
+<p>Thay vào đó, hãy sử dụng <a href="https://ai.google.dev/gemini-api/docs/imagen?hl=vi#imagen-4">Imagen 4</a>. Hãy tham khảo <a href="https://ai.google.dev/gemini-api/docs/deprecations?hl=vi">bảng Ngừng cung cấp Gemini</a> để biết thêm thông tin chi tiết.</p></li>
+</ul>
+
+<h2 data-text="Ngày 6 tháng 11 năm 2025" id="11-06-2025" tabindex="-1">Ngày 6 tháng 11 năm 2025</h2>
+
+<ul>
+<li>Ra mắt API Tìm kiếm tệp ở bản dùng thử công khai, cho phép nhà phát triển đưa ra các câu trả lời dựa trên dữ liệu của riêng họ. Hãy đọc trang <a href="https://ai.google.dev/gemini-api/docs/file-search?hl=vi">Tìm kiếm tệp</a> mới để biết thêm thông tin.</li>
+</ul>
+
+<h2 data-text="Ngày 4 tháng 11 năm 2025" id="11-04-2025" tabindex="-1">Ngày 4 tháng 11 năm 2025</h2>
+
+<ul>
+<li><p>Đối với <a href="https://ai.google.dev/gemini-api/docs/image-generation?hl=vi">Hình ảnh Gemini 2.5 Flash</a>, số lượng mã thông báo đầu vào cho hình ảnh đã giảm từ 1.290 xuống 258, giúp giảm chi phí chỉnh sửa hình ảnh.</p></li>
+<li><p>Thông báo ngừng sử dụng: Các mô hình sau đây sẽ ngừng hoạt động:</p>
+
+<ul>
+<li><p>Ngày 18 tháng 11:</p>
+
+<ul>
+<li><code dir="ltr" translate="no">gemini-2.5-flash-lite-preview-06-17</code></li>
+<li><code dir="ltr" translate="no">gemini-2.5-flash-preview-05-20</code></li>
+</ul></li>
+<li><p>Ngày 2 tháng 12:</p>
+
+<ul>
+<li><code dir="ltr" translate="no">gemini-2.0-flash-thinking-exp</code></li>
+<li><code dir="ltr" translate="no">gemini-2.0-flash-thinking-exp-01-21</code></li>
+<li><code dir="ltr" translate="no">gemini-2.0-flash-thinking-exp-1219</code></li>
+<li><code dir="ltr" translate="no">gemini-2.5-pro-preview-03-25</code></li>
+<li><code dir="ltr" translate="no">gemini-2.5-pro-preview-05-06</code></li>
+<li><code dir="ltr" translate="no">gemini-2.5-pro-preview-06-05</code></li>
+</ul></li>
+<li><p>Ngày 9 tháng 12:</p>
+
+<ul>
+<li><code dir="ltr" translate="no">gemini-2.0-flash-lite-preview</code></li>
+<li><code dir="ltr" translate="no">gemini-2.0-flash-lite-preview-02-05</code></li>
+<li><code dir="ltr" translate="no">gemini-2.0-flash-exp</code></li>
+<li><code dir="ltr" translate="no">gemini-2.0-pro-exp</code></li>
+<li><code dir="ltr" translate="no">gemini-2.0-pro-exp-02-05</code></li>
+</ul></li>
+</ul></li>
+</ul>
+
+<h2 data-text="Ngày 29 tháng 10 năm 2025" id="10-29-2025" tabindex="-1">Ngày 29 tháng 10 năm 2025</h2>
+
+<ul>
+<li>Ra mắt công cụ <a href="https://ai.google.dev/gemini-api/docs/logs-datasets?hl=vi">ghi nhật ký và tập dữ liệu</a> mới cho Gemini API.</li>
+</ul>
+
+<h2 data-text="Ngày 20 tháng 10 năm 2025" id="10-20-2025" tabindex="-1">Ngày 20 tháng 10 năm 2025</h2>
+
+<ul>
+<li><p>Các mô hình Gemini Live API sau đây hiện đã ngừng hoạt động:</p>
+
+<ul>
+<li><code dir="ltr" translate="no">gemini-2.5-flash-preview-native-audio-dialog</code></li>
+<li><code dir="ltr" translate="no">gemini-2.5-flash-exp-native-audio-thinking-dialog</code></li>
+</ul>
+
+<p>Bạn có thể sử dụng <code dir="ltr" translate="no">gemini-2.5-flash-native-audio-preview-09-2025</code> thay thế.</p></li>
+<li><p>Thông báo ngừng hoạt động: <code dir="ltr" translate="no">gemini-2.0-flash-live-001</code> và <code dir="ltr" translate="no">gemini-live-2.5-flash-preview</code> sẽ ngừng hoạt động từ ngày 9 tháng 12 năm 2025.</p></li>
+</ul>
+
+<h2 data-text="Ngày 17 tháng 10 năm 2025" id="10-17-2025" tabindex="-1">Ngày 17 tháng 10 năm 2025</h2>
+
+<ul>
+<li>Tính năng <strong>Kết nối với Google Maps</strong> hiện đã được cung cấp rộng rãi. Để biết thêm thông tin, hãy xem tài liệu <a href="https://ai.google.dev/gemini-api/docs/maps-grounding?hl=vi">Kết nối với Google Maps</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 15 tháng 10 năm 2025" id="10-15-2025" tabindex="-1">Ngày 15 tháng 10 năm 2025</h2>
+
+<ul>
+<li><p>Ra mắt các mô hình <a href="https://ai.google.dev/gemini-api/docs/video?hl=vi#veo-3.1">Veo 3.1 và 3.1 Fast</a> trong bản dùng thử công khai, với các tính năng mới như:</p>
+
+<ul>
+<li>Kéo dài thời lượng của video do Veo tạo.</li>
+<li>Tham khảo tối đa 3 hình ảnh để tạo video.</li>
+<li>Cung cấp hình ảnh khung hình đầu tiên và cuối cùng để tạo video.</li>
+</ul>
+
+<p>Việc ra mắt này cũng bổ sung thêm các lựa chọn về thời lượng video đầu ra của Veo 3: 4, 6 và 8 giây.</p></li>
+<li><p>Thông báo ngừng hoạt động: <code dir="ltr" translate="no">veo-3.0-generate-preview</code> và <code dir="ltr" translate="no">veo-3.0-fast-generate-preview</code> sẽ ngừng hoạt động từ ngày 12 tháng 11 năm 2025.</p></li>
+</ul>
+
+<h2 data-text="Ngày 7 tháng 10 năm 2025" id="10-07-2025" tabindex="-1">Ngày 7 tháng 10 năm 2025</h2>
+
+<ul>
+<li>Ra mắt <a href="https://ai.google.dev/gemini-api/docs/computer-use?hl=vi">Gemini 2.5 Computer Use Preview</a></li>
+</ul>
+
+<h2 data-text="Ngày 2 tháng 10 năm 2025" id="10-02-2025" tabindex="-1">Ngày 2 tháng 10 năm 2025</h2>
+
+<ul>
+<li>Ra mắt phiên bản ổn định của tính năng Tạo hình ảnh bằng Gemini 2.5 Flash: <a href="https://ai.google.dev/gemini-api/docs/image-generation?hl=vi">Tạo hình ảnh bằng Gemini</a></li>
+</ul>
+
+<h2 data-text="Ngày 29 tháng 9 năm 2025" id="09-29-2025" tabindex="-1">Ngày 29 tháng 9 năm 2025</h2>
+
+<ul>
+<li>Các mô hình Gemini 1.5 sau đây hiện đã ngừng hoạt động:
+<ul>
+<li><code dir="ltr" translate="no">gemini-1.5-pro</code></li>
+<li><code dir="ltr" translate="no">gemini-1.5-flash-8b</code></li>
+<li><code dir="ltr" translate="no">gemini-1.5-flash</code></li>
+</ul></li>
+</ul>
+
+<h2 data-text="Ngày 25 tháng 9 năm 2025" id="09-25-2025" tabindex="-1">Ngày 25 tháng 9 năm 2025</h2>
+
+<ul>
+<li><p>Phát hành mô hình Gemini Robotics-ER 1.5 ở chế độ xem trước. Hãy xem <a href="https://ai.google.dev/gemini-api/docs/robotics-overview?hl=vi">Tổng quan về Robotics</a> để tìm hiểu cách sử dụng mô hình này cho ứng dụng Robotics của bạn.</p></li>
+<li><p>Ra mắt các mô hình xem trước sau đây:</p>
+
+<ul>
+<li><code dir="ltr" translate="no">gemini-2.5-flash-preview-09-2025</code></li>
+<li><code dir="ltr" translate="no">gemini-2.5-flash-lite-preview-09-2025</code></li>
+</ul>
+
+<p>Hãy xem trang <a href="https://ai.google.dev/gemini-api/docs/models?hl=vi">Mô hình</a> để biết thông tin chi tiết.</p></li>
+</ul>
+
+<h2 data-text="Ngày 23 tháng 9 năm 2025" id="09-23-2025" tabindex="-1">Ngày 23 tháng 9 năm 2025</h2>
+
+<ul>
+<li>Phát hành <code dir="ltr" translate="no">gemini-2.5-flash-native-audio-preview-09-2025</code>, một mô hình âm thanh gốc mới cho Live API với chức năng gọi được cải thiện và khả năng xử lý việc cắt lời. Để tìm hiểu thêm, hãy xem <a href="https://ai.google.dev/gemini-api/docs/live-guide?hl=vi">hướng dẫn về Live API</a> và <a href="https://ai.google.dev/gemini-api/docs/models?hl=vi#gemini-2.5-flash-native-audio">Gemini 2.5 Flash Native Audio</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 16 tháng 9 năm 2025" id="09-16-2025" tabindex="-1">Ngày 16 tháng 9 năm 2025</h2>
+
+<ul>
+<li><p>Thông báo ngừng sử dụng: Các mô hình sau đây sẽ ngừng hoạt động vào tháng 10 năm 2025:</p>
+
+<ul>
+<li><code dir="ltr" translate="no">embedding-001</code></li>
+<li><code dir="ltr" translate="no">embedding-gecko-001</code></li>
+<li><code dir="ltr" translate="no">gemini-embedding-exp-03-07</code> (<code dir="ltr" translate="no">gemini-embedding-exp</code>)</li>
+</ul>
+
+<p>Hãy xem trang <a href="https://ai.google.dev/gemini-api/docs/embeddings?hl=vi">Nhúng</a> để biết thông tin chi tiết về mô hình nhúng mới nhất.</p></li>
+</ul>
+
+<h2 data-text="Ngày 10 tháng 9 năm 2025" id="09-10-2025" tabindex="-1">Ngày 10 tháng 9 năm 2025</h2>
+
+<ul>
+<li>Phát hành tính năng hỗ trợ cho <a href="https://ai.google.dev/gemini-api/docs/batch-api?hl=vi#batch-embedding">mô hình Nhúng trong Batch API</a> và thêm Batch API vào <a href="https://ai.google.dev/gemini-api/docs/openai?hl=vi#batch">thư viện tương thích với OpenAI</a> để dễ dàng bắt đầu với các truy vấn theo lô.</li>
+</ul>
+
+<h2 data-text="Ngày 9 tháng 9 năm 2025" id="09-09-2025" tabindex="-1">Ngày 9 tháng 9 năm 2025</h2>
+
+<ul>
+<li>Ra mắt Veo 3 và Veo 3 Fast phiên bản chính thức, với mức giá thấp hơn và các lựa chọn mới về tỷ lệ khung hình, độ phân giải và tính năng gieo mầm. Hãy đọc <a href="https://ai.google.dev/gemini-api/docs/video?hl=vi#model-features">tài liệu về Veo</a> để biết thêm thông tin.</li>
+</ul>
+
+<h2 data-text="Ngày 26 tháng 8 năm 2025" id="08-26-2025" tabindex="-1">Ngày 26 tháng 8 năm 2025</h2>
+
+<ul>
+<li>Ra mắt <a href="https://ai.google.dev/gemini-api/docs/models?hl=vi#gemini-2.5-flash-image-preview">Gemini 2.5 Image Preview</a>, mô hình tạo hình ảnh gốc mới nhất của chúng tôi.</li>
+</ul>
+
+<h2 data-text="Ngày 18 tháng 8 năm 2025" id="08-18-2025" tabindex="-1">Ngày 18 tháng 8 năm 2025</h2>
+
+<ul>
+<li>Phát hành <a href="https://ai.google.dev/gemini-api/docs/url-context?hl=vi">công cụ bối cảnh URL</a> cho phiên bản cung cấp công khai (GA), đây là một công cụ cung cấp URL làm bối cảnh bổ sung cho câu lệnh. Chúng tôi sẽ ngừng hỗ trợ việc sử dụng ngữ cảnh URL với mô hình <code dir="ltr" translate="no">gemini-2.0-flash</code> (có trong bản phát hành thử nghiệm) sau một tuần nữa.</li>
+</ul>
+
+<h2 data-text="Ngày 14 tháng 8 năm 2025" id="08-14-2025" tabindex="-1">Ngày 14 tháng 8 năm 2025</h2>
+
+<ul>
+<li>Phát hành các mô hình Imagen 4 Ultra, Standard và Fast ở giai đoạn phát hành rộng rãi (GA). Để tìm hiểu thêm, hãy xem trang <a href="https://ai.google.dev/gemini-api/docs/imagen?hl=vi">Imagen</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 7 tháng 8 năm 2025" id="08-07-2025" tabindex="-1">Ngày 7 tháng 8 năm 2025</h2>
+
+<ul>
+<li>Hiện tại, chế độ cài đặt <code dir="ltr" translate="no">allow_adult</code> trong tính năng tạo Video từ hình ảnh đã có ở những khu vực bị hạn chế. Hãy xem trang <a href="https://ai.google.dev/gemini-api/docs/video?example=dialogue&hl=vi#veo-model-parameters">Veo</a> để biết thông tin chi tiết.</li>
+</ul>
+
+<h2 data-text="Ngày 31 tháng 7 năm 2025" id="07-31-2025" tabindex="-1">Ngày 31 tháng 7 năm 2025</h2>
+
+<ul>
+<li>Ra mắt tính năng tạo video từ hình ảnh cho mô hình Veo 3 (bản dùng thử).</li>
+<li>Phát hành mô hình Veo 3 Fast Preview.</li>
+<li>Để tìm hiểu thêm về Veo 3, hãy truy cập vào trang <a href="https://ai.google.dev/gemini-api/docs/video?hl=vi">Veo</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 22 tháng 7 năm 2025" id="07-22-2025" tabindex="-1">Ngày 22 tháng 7 năm 2025</h2>
+
+<ul>
+<li>Phát hành <code dir="ltr" translate="no">gemini-2.5-flash-lite</code>, mô hình Gemini 2.5 có tốc độ nhanh, chi phí thấp và hiệu suất cao. Để tìm hiểu thêm, hãy xem <a href="https://ai.google.dev/gemini-api/docs/models?hl=vi#gemini-2.5-flash-lite">Gemini 2.5 Flash-Lite</a>.</li>
+</ul>
+
+<h2 data-text="July 17, 2025" id="07-17-2025" tabindex="-1">July 17, 2025</h2>
+
+<ul>
+<li><p>Ra mắt <code dir="ltr" translate="no">veo-3.0-generate-preview</code>, bản cập nhật mới nhất cho Veo, bổ sung tính năng tạo video có âm thanh. Để tìm hiểu thêm về Veo 3, hãy truy cập vào trang <a href="https://ai.google.dev/gemini-api/docs/video?hl=vi">Veo</a>.</p></li>
+<li><p>Tăng hạn mức tốc độ cho Imagen 4 Standard và Ultra. Hãy truy cập vào trang <a href="https://ai.google.dev/gemini-api/docs/rate-limits?hl=vi">Giới hạn về tốc độ</a> để biết thêm thông tin chi tiết.</p></li>
+</ul>
+
+<h2 data-text="Ngày 14 tháng 7 năm 2025" id="07-14-2025" tabindex="-1">Ngày 14 tháng 7 năm 2025</h2>
+
+<ul>
+<li>Phát hành <code dir="ltr" translate="no">gemini-embedding-001</code>, phiên bản ổn định của mô hình nhúng văn bản. Để tìm hiểu thêm, hãy xem bài viết về <a href="https://ai.google.dev/gemini-api/docs/embeddings?hl=vi">các vectơ nhúng</a>. Mô hình <code dir="ltr" translate="no">gemini-embedding-exp-03-07</code>
+sẽ ngừng hoạt động từ ngày 14 tháng 8 năm 2025.</li>
+</ul>
+
+<h2 data-text="Ngày 7 tháng 7 năm 2025" id="07-07-2025" tabindex="-1">Ngày 7 tháng 7 năm 2025</h2>
+
+<ul>
+<li>Ra mắt Chế độ xử lý theo lô của Gemini API. Gộp các yêu cầu và gửi chúng để xử lý không đồng bộ. Để tìm hiểu thêm, hãy xem phần <a href="https://ai.google.dev/gemini-api/docs/batch-mode?hl=vi">Chế độ hàng loạt</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 26 tháng 6 năm 2025" id="06-26-2025" tabindex="-1">Ngày 26 tháng 6 năm 2025</h2>
+
+<ul>
+<li><p>Các mô hình xem trước <code dir="ltr" translate="no">gemini-2.5-pro-preview-05-06</code> và <code dir="ltr" translate="no">gemini-2.5-pro-preview-03-25</code> hiện đang chuyển hướng đến phiên bản ổn định mới nhất <code dir="ltr" translate="no">gemini-2.5-pro</code>.</p></li>
+<li><p><code dir="ltr" translate="no">gemini-2.5-pro-exp-03-25</code> đã tắt.</p></li>
+</ul>
+
+<h2 data-text="Ngày 24 tháng 6 năm 2025" id="06-24-2025" tabindex="-1">Ngày 24 tháng 6 năm 2025</h2>
+
+<ul>
+<li>Phát hành các mô hình Xem trước tiêu chuẩn và Ultra của Imagen 4. Để tìm hiểu thêm, hãy xem trang <a href="https://ai.google.dev/gemini-api/docs/image-generation?hl=vi">Tạo hình ảnh</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 17 tháng 6 năm 2025" id="06-17-2025" tabindex="-1">Ngày 17 tháng 6 năm 2025</h2>
+
+<ul>
+<li>Phát hành <code dir="ltr" translate="no">gemini-2.5-pro</code>, phiên bản ổn định của mô hình mạnh mẽ nhất của chúng tôi, hiện có khả năng tư duy thích ứng. Để tìm hiểu thêm, hãy xem <a href="https://ai.google.dev/gemini-api/docs/models?hl=vi#gemini-2.5-pro">Gemini 2.5 Pro</a> và <a href="https://ai.google.dev/gemini-api/docs/thinking?hl=vi">Tư duy</a>. <code dir="ltr" translate="no">gemini-2.5-pro-preview-05-06</code> sẽ được chuyển hướng đến <code dir="ltr" translate="no">gemini-2.5-pro</code> vào ngày 26 tháng 6 năm 2025.</li>
+<li>Phát hành <code dir="ltr" translate="no">gemini-2.5-flash</code>, mô hình 2.5 Flash ổn định đầu tiên của chúng tôi. Để tìm hiểu thêm, hãy xem <a href="https://ai.google.dev/gemini-api/docs/models?hl=vi#gemini-2.5-flash">Gemini 2.5 Flash</a>.
+<code dir="ltr" translate="no">gemini-2.5-flash-preview-04-17</code> sẽ ngừng hoạt động kể từ ngày 15 tháng 7 năm 2025.</li>
+<li>Phát hành <code dir="ltr" translate="no">gemini-2.5-flash-lite-preview-06-17</code>, một mô hình Gemini 2.5 hiệu suất cao với chi phí thấp. Để tìm hiểu thêm, hãy xem phần <a href="https://ai.google.dev/gemini-api/docs/models?hl=vi#gemini-2.5-flash-lite">Bản xem trước Gemini 2.5 Flash-Lite</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 5 tháng 6 năm 2025" id="06-05-2025" tabindex="-1">Ngày 5 tháng 6 năm 2025</h2>
+
+<ul>
+<li>Phát hành <code dir="ltr" translate="no">gemini-2.5-pro-preview-06-05</code>, một phiên bản mới của mô hình mạnh mẽ nhất của chúng tôi, hiện có khả năng tư duy thích ứng. Để tìm hiểu thêm, hãy xem phần <a href="https://ai.google.dev/gemini-api/docs/models?hl=vi#gemini-2.5-pro-preview-06-05">Bản dùng thử Gemini 2.5 Pro</a> và <a href="https://ai.google.dev/gemini-api/docs/thinking?hl=vi">Tư duy</a>.
+<code dir="ltr" translate="no">gemini-2.5-pro-preview-05-06</code> sẽ được chuyển hướng đến <code dir="ltr" translate="no">gemini-2.5-pro</code> vào ngày 26 tháng 6 năm 2025.</li>
+</ul>
+
+<h2 data-text="Ngày 27 tháng 5 năm 2025" id="05-27-2025" tabindex="-1">Ngày 27 tháng 5 năm 2025</h2>
+
+<ul>
+<li>Mô hình điều chỉnh cuối cùng có sẵn là Gemini 1.5 Flash 001 đã ngừng hoạt động.
+Tính năng điều chỉnh không còn được hỗ trợ trên bất kỳ mô hình nào.
+Xem phần <a href="https://ai.google.dev/gemini-api/docs/model-tuning?hl=vi">Tinh chỉnh bằng Gemini API</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 20 tháng 5 năm 2025" id="05-20-2025" tabindex="-1">Ngày 20 tháng 5 năm 2025</h2>
+
+<p><strong>Các bản cập nhật API:</strong></p>
+
+<ul>
+<li>Ra mắt tính năng hỗ trợ <a href="https://ai.google.dev/gemini-api/docs/video-understanding?hl=vi#customize-video-processing">xử lý trước video tuỳ chỉnh</a> bằng cách sử dụng các khoảng thời gian cắt và lấy mẫu tốc độ khung hình có thể định cấu hình.</li>
+<li>Ra mắt tính năng sử dụng nhiều công cụ, hỗ trợ việc định cấu hình <a href="https://ai.google.dev/gemini-api/docs/code-execution?hl=vi">thực thi mã</a> và <a href="https://ai.google.dev/gemini-api/docs/grounding?hl=vi">Bám sát nguồn bằng Google Tìm kiếm</a> trên cùng một yêu cầu <code dir="ltr" translate="no">generateContent</code>.</li>
+<li>Ra mắt tính năng hỗ trợ <a href="https://ai.google.dev/gemini-api/docs/live-tools?hl=vi#async-function-calling">các lệnh gọi hàm không đồng bộ</a> trong Live API.</li>
+<li>Ra mắt <a href="https://ai.google.dev/gemini-api/docs/url-context?hl=vi">công cụ bối cảnh URL</a> thử nghiệm để cung cấp URL làm bối cảnh bổ sung cho câu lệnh.</li>
+</ul>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>Phát hành <code dir="ltr" translate="no">gemini-2.5-flash-preview-05-20</code>, một mô hình <a href="https://ai.google.dev/gemini-api/docs/models?hl=vi#model-versions">xem trước</a> Gemini được tối ưu hoá về hiệu suất và khả năng tư duy thích ứng. Để tìm hiểu thêm, hãy xem phần <a href="https://ai.google.dev/gemini-api/docs/models?hl=vi#gemini-2.5-flash-preview">Bản dùng thử Gemini 2.5 Flash</a> và <a href="https://ai.google.dev/gemini-api/docs/thinking?hl=vi">Suy nghĩ</a>.</li>
+<li>Phát hành các mô hình <a href="https://ai.google.dev/gemini-api/docs/models?hl=vi#gemini-2.5-pro-preview-tts"><code dir="ltr" translate="no">gemini-2.5-pro-preview-tts</code></a> và <a href="https://ai.google.dev/gemini-api/docs/models?hl=vi#gemini-2.5-flash-preview-tts"><code dir="ltr" translate="no">gemini-2.5-flash-preview-tts</code></a> có khả năng <a href="https://ai.google.dev/gemini-api/docs/speech-generation?hl=vi">tạo lời nói</a> với một hoặc hai người nói.</li>
+<li>Phát hành mô hình <code dir="ltr" translate="no">lyria-realtime-exp</code>, có khả năng <a href="https://ai.google.dev/gemini-api/docs/music-generation?hl=vi">tạo nhạc</a> theo thời gian thực.</li>
+<li>Phát hành <code dir="ltr" translate="no">gemini-2.5-flash-preview-native-audio-dialog</code> và <code dir="ltr" translate="no">gemini-2.5-flash-exp-native-audio-thinking-dialog</code>, các mô hình Gemini mới cho Live API có khả năng đầu ra âm thanh gốc. Để tìm hiểu thêm, hãy xem <a href="https://ai.google.dev/gemini-api/docs/live-guide?hl=vi#native-audio-output">hướng dẫn về Live API</a> và <a href="https://ai.google.dev/gemini-api/docs/models?hl=vi#gemini-2.5-flash-native-audio">Gemini 2.5 Flash Native Audio</a>.</li>
+<li>Phát hành bản xem trước <code dir="ltr" translate="no">gemma-3n-e4b-it</code>, có trên <a href="https://aistudio.google.com?hl=vi">AI Studio</a> và thông qua Gemini API, trong khuôn khổ việc ra mắt <a href="https://ai.google.dev/gemma/docs/3n?hl=vi">Gemma 3n</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 7 tháng 5 năm 2025" id="05-07-2025" tabindex="-1">Ngày 7 tháng 5 năm 2025</h2>
+
+<ul>
+<li>Phát hành <code dir="ltr" translate="no">gemini-2.0-flash-preview-image-generation</code>, một mô hình xem trước để tạo và chỉnh sửa hình ảnh. Để tìm hiểu thêm, hãy xem phần <a href="https://ai.google.dev/gemini-api/docs/image-generation?hl=vi">Tạo hình ảnh</a> và <a href="https://ai.google.dev/gemini-api/docs/models?hl=vi#gemini-2.0-flash-preview-image-generation">Tính năng tạo hình ảnh của Gemini 2.0 Flash (bản dùng thử)</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 6 tháng 5 năm 2025" id="05-06-2025" tabindex="-1">Ngày 6 tháng 5 năm 2025</h2>
+
+<ul>
+<li>Phát hành <code dir="ltr" translate="no">gemini-2.5-pro-preview-05-06</code>, một phiên bản mới của mô hình mạnh mẽ nhất của chúng tôi, với những điểm cải tiến về mã và lệnh gọi hàm. <code dir="ltr" translate="no">gemini-2.5-pro-preview-03-25</code>sẽ tự động trỏ đến phiên bản mới của mô hình.</li>
+</ul>
+
+<h2 data-text="Ngày 17 tháng 4 năm 2025" id="04-17-2025" tabindex="-1">Ngày 17 tháng 4 năm 2025</h2>
+
+<ul>
+<li>Phát hành <code dir="ltr" translate="no">gemini-2.5-flash-preview-04-17</code>, một mô hình <a href="https://ai.google.dev/gemini-api/docs/models?hl=vi#model-versions">xem trước</a> Gemini được tối ưu hoá về hiệu suất và khả năng tư duy thích ứng. Để tìm hiểu thêm, hãy xem phần <a href="https://ai.google.dev/gemini-api/docs/models?hl=vi#gemini-2.5-flash-preview">Bản dùng thử Gemini 2.5 Flash</a> và <a href="https://ai.google.dev/gemini-api/docs/thinking?hl=vi">Suy nghĩ</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 16 tháng 4 năm 2025" id="04-16-2025" tabindex="-1">Ngày 16 tháng 4 năm 2025</h2>
+
+<ul>
+<li>Ra mắt tính năng lưu vào bộ nhớ đệm theo bối cảnh cho <a href="https://ai.google.dev/gemini-api/docs/models?hl=vi#gemini-2.0-flash">Gemini 2.0 Flash</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 9 tháng 4 năm 2025" id="04-09-2025" tabindex="-1">Ngày 9 tháng 4 năm 2025</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>Phát hành <code dir="ltr" translate="no">veo-2.0-generate-001</code>, một mô hình chuyển văn bản và hình ảnh sang video ở giai đoạn phát hành rộng rãi (GA), có khả năng tạo ra những video chi tiết và giàu sắc thái nghệ thuật. Để tìm hiểu thêm, hãy xem <a href="https://ai.google.dev/gemini-api/docs/video?hl=vi">tài liệu về Veo</a>.</li>
+<li><p>Phát hành <code dir="ltr" translate="no">gemini-2.0-flash-live-001</code>, một phiên bản xem trước công khai của mô hình <a href="https://ai.google.dev/gemini-api/docs/live?hl=vi">Live API</a> có bật tính năng thanh toán.</p>
+
+<ul>
+<li><p><strong>Quản lý phiên và độ tin cậy nâng cao</strong></p>
+
+<ul>
+<li><strong>Tiếp tục phiên:</strong> Duy trì phiên hoạt động trong thời gian mạng bị gián đoạn tạm thời. API này hiện hỗ trợ tính năng lưu trữ trạng thái phiên phía máy chủ (tối đa 24 giờ) và cung cấp các hàm (session_resumption) để kết nối lại và tiếp tục từ nơi bạn đã dừng.</li>
+<li><strong>Phiên dài hơn thông qua tính năng nén ngữ cảnh:</strong> Cho phép các lượt tương tác kéo dài hơn giới hạn thời gian trước đó. Định cấu hình tính năng nén cửa sổ ngữ cảnh bằng cơ chế cửa sổ trượt để tự động quản lý độ dài ngữ cảnh, ngăn chặn việc kết thúc đột ngột do giới hạn ngữ cảnh.</li>
+<li><strong>Thông báo ngắt kết nối một cách êm ái:</strong> Nhận thông báo từ máy chủ <code dir="ltr" translate="no">GoAway</code> cho biết thời điểm một kết nối sắp đóng, cho phép xử lý một cách êm ái trước khi kết thúc.</li>
+</ul></li>
+<li><p><strong>Kiểm soát nhiều hơn đối với động lực tương tác</strong></p></li>
+<li><p><strong>Tính năng phát hiện hoạt động bằng giọng nói (VAD) có thể định cấu hình:</strong> Chọn mức độ nhạy hoặc tắt hoàn toàn tính năng VAD tự động và sử dụng các sự kiện mới của ứng dụng (<code dir="ltr" translate="no">activityStart</code>, <code dir="ltr" translate="no">activityEnd</code>) để điều khiển lượt theo cách thủ công.</p></li>
+<li><p><strong>Xử lý gián đoạn có thể định cấu hình:</strong> Quyết định xem hoạt động đầu vào của người dùng có nên làm gián đoạn phản hồi của mô hình hay không.</p></li>
+<li><p><strong>Phạm vi phủ sóng có thể định cấu hình:</strong> Chọn xem API xử lý liên tục tất cả dữ liệu đầu vào âm thanh và video hay chỉ ghi lại dữ liệu đầu vào khi phát hiện thấy người dùng cuối đang nói.</p></li>
+<li><p><strong>Độ phân giải nội dung nghe nhìn có thể định cấu hình:</strong> Tối ưu hoá chất lượng hoặc mức sử dụng mã thông báo bằng cách chọn độ phân giải cho nội dung nghe nhìn đầu vào.</p></li>
+<li><p><strong>Đầu ra và tính năng phong phú hơn</strong></p></li>
+<li><p><strong>Mở rộng lựa chọn về giọng nói và ngôn ngữ:</strong> Chọn trong số 2 giọng nói mới và 30 ngôn ngữ mới cho đầu ra âm thanh. Giờ đây, bạn có thể định cấu hình ngôn ngữ đầu ra trong <code dir="ltr" translate="no">speechConfig</code>.</p></li>
+<li><p><strong>Truyền trực tuyến văn bản:</strong> Nhận phản hồi bằng văn bản theo từng phần khi văn bản được tạo, giúp hiển thị nhanh hơn cho người dùng.</p></li>
+<li><p><strong>Báo cáo mức sử dụng mã thông báo:</strong> Nắm được thông tin chi tiết về mức sử dụng với số lượng mã thông báo chi tiết được cung cấp trong trường <code dir="ltr" translate="no">usageMetadata</code> của thông báo máy chủ, được phân tích theo phương thức và giai đoạn câu lệnh hoặc câu trả lời.</p></li>
+</ul></li>
+</ul>
+
+<h2 data-text="Ngày4 tháng 4 năm 2025" id="04-04-2025" tabindex="-1">Ngày4 tháng 4 năm 2025</h2>
+
+<ul>
+<li>Phát hành <code dir="ltr" translate="no">gemini-2.5-pro-preview-03-25</code>, phiên bản Gemini 2.5 Pro dùng thử công khai có tính năng thanh toán. Bạn có thể tiếp tục sử dụng <code dir="ltr" translate="no">gemini-2.5-pro-exp-03-25</code> ở cấp miễn phí.</li>
+</ul>
+
+<h2 data-text="Ngày 25 tháng 3 năm 2025" id="03-25-2025" tabindex="-1">Ngày 25 tháng 3 năm 2025</h2>
+
+<ul>
+<li>Phát hành <code dir="ltr" translate="no">gemini-2.5-pro-exp-03-25</code>, một mô hình Gemini thử nghiệm công khai với chế độ tư duy luôn bật theo mặc định.
+Để tìm hiểu thêm, hãy xem phần <a href="https://ai.google.dev/gemini-api/docs/models?hl=vi#gemini-2.5-pro-preview-03-25">Gemini 2.5 Pro (thử nghiệm)</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 12 tháng 3 năm 2025" id="03-12-2025" tabindex="-1">Ngày 12 tháng 3 năm 2025</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>Ra mắt mô hình thử nghiệm <a href="https://ai.google.dev/gemini-api/docs/image-generation?hl=vi#gemini">Gemini 2.0 Flash</a> có khả năng tạo và chỉnh sửa hình ảnh.</li>
+<li>Được phát hành <code dir="ltr" translate="no">gemma-3-27b-it</code>, có trên <a href="https://aistudio.google.com?hl=vi">AI Studio</a> và thông qua Gemini API, trong khuôn khổ việc ra mắt <a href="https://ai.google.dev/gemma/docs/core?hl=vi">Gemma 3</a>.</li>
+</ul>
+
+<p><strong>Các bản cập nhật API:</strong></p>
+
+<ul>
+<li>Thêm tính năng hỗ trợ cho <a href="https://ai.google.dev/gemini-api/docs/vision?hl=vi#youtube">URL YouTube</a> làm nguồn nội dung nghe nhìn.</li>
+<li>Đã thêm tính năng hỗ trợ để đưa <a href="https://ai.google.dev/gemini-api/docs/vision?hl=vi#inline-video">video nội tuyến</a> có kích thước dưới 20 MB vào.</li>
+</ul>
+
+<h2 data-text="Ngày 11 tháng 3 năm 2025" id="03-11-2025" tabindex="-1">Ngày 11 tháng 3 năm 2025</h2>
+
+<p><strong>Nội dung cập nhật đối với SDK:</strong></p>
+
+<ul>
+<li>Phát hành <a href="https://googleapis.github.io/js-genai">Google Gen AI SDK cho TypeScript và JavaScript</a> ở chế độ xem trước công khai.</li>
+</ul>
+
+<h2 data-text="Ngày 7 tháng 3 năm 2025" id="03-07-2025" tabindex="-1">Ngày 7 tháng 3 năm 2025</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>Phát hành <code dir="ltr" translate="no">gemini-embedding-exp-03-07</code>, một mô hình nhúng dựa trên Gemini <a href="https://ai.google.dev/gemini-api/docs/models/experimental-models?hl=vi">thử nghiệm</a> trong bản dùng thử công khai.</li>
+</ul>
+
+<h2 data-text="Ngày 28 tháng 2 năm 2025" id="02-28-2025" tabindex="-1">Ngày 28 tháng 2 năm 2025</h2>
+
+<p><strong>Các bản cập nhật API:</strong></p>
+
+<ul>
+<li>Hỗ trợ tính năng <a href="https://ai.google.dev/gemini-api/docs/grounding?hl=vi">Tìm kiếm dưới dạng công cụ</a> được thêm vào <code dir="ltr" translate="no">gemini-2.0-pro-exp-02-05</code>, một mô hình thử nghiệm dựa trên Gemini 2.0 Pro.</li>
+</ul>
+
+<h2 data-text="Ngày 25 tháng 2 năm 2025" id="02-25-2025" tabindex="-1">Ngày 25 tháng 2 năm 2025</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>Phát hành <code dir="ltr" translate="no">gemini-2.0-flash-lite</code>, một phiên bản phát hành rộng rãi (GA) của <a href="https://ai.google.dev/gemini-api/docs/models/gemini?hl=vi#gemini-2.0-flash-lite">Gemini 2.0 Flash-Lite</a>, được tối ưu hoá về tốc độ, quy mô và hiệu quả chi phí.</li>
+</ul>
+
+<h2 data-text="Ngày 19 tháng 2 năm 2025" id="02-19-2025" tabindex="-1">Ngày 19 tháng 2 năm 2025</h2>
+
+<p><strong>Tin cập nhật về AI Studio:</strong></p>
+
+<ul>
+<li>Hỗ trợ <a href="https://ai.google.dev/gemini-api/docs/available-regions?hl=vi">các khu vực khác</a> (Kosovo, Greenland và Quần đảo Faroe).</li>
+</ul>
+
+<p><strong>Các bản cập nhật API:</strong></p>
+
+<ul>
+<li>Hỗ trợ <a href="https://ai.google.dev/gemini-api/docs/available-regions?hl=vi">các khu vực khác</a> (Kosovo, Greenland và Quần đảo Faroe).</li>
+</ul>
+
+<h2 data-text="Ngày 18 tháng 2 năm 2025" id="02-18-2025" tabindex="-1">Ngày 18 tháng 2 năm 2025</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>Gemini 1.0 Pro không còn được hỗ trợ nữa. Để biết danh sách các mô hình được hỗ trợ, hãy xem phần <a href="https://ai.google.dev/gemini-api/docs/models/gemini?hl=vi">Các mô hình Gemini</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 11 tháng 2 năm 2025" id="02-11-2025" tabindex="-1">Ngày 11 tháng 2 năm 2025</h2>
+
+<p><strong>Các bản cập nhật API:</strong></p>
+
+<ul>
+<li>Thông tin cập nhật về <a href="https://ai.google.dev/gemini-api/docs/openai?hl=vi">khả năng tương thích của các thư viện OpenAI</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 6 tháng 2 năm 2025" id="02-06-2025" tabindex="-1">Ngày 6 tháng 2 năm 2025</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>Phát hành <code dir="ltr" translate="no">imagen-3.0-generate-002</code>, một phiên bản được cung cấp rộng rãi (GA) của <a href="https://ai.google.dev/gemini-api/docs/imagen?hl=vi">Imagen 3 trong Gemini API</a>.</li>
+</ul>
+
+<p><strong>Nội dung cập nhật đối với SDK:</strong></p>
+
+<ul>
+<li>Phát hành <a href="https://github.com/googleapis/java-genai">Google Gen AI SDK cho Java</a> để dùng thử công khai.</li>
+</ul>
+
+<h2 data-text="Ngày 5 tháng 2 năm 2025" id="02-05-2025" tabindex="-1">Ngày 5 tháng 2 năm 2025</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>Phát hành <code dir="ltr" translate="no">gemini-2.0-flash-001</code>, phiên bản phát hành rộng rãi (GA) của <a href="https://ai.google.dev/gemini-api/docs/models/gemini?hl=vi#gemini-2.0-flash">Gemini 2.0 Flash</a> hỗ trợ đầu ra chỉ có văn bản.</li>
+<li>Phát hành <code dir="ltr" translate="no">gemini-2.0-pro-exp-02-05</code>, phiên bản xem trước công khai <a href="https://ai.google.dev/gemini-api/docs/models/experimental-models?hl=vi">thử nghiệm</a> của Gemini 2.0 Pro.</li>
+<li>Phát hành <code dir="ltr" translate="no">gemini-2.0-flash-lite-preview-02-05</code>, một <a href="https://ai.google.dev/gemini-api/docs/models/gemini?hl=vi#gemini-2.0-flash-lite">mô hình</a> xem trước công khai thử nghiệm được tối ưu hoá để mang lại hiệu quả chi phí.</li>
+</ul>
+
+<p><strong>Các bản cập nhật API:</strong></p>
+
+<ul>
+<li>Thêm tính năng hỗ trợ <a href="https://ai.google.dev/gemini-api/docs/code-execution?hl=vi#input-output">đầu vào tệp và đầu ra đồ thị</a> vào quá trình thực thi mã.</li>
+</ul>
+
+<p><strong>Nội dung cập nhật đối với SDK:</strong></p>
+
+<ul>
+<li>Phát hành <a href="https://googleapis.github.io/python-genai/">Google Gen AI SDK cho Python</a> cho giai đoạn phát hành rộng rãi (GA).</li>
+</ul>
+
+<h2 data-text="Ngày 21 tháng 1 năm 2025" id="01-21-2025" tabindex="-1">Ngày 21 tháng 1 năm 2025</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>Phát hành <code dir="ltr" translate="no">gemini-2.0-flash-thinking-exp-01-21</code>, phiên bản dùng thử mới nhất của mô hình đằng sau <a href="https://ai.google.dev/gemini-api/docs/thinking?hl=vi">Mô hình Gemini 2.0 Flash Thinking</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 19 tháng 12 năm 2024" id="12-19-2024" tabindex="-1">Ngày 19 tháng 12 năm 2024</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li><p>Phát hành Chế độ tư duy Flash Gemini 2.0 cho bản dùng thử công khai. Chế độ Tư duy là một mô hình tính toán trong thời gian thử nghiệm, cho phép bạn xem quy trình tư duy của mô hình trong khi mô hình tạo câu trả lời và tạo ra các câu trả lời có khả năng suy luận mạnh mẽ hơn.</p>
+
+<p>Đọc thêm về Chế độ tư duy 2.0 Flash của Gemini trên <a href="https://ai.google.dev/gemini-api/docs/thinking-mode?hl=vi">trang tổng quan</a> của chúng tôi.</p></li>
+</ul>
+
+<h2 data-text="Ngày 11 tháng 12 năm 2024" id="12-11-2024" tabindex="-1">Ngày 11 tháng 12 năm 2024</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>Phát hành <a href="https://ai.google.dev/gemini-api/docs/models/gemini?hl=vi#gemini-2.0-flash">Gemini 2.0 Flash Experimental</a> để dùng thử công khai. Danh sách một phần các tính năng của Gemini 2.0 Flash Experimental bao gồm:
+<ul>
+<li>Nhanh gấp đôi so với Gemini 1.5 Pro</li>
+<li>Phát trực tiếp hai chiều bằng Live API</li>
+<li>Tạo câu trả lời đa phương thức dưới dạng văn bản, hình ảnh và lời nói</li>
+<li>Sử dụng công cụ tích hợp sẵn với khả năng suy luận nhiều lượt để dùng các tính năng như thực thi mã, Tìm kiếm, gọi hàm, v.v.</li>
+</ul></li>
+</ul>
+
+<p>Đọc thêm về Gemini 2.0 Flash trên <a href="https://ai.google.dev/gemini-api/docs/models/gemini-v2?hl=vi">trang tổng quan</a> của chúng tôi.</p>
+
+<h2 data-text="Ngày 21 tháng 11 năm 2024" id="11-21-24" tabindex="-1">Ngày 21 tháng 11 năm 2024</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>Phát hành <code dir="ltr" translate="no">gemini-exp-1121</code>, một mô hình Gemini API thử nghiệm mạnh mẽ hơn nữa.</li>
+</ul>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>Cập nhật các bí danh mô hình <code dir="ltr" translate="no">gemini-1.5-flash-latest</code> và <code dir="ltr" translate="no">gemini-1.5-flash</code> để sử dụng <code dir="ltr" translate="no">gemini-1.5-flash-002</code>.
+<ul>
+<li>Thay đổi thành tham số <code dir="ltr" translate="no">top_k</code>: Mô hình <code dir="ltr" translate="no">gemini-1.5-flash-002</code> hỗ trợ các giá trị <code dir="ltr" translate="no">top_k</code> từ 1 đến 41 (không bao gồm).
+Các giá trị lớn hơn 40 sẽ được thay đổi thành 40.</li>
+</ul></li>
+</ul>
+
+<h2 data-text="Ngày 14 tháng 11 năm 2024" id="11-14-24" tabindex="-1">Ngày 14 tháng 11 năm 2024</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>Phát hành <code dir="ltr" translate="no">gemini-exp-1114</code>, một mô hình Gemini API thử nghiệm mạnh mẽ.</li>
+</ul>
+
+<h2 data-text="Ngày 8 tháng 11 năm 2024" id="11-08-24" tabindex="-1">Ngày 8 tháng 11 năm 2024</h2>
+
+<p><strong>Các bản cập nhật API:</strong></p>
+
+<ul>
+<li>Đã thêm <a href="https://ai.google.dev/gemini-api/docs/openai?hl=vi">hỗ trợ cho Gemini</a> trong các thư viện OpenAI / REST API.</li>
+</ul>
+
+<h2 data-text="Ngày 31 tháng 10 năm 2024" id="10-31-24" tabindex="-1">Ngày 31 tháng 10 năm 2024</h2>
+
+<p><strong>Các bản cập nhật API:</strong></p>
+
+<ul>
+<li>Thêm <a href="https://ai.google.dev/gemini-api/docs/grounding?hl=vi">khả năng hỗ trợ cho tính năng Bám sát nguồn bằng Google Tìm kiếm</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 3 tháng 10 năm 2024" id="10-03-24" tabindex="-1">Ngày 3 tháng 10 năm 2024</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>Phát hành <code dir="ltr" translate="no">gemini-1.5-flash-8b-001</code>, một phiên bản ổn định của mô hình API Gemini nhỏ nhất của chúng tôi.</li>
+</ul>
+
+<h2 data-text="Ngày 24 tháng 9 năm 2024" id="09-24-24" tabindex="-1">Ngày 24 tháng 9 năm 2024</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>Phát hành <code dir="ltr" translate="no">gemini-1.5-pro-002</code> và <code dir="ltr" translate="no">gemini-1.5-flash-002</code>, hai phiên bản ổn định mới của Gemini 1.5 Pro và 1.5 Flash, ở giai đoạn phát hành rộng rãi.</li>
+<li>Cập nhật mã mô hình <code dir="ltr" translate="no">gemini-1.5-pro-latest</code> để sử dụng <code dir="ltr" translate="no">gemini-1.5-pro-002</code> và mã mô hình <code dir="ltr" translate="no">gemini-1.5-flash-latest</code> để sử dụng <code dir="ltr" translate="no">gemini-1.5-flash-002</code>.</li>
+<li>Phát hành <code dir="ltr" translate="no">gemini-1.5-flash-8b-exp-0924</code> để thay thế <code dir="ltr" translate="no">gemini-1.5-flash-8b-exp-0827</code>.</li>
+<li>Phát hành <a href="https://ai.google.dev/gemini-api/docs/safety-settings?hl=vi#safety-filters">bộ lọc an toàn về tính toàn vẹn của công dân</a> cho Gemini API và AI Studio.</li>
+<li>Hỗ trợ hai tham số mới cho Gemini 1.5 Pro và 1.5 Flash trong Python và NodeJS:
+<a href="https://ai.google.dev/api/generate-content?hl=vi#FIELDS.frequency_penalty"><code dir="ltr" translate="no">frequencyPenalty</code></a> và <a href="https://ai.google.dev/api/generate-content?hl=vi#FIELDS.presence_penalty"><code dir="ltr" translate="no">presencePenalty</code></a>.</li>
+</ul>
+
+<h2 data-text="Ngày 19 tháng 9 năm 2024" id="09-19-24" tabindex="-1">Ngày 19 tháng 9 năm 2024</h2>
+
+<p><strong>Tin cập nhật về AI Studio:</strong></p>
+
+<ul>
+<li>Thêm nút thích và không thích vào các câu trả lời của mô hình để người dùng có thể đưa ra ý kiến phản hồi về chất lượng của câu trả lời.</li>
+</ul>
+
+<p><strong>Các bản cập nhật API:</strong></p>
+
+<ul>
+<li>Thêm hỗ trợ cho các khoản tín dụng của Google Cloud. Giờ đây, bạn có thể dùng các khoản tín dụng này cho việc sử dụng Gemini API.</li>
+</ul>
+
+<h2 data-text="Ngày 17 tháng 9 năm 2024" id="09-17-24" tabindex="-1">Ngày 17 tháng 9 năm 2024</h2>
+
+<p><strong>Tin cập nhật về AI Studio:</strong></p>
+
+<ul>
+<li>Thêm nút <strong>Mở trong Colab</strong> để xuất một câu lệnh và mã để kích hoạt câu lệnh đó sang một sổ tay Colab. Tính năng này hiện chưa hỗ trợ việc đưa ra lời nhắc bằng các công cụ (chế độ JSON, gọi hàm hoặc thực thi mã).</li>
+</ul>
+
+<h2 data-text="Ngày 13 tháng 9 năm 2024" id="09-13-24" tabindex="-1">Ngày 13 tháng 9 năm 2024</h2>
+
+<p><strong>Tin cập nhật về AI Studio:</strong></p>
+
+<ul>
+<li>Thêm chế độ so sánh để bạn có thể so sánh các câu trả lời trên nhiều mô hình và câu lệnh nhằm tìm ra câu trả lời phù hợp nhất cho trường hợp sử dụng của bạn.</li>
+</ul>
+
+<h2 data-text="Ngày 30 tháng 8 năm 2024" id="08-30-24" tabindex="-1">Ngày 30 tháng 8 năm 2024</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>Gemini 1.5 Flash hỗ trợ <a href="https://ai.google.dev/gemini-api/docs/json-mode?hl=vi#supply-schema-in-config">cung cấp giản đồ JSON thông qua cấu hình mô hình</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 27 tháng 8 năm 2024" id="08-27-24" tabindex="-1">Ngày 27 tháng 8 năm 2024</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>Phát hành <a href="https://ai.google.dev/gemini-api/docs/models/experimental-models?hl=vi">các mô hình thử nghiệm</a> sau đây:
+<ul>
+<li><code dir="ltr" translate="no">gemini-1.5-pro-exp-0827</code></li>
+<li><code dir="ltr" translate="no">gemini-1.5-flash-exp-0827</code></li>
+<li><code dir="ltr" translate="no">gemini-1.5-flash-8b-exp-0827</code></li>
+</ul></li>
+</ul>
+
+<h2 data-text="Ngày 9 tháng 8 năm 2024" id="08-09-24" tabindex="-1">Ngày 9 tháng 8 năm 2024</h2>
+
+<p><strong>Các bản cập nhật API:</strong></p>
+
+<ul>
+<li>Thêm tính năng hỗ trợ <a href="https://ai.google.dev/gemini-api/docs/document-processing?hl=vi">xử lý tệp PDF</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 5 tháng 8 năm 2024" id="08-05-24" tabindex="-1">Ngày 5 tháng 8 năm 2024</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>Đã phát hành tính năng tinh chỉnh cho Gemini 1.5 Flash.</li>
+</ul>
+
+<h2 data-text="Ngày 1 tháng 8 năm 2024" id="08-01-24" tabindex="-1">Ngày 1 tháng 8 năm 2024</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>Phát hành <code dir="ltr" translate="no">gemini-1.5-pro-exp-0801</code>, một phiên bản thử nghiệm mới của <a href="https://ai.google.dev/gemini-api/docs/models/gemini?hl=vi#gemini-1.5-pro">Gemini 1.5 Pro</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 12 tháng 7 năm 2024" id="07-12-24" tabindex="-1">Ngày 12 tháng 7 năm 2024</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>Xoá tính năng hỗ trợ Gemini 1.0 Pro Vision khỏi các dịch vụ và công cụ AI của Google.</li>
+</ul>
+
+<h2 data-text="Ngày 27 tháng 6 năm 2024" id="06-27-24" tabindex="-1">Ngày 27 tháng 6 năm 2024</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>Giai đoạn phát hành rộng rãi cho cửa sổ ngữ cảnh 2 triệu token của Gemini 1.5 Pro.</li>
+</ul>
+
+<p><strong>Các bản cập nhật API:</strong></p>
+
+<ul>
+<li>Thêm tính năng hỗ trợ cho <a href="https://ai.google.dev/gemini-api/docs/code-execution?hl=vi">thực thi mã</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 18 tháng 6 năm 2024" id="06-18-24" tabindex="-1">Ngày 18 tháng 6 năm 2024</h2>
+
+<p><strong>Các bản cập nhật API:</strong></p>
+
+<ul>
+<li>Thêm tính năng hỗ trợ cho <a href="https://ai.google.dev/gemini-api/docs/caching?hl=vi">hoạt động lưu vào bộ nhớ đệm theo bối cảnh</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 12 tháng 6 năm 2024" id="06-12-204" tabindex="-1">Ngày 12 tháng 6 năm 2024</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>Gemini 1.0 Pro Vision không còn được dùng nữa.</li>
+</ul>
+
+<h2 data-text="Ngày 23 tháng 5 năm 2024" id="05-23-24" tabindex="-1">Ngày 23 tháng 5 năm 2024</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li><a href="https://ai.google.dev/gemini-api/docs/models/gemini?hl=vi#gemini-1.5-pro">Gemini 1.5 Pro</a>
+(<code dir="ltr" translate="no">gemini-1.5-pro-001</code>) hiện đã được phát hành rộng rãi (GA).</li>
+<li><a href="https://ai.google.dev/gemini-api/docs/models/gemini?hl=vi#gemini-1.5-flash">Gemini 1.5 Flash</a> (<code dir="ltr" translate="no">gemini-1.5-flash-001</code>) đã được phát hành rộng rãi (GA).</li>
+</ul>
+
+<h2 data-text="Ngày 14 tháng 5 năm 2024" id="05-14-24" tabindex="-1">Ngày 14 tháng 5 năm 2024</h2>
+
+<p><strong>Các bản cập nhật API:</strong></p>
+
+<ul>
+<li>Ra mắt cửa sổ ngữ cảnh 2 triệu token cho Gemini 1.5 Pro (danh sách chờ).</li>
+<li>Ra mắt chế độ <a href="https://ai.google.dev/gemini-api/docs/billing?hl=vi">thanh toán</a> trả tiền theo mức dùng cho Gemini 1.0 Pro, chế độ thanh toán cho Gemini 1.5 Pro và Gemini 1.5 Flash sẽ ra mắt trong thời gian tới.</li>
+<li>Giới thiệu hạn mức tăng lên cho cấp có tính phí sắp ra mắt của Gemini 1.5 Pro.</li>
+<li>Thêm tính năng hỗ trợ video tích hợp vào <a href="https://ai.google.dev/api/rest/v1beta/files?hl=vi">File API</a>.</li>
+<li>Thêm tính năng hỗ trợ văn bản thuần tuý vào <a href="https://ai.google.dev/api/rest/v1beta/files?hl=vi">File API</a>.</li>
+<li>Thêm tính năng hỗ trợ gọi hàm song song, trả về nhiều lệnh gọi cùng một lúc.</li>
+</ul>
+
+<h2 data-text="Ngày 10 tháng 5 năm 2024" id="05-10-24" tabindex="-1">Ngày 10 tháng 5 năm 2024</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>Phát hành <a href="https://ai.google.dev/gemini-api/docs/models/gemini?hl=vi#gemini-1.5-flash">Gemini 1.5 Flash</a> (<code dir="ltr" translate="no">gemini-1.5-flash-latest</code>) ở chế độ xem trước.</li>
+</ul>
+
+<h2 data-text="Ngày 9 tháng 4 năm 2024" id="04-09-24" tabindex="-1">Ngày 9 tháng 4 năm 2024</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>Phát hành <a href="https://ai.google.dev/gemini-api/docs/models/gemini?hl=vi#gemini-1.5-pro">Gemini 1.5 Pro</a> (<code dir="ltr" translate="no">gemini-1.5-pro-latest</code>) ở chế độ xem trước.</li>
+<li>Phát hành mô hình nhúng văn bản mới, <code dir="ltr" translate="no">text-embeddings-004</code>, hỗ trợ các kích thước <a href="https://ai.google.dev/gemini-api/docs/embeddings?hl=vi#elastic-embedding">nhúng linh hoạt</a> dưới 768.</li>
+</ul>
+
+<p><strong>Các bản cập nhật API:</strong></p>
+
+<ul>
+<li>Phát hành <a href="https://ai.google.dev/api/rest/v1beta/files?hl=vi">File API</a> để tạm thời lưu trữ các tệp đa phương tiện để dùng trong quá trình tạo câu lệnh.</li>
+<li>Thêm tính năng hỗ trợ đặt câu lệnh bằng dữ liệu văn bản, hình ảnh và âm thanh, còn được gọi là đặt câu lệnh <em>đa phương thức</em>. Để tìm hiểu thêm, hãy xem bài viết <a href="https://ai.google.dev/gemini-api/docs/prompting_with_media?hl=vi">Đưa ra câu lệnh bằng nội dung nghe nhìn</a>.</li>
+<li>Phát hành <a href="https://ai.google.dev/gemini-api/docs/system-instructions?hl=vi">Hướng dẫn hệ thống</a> ở giai đoạn thử nghiệm beta.</li>
+<li>Thêm <a href="https://ai.google.dev/gemini-api/docs/function-calling?hl=vi#function_calling_mode">Chế độ gọi hàm</a>, xác định hành vi thực thi cho việc gọi hàm.</li>
+<li>Đã thêm chế độ hỗ trợ cho lựa chọn cấu hình <code dir="ltr" translate="no">response_mime_type</code>, cho phép bạn yêu cầu phản hồi ở <a href="https://ai.google.dev/gemini-api/docs/api-overview?hl=vi#json">định dạng JSON</a>.</li>
+</ul>
+
+<h2 data-text="Ngày 19 tháng 3 năm 2024" id="03-09-24" tabindex="-1">Ngày 19 tháng 3 năm 2024</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>Đã thêm chức năng hỗ trợ <a href="https://developers.googleblog.com/en/tune-gemini-pro-in-google-ai-studio-or-with-the-gemini-api/">điều chỉnh Gemini 1.0 Pro</a> trong Google AI Studio hoặc bằng Gemini API.</li>
+</ul>
+
+<h2 data-text="Ngày 13 tháng 12 năm 2023" id="12-13-23" tabindex="-1">Ngày 13 tháng 12 năm 2023</h2>
+
+<p><strong>Bản cập nhật mô hình:</strong></p>
+
+<ul>
+<li>gemini-pro: Mô hình văn bản mới cho nhiều loại nhiệm vụ. Cân bằng khả năng và hiệu quả.</li>
+<li>gemini-pro-vision: Mô hình đa phương thức mới cho nhiều loại nhiệm vụ.
+Cân bằng giữa khả năng và hiệu quả.</li>
+<li>embedding-001: Mô hình nhúng mới.</li>
+<li>aqa: Một mô hình mới được điều chỉnh đặc biệt để trả lời các câu hỏi bằng cách sử dụng các đoạn văn bản để làm cơ sở cho câu trả lời được tạo.</li>
+</ul>
+
+<p>Hãy xem bài viết <a href="https://ai.google.dev/gemini-api/docs/models/gemini?hl=vi">Các mô hình Gemini</a> để biết thêm thông tin.</p>
+
+<p><strong>Các bản cập nhật phiên bản API:</strong></p>
+
+<ul>
+<li>v1: Kênh API ổn định.</li>
+<li>v1beta: Kênh thử nghiệm beta. Kênh này có các tính năng có thể đang trong quá trình phát triển.</li>
+</ul>
+
+<p>Hãy xem <a href="https://ai.google.dev/gemini-api/docs/api-versions?hl=vi">chủ đề về các phiên bản API</a> để biết thêm thông tin chi tiết.</p>
+
+<p><strong>Các bản cập nhật API:</strong></p>
+
+<ul>
+<li><code dir="ltr" translate="no">GenerateContent</code> là một điểm cuối hợp nhất duy nhất cho cuộc trò chuyện và tin nhắn văn bản.</li>
+<li>Phát trực tuyến thông qua phương thức <code dir="ltr" translate="no">StreamGenerateContent</code>.</li>
+<li>Chức năng đa phương thức: Hình ảnh là một phương thức mới được hỗ trợ</li>
+<li>Các tính năng thử nghiệm mới:
+<ul>
+<li><a href="https://ai.google.dev/gemini-api/docs/function-calling?hl=vi">Lệnh gọi hàm</a></li>
+<li><a href="https://ai.google.dev/gemini-api/docs/semantic_retrieval?hl=vi">Semantic Retriever</a></li>
+<li>Tính năng Trả lời câu hỏi có trích dẫn (AQA)</li>
+</ul></li>
+<li>Số lượng đề xuất được cập nhật: Các mô hình Gemini chỉ trả về 1 đề xuất.</li>
+<li>Các danh mục Chế độ cài đặt về an toàn và SafetyRating. Hãy xem <a href="https://ai.google.dev/gemini-api/docs/safety-settings?hl=vi">chế độ cài đặt an toàn</a> để biết thêm thông tin.</li>
+<li>Các mô hình Gemini hiện chưa hỗ trợ tính năng điều chỉnh mô hình (Đang tiến hành).</li>
+</ul>
+<link data-page-link="" href="https://fonts.googleapis.com/css2?family=Google+Symbols:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+  
+
+  
+
+  
+</div>
+
+  
+    
+    
+      
+    <devsite-thumb-rating position="footer">
+    </devsite-thumb-rating>
+  
+       
+         <devsite-feedback
+  position="footer"
+  project-name="Gemini API"
+  product-id="5292923"
+  bucket="documentation"
+  context=""
+  version="t-devsite-webserver-20260521-r00-rc00.477732451397888703"
+  data-label="Send Feedback Button"
+  track-type="feedback"
+  track-name="sendFeedbackLink"
+  track-metadata-position="footer"
+  class="nocontent"
+  data-nosnippet
+  
+  
+  
+    project-icon="https://www.gstatic.com/devrel-devsite/prod/v6ae673272608590539f8a06b3f3271c0f5688cde07499d1c9e644aeb66c8c060/googledevai/images/touchicon-180-new.png"
+  
+  
+  
+  >
+
+  <button>
+  
+    
+    Gửi ý kiến phản hồi
+  
+  </button>
+</devsite-feedback>
+       
+    
+    
+  
+
+  <div class="devsite-floating-action-buttons"></div></article>
+
+
+<devsite-content-footer class="nocontent" data-nosnippet>
+  <p>Trừ phi có lưu ý khác, nội dung của trang này được cấp phép theo <a href="https://creativecommons.org/licenses/by/4.0/">Giấy phép ghi nhận tác giả 4.0 của Creative Commons</a> và các mẫu mã lập trình được cấp phép theo <a href="https://www.apache.org/licenses/LICENSE-2.0">Giấy phép Apache 2.0</a>. Để biết thông tin chi tiết, vui lòng tham khảo <a href="https://developers.google.com/site-policies?hl=vi">Chính sách trang web của Google Developers</a>. Java là nhãn hiệu đã đăng ký của Oracle và/hoặc các đơn vị liên kết với Oracle.</p>
+  <p>Cập nhật lần gần đây nhất: 2026-05-28 UTC.</p>
+</devsite-content-footer>
+
+
+<devsite-notification
+>
+</devsite-notification>
+
+
+  
+<div class="devsite-content-data">
+  
+    
+    
+    <template class="devsite-thumb-rating-feedback">
+      <devsite-feedback
+  position="thumb-rating"
+  project-name="Gemini API"
+  product-id="5292923"
+  bucket="documentation"
+  context=""
+  version="t-devsite-webserver-20260521-r00-rc00.477732451397888703"
+  data-label="Send Feedback Button"
+  track-type="feedback"
+  track-name="sendFeedbackLink"
+  track-metadata-position="thumb-rating"
+  class="nocontent"
+  data-nosnippet
+  
+  
+  
+    project-icon="https://www.gstatic.com/devrel-devsite/prod/v6ae673272608590539f8a06b3f3271c0f5688cde07499d1c9e644aeb66c8c060/googledevai/images/touchicon-180-new.png"
+  
+  
+  
+  >
+
+  <button>
+  
+    Bạn muốn chia sẻ thêm với chúng tôi?
+  
+  </button>
+</devsite-feedback>
+    </template>
+  
+  
+    <template class="devsite-content-data-template">
+      [[["Dễ hiểu","easyToUnderstand","thumb-up"],["Giúp tôi giải quyết được vấn đề","solvedMyProblem","thumb-up"],["Khác","otherUp","thumb-up"]],[["Thiếu thông tin tôi cần","missingTheInformationINeed","thumb-down"],["Quá phức tạp/quá nhiều bước","tooComplicatedTooManySteps","thumb-down"],["Đã lỗi thời","outOfDate","thumb-down"],["Vấn đề về bản dịch","translationIssue","thumb-down"],["Vấn đề về mẫu/mã","samplesCodeIssue","thumb-down"],["Khác","otherDown","thumb-down"]],["Cập nhật lần gần đây nhất: 2026-05-28 UTC."],[],[]]
+    </template>
+  
+</div>
+            
+          </devsite-content>
+        </main>
+        <devsite-footer-promos class="devsite-footer">
+          
+            
+          
+        </devsite-footer-promos>
+        <devsite-footer-linkboxes class="devsite-footer">
+          
+            
+<nav class="devsite-footer-linkboxes nocontent"
+     aria-label="Đường liên kết ở chân trang"
+     data-nosnippet>
+  
+</nav>
+          
+        </devsite-footer-linkboxes>
+        <devsite-footer-utility class="devsite-footer">
+          
+            
+
+<div class="devsite-footer-utility nocontent" data-nosnippet>
+  
+
+  
+  <nav class="devsite-footer-utility-links" aria-label="Đường liên kết tiện ích">
+    
+    <ul class="devsite-footer-utility-list">
+      
+      <li class="devsite-footer-utility-item
+                 ">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="//policies.google.com/terms?hl=vi"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Terms link"
+         >
+          Điều khoản
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 ">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="//policies.google.com/privacy?hl=vi"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Privacy link"
+         >
+          Quyền riêng tư
+        </a>
+        
+      </li>
+      
+      <li class="devsite-footer-utility-item
+                 glue-cookie-notification-bar-control">
+        
+        
+        <a class="devsite-footer-utility-link gc-analytics-event"
+           href="#"
+           data-category="Site-Wide Custom Events"
+           data-label="Footer Manage cookies link"
+         
+           aria-hidden="true"
+         >
+          Manage cookies
+        </a>
+        
+      </li>
+      
+    </ul>
+    
+    
+<devsite-language-selector>
+  <ul role="presentation">
+    
+    
+    <li role="presentation">
+      <a role="menuitem" lang="en"
+        >English</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="de"
+        >Deutsch</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="es_419"
+        >Español – América Latina</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fr"
+        >Français</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="id"
+        >Indonesia</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="it"
+        >Italiano</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pl"
+        >Polski</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="pt_br"
+        >Português – Brasil</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="sq"
+        >Shqip</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="vi"
+        >Tiếng Việt</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="tr"
+        >Türkçe</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ru"
+        >Русский</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="he"
+        >עברית</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ar"
+        >العربيّة</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="fa"
+        >فارسی</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="hi"
+        >हिंदी</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="bn"
+        >বাংলা</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="th"
+        >ภาษาไทย</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_cn"
+        >中文 – 简体</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="zh_tw"
+        >中文 – 繁體</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ja"
+        >日本語</a>
+    </li>
+    
+    <li role="presentation">
+      <a role="menuitem" lang="ko"
+        >한국어</a>
+    </li>
+    
+  </ul>
+</devsite-language-selector>
+
+  </nav>
+</div>
+          
+        </devsite-footer-utility>
+        <devsite-panel>
+          
+        </devsite-panel>
+        
+      </section>
+      </section>
+    <devsite-sitemask></devsite-sitemask>
+    <devsite-snackbar></devsite-snackbar>
+    <devsite-tooltip ></devsite-tooltip>
+    <devsite-heading-link></devsite-heading-link>
+    <devsite-analytics>
+      
+        <script type="application/json" analytics>[]</script>
+<script type="application/json" tag-management>{&#34;at&#34;: &#34;True&#34;, &#34;ga4&#34;: [], &#34;ga4p&#34;: [], &#34;gtm&#34;: [{&#34;id&#34;: &#34;GTM-TC2MQKS8&#34;, &#34;purpose&#34;: 0}], &#34;parameters&#34;: {&#34;internalUser&#34;: &#34;False&#34;, &#34;language&#34;: {&#34;machineTranslated&#34;: &#34;True&#34;, &#34;requested&#34;: &#34;vi&#34;, &#34;served&#34;: &#34;vi&#34;}, &#34;pageType&#34;: &#34;article&#34;, &#34;projectName&#34;: &#34;Gemini API&#34;, &#34;signedIn&#34;: &#34;False&#34;, &#34;tenant&#34;: &#34;googledevai&#34;, &#34;recommendations&#34;: {&#34;sourcePage&#34;: &#34;&#34;, &#34;sourceType&#34;: 0, &#34;sourceRank&#34;: 0, &#34;sourceIdenticalDescriptions&#34;: 0, &#34;sourceTitleWords&#34;: 0, &#34;sourceDescriptionWords&#34;: 0, &#34;experiment&#34;: &#34;&#34;}, &#34;experiment&#34;: {&#34;ids&#34;: &#34;&#34;}}}</script>
+      
+    </devsite-analytics>
+    
+      <devsite-badger></devsite-badger>
+    
+    
+    
+    
+<script nonce="UqNQ4YEo68HdFuTU7lVpoQmm6WDFCG">
+  
+  (function(d,e,v,s,i,t,E){d['GoogleDevelopersObject']=i;
+    t=e.createElement(v);t.async=1;t.src=s;E=e.getElementsByTagName(v)[0];
+    E.parentNode.insertBefore(t,E);})(window, document, 'script',
+    'https://www.gstatic.com/devrel-devsite/prod/v6ae673272608590539f8a06b3f3271c0f5688cde07499d1c9e644aeb66c8c060/googledevai/js/app_loader.js', '[59,"vi",null,"/js/devsite_app_module.js","https://www.gstatic.com/devrel-devsite/prod/v6ae673272608590539f8a06b3f3271c0f5688cde07499d1c9e644aeb66c8c060","https://www.gstatic.com/devrel-devsite/prod/v6ae673272608590539f8a06b3f3271c0f5688cde07499d1c9e644aeb66c8c060/googledevai","https://googledevai-dot-devsite-v2-prod-3p.appspot.com",null,null,["/_pwa/googledevai/manifest.json","https://www.gstatic.com/devrel-devsite/prod/v6ae673272608590539f8a06b3f3271c0f5688cde07499d1c9e644aeb66c8c060/images/video-placeholder.svg","https://www.gstatic.com/devrel-devsite/prod/v6ae673272608590539f8a06b3f3271c0f5688cde07499d1c9e644aeb66c8c060/googledevai/images/favicon-new.png","/_static/googledevai/images/gemini-api-logo.svg","https://fonts.googleapis.com/css?family=Google+Sans:400,500|Roboto:400,400italic,500,500italic,700,700italic|Roboto+Mono:400,500,700|Inter:400,500|Inter+Tight:300,500,600&display=swap"],1,null,[1,6,8,12,14,17,21,25,50,52,63,70,75,76,80,87,91,92,93,97,98,100,101,102,103,104,105,107,108,109,110,112,113,116,117,118,120,122,124,125,126,127,129,130,131,132,133,134,135,136,138,140,141,147,148,149,151,152,156,157,158,159,161,163,164,168,169,170,179,180,182,183,186,191,193,196],"AIzaSyCNm9YxQumEXwGJgTDjxoxXK6m1F-9720Q","AIzaSyCc76DZePGtoyUjqKrLdsMGk_ry7sljLbY","ai.google.dev","AIzaSyB9bqgQ2t11WJsOX8qNsCQ6U-w91mmqF-I","AIzaSyAdYnStPdzjcJJtQ0mvIaeaMKj7_t6J_Fg",null,null,null,["Cloud__enable_cloud_dlp_service","OnSwitch__enable","MiscFeatureFlags__remove_cross_domain_tracking_params","Search__enable_ai_eligibility_checks","MiscFeatureFlags__developers_footer_image","Analytics__enable_devpro_interaction_logging","TpcFeatures__proxy_prod_host","DevPro__enable_g1_integration","Profiles__enable_recognition_badges","MiscFeatureFlags__enable_variable_operator","Profiles__enable_public_developer_profiles","MiscFeatureFlags__enable_framebox_badge_methods","DevPro__enable_cloud_innovators_plus","Profiles__enable_purchase_prompts","Profiles__enable_dashboard_curated_recommendations","MiscFeatureFlags__enable_explain_this_code","DevPro__enable_developer_subscriptions","MiscFeatureFlags__gdp_dashboard_reskin_enabled","Cloud__enable_legacy_calculator_redirect","SignIn__enable_l1_signup_flow","DevPro__enable_nvidia_credits_card","Profiles__enable_release_notes_notifications","Analytics__enable_clearcut_logging","Profiles__enable_complete_playlist_endpoint","Profiles__enable_join_program_group_endpoint","Profiles__enable_auto_apply_credits","CloudShell__cloud_shell_button","DevPro__remove_eu_tax_intake_form","MiscFeatureFlags__enable_appearance_cookies","DevPro__enable_free_benefits","Profiles__enable_developer_profile_benefits_ui_redesign","MiscFeatureFlags__enable_firebase_utm","Profiles__enable_developer_profile_pages_as_content","Profiles__enable_awarding_url","DevPro__enable_firebase_workspaces_card","DevPro__enable_google_payments_buyflow","Search__enable_dynamic_content_confidential_banner","TpcFeatures__enable_unmirrored_page_left_nav","Profiles__enable_profile_collections","Profiles__enable_stripe_subscription_management","MiscFeatureFlags__enable_llms_txt","Profiles__enable_page_saving","EngEduTelemetry__enable_engedu_telemetry","Cloud__fast_free_trial","MiscFeatureFlags__enable_variable_operator_index_yaml","Profiles__enable_completequiz_endpoint","Profiles__enable_developer_profiles_callout","DevPro__enable_embed_profile_creation","Search__enable_ai_search_summaries_for_all","CloudShell__cloud_code_overflow_menu","DevPro__enable_payments_first_batch","Cloud__enable_free_trial_server_call","Profiles__enable_callout_notifications","Concierge__enable_pushui","Search__enable_page_map","Profiles__require_profile_eligibility_for_signin","Cloud__enable_cloudx_experiment_ids","DevPro__enable_vertex_credit_card","MiscFeatureFlags__enable_project_variables","DevPro__enable_code_assist","Concierge__enable_devsite_llm_tools","Cloud__enable_cloud_shell_fte_user_flow","Concierge__enable_actions_menu","MiscFeatureFlags__fix_lower_breadcrumbs","DevPro__enable_devpro_offers","DevPro__enable_devsite_captcha","Profiles__enable_targeted_hero","MiscFeatureFlags__enable_view_transitions","MiscFeatureFlags__developers_footer_dark_image","DevPro__enable_enterprise","DevPro__enable_credits_banner","Experiments__reqs_query_experiments","DevPro__enable_google_one_card","Profiles__enable_user_type","Cloud__cache_serialized_dynamic_content","Cloud__enable_cloud_shell","Profiles__enable_completecodelab_endpoint","MiscFeatureFlags__enable_explicit_template_dependencies","Concierge__enable_remove_info_panel_tags","Search__enable_suggestions_from_borg","BookNav__enable_tenant_cache_key","Cloud__enable_llm_concierge_chat","Profiles__enable_playlist_community_acl"],null,null,"AIzaSyA58TaKli1DculwmAmbpzLVGuWc8eCQgQc","https://developerscontentserving-pa.googleapis.com","AIzaSyDWBU60w0P9hEkr29kkksYs8Z7gvZ8u_wc","https://developerscontentsearch-pa.googleapis.com",2,4,null,"https://developerprofiles-pa.googleapis.com",[59,"googledevai","Google AI for Developers","ai.google.dev",null,"googledevai-dot-devsite-v2-prod-3p.appspot.com",null,null,[null,1,null,null,null,null,null,null,null,null,null,[1],null,null,null,null,null,null,[1],null,null,null,null,[1],[1,1,null,1,1],null,null,null,null,null,[1]],null,[73,null,null,null,null,null,"/images/lockup-new.svg","/images/touchicon-180-new.png",null,null,null,null,1,1,null,null,null,null,null,null,null,2,null,null,null,"/images/lockup-dark-theme-new.svg",[]],[],null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[44,2,4,6,7,12,14,15,17,18,20,21,22,23,28,29,32,37,39,40,43],null,[[],[1,1],null,1],[[null,null,null,null,null,["GTM-TC2MQKS8"],null,null,null,null,null,[["GTM-TC2MQKS8",1]],1]],null,4,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,[]],null,null,1,1,"https://developerscontentinsights-pa.googleapis.com","AIzaSyC11xEGtFhkmSh_iF6l_itbxnFz2GrIBOg","AIzaSyAXJ10nRF73mmdSDINgkCNX5bbd2KPcWm8","https://developers.googleapis.com",["https://aistudio.google.com"],null,"AIzaSyCjP0KOnHfv8mwe38sfzZJMOnqE3HvrD4A",null,null,"https://developers.googleapis.com"]')
+  
+</script>
+
+    <devsite-a11y-announce></devsite-a11y-announce>
+  </body>
+</html>

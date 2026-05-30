@@ -1,0 +1,38 @@
+{
+  "service": "Meshy.ai",
+  "runStamp": "20260530T151342Z",
+  "sources": [
+    {
+      "title": "Meshy.ai official site",
+      "url": "https://www.meshy.ai/",
+      "id": "meshy-ai-official-site-1",
+      "fetched_at": "2026-05-30T15:13:42.430Z",
+      "fetch_status": "fetch-failed",
+      "error": "fetch failed"
+    },
+    {
+      "title": "Meshy.ai docs",
+      "url": "https://docs.meshy.ai/",
+      "id": "meshy-ai-docs-2",
+      "fetched_at": "2026-05-30T15:13:53.035Z",
+      "fetch_status": "fetch-failed",
+      "error": "fetch failed"
+    },
+    {
+      "title": "Meshy.ai pricing",
+      "url": "https://www.meshy.ai/pricing",
+      "id": "meshy-ai-pricing-3",
+      "fetched_at": "2026-05-30T15:14:13.659Z",
+      "fetch_status": "fetch-failed",
+      "error": "fetch failed"
+    },
+    {
+      "title": "Meshy.ai blog",
+      "url": "https://www.meshy.ai/blog",
+      "id": "meshy-ai-blog-4",
+      "fetched_at": "2026-05-30T15:14:24.155Z",
+      "fetch_status": "fetch-failed",
+      "error": "fetch failed"
+    }
+  ]
+}

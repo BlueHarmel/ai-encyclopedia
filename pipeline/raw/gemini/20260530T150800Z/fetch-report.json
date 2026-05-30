@@ -1,0 +1,66 @@
+{
+  "service": "Gemini",
+  "runStamp": "20260530T150800Z",
+  "sources": [
+    {
+      "title": "Gemini API docs",
+      "url": "https://ai.google.dev/gemini-api/docs",
+      "id": "gemini-api-docs-1",
+      "fetched_at": "2026-05-30T15:08:00.655Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://ai.google.dev/gemini-api/docs",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 8046
+    },
+    {
+      "title": "Gemini API release notes",
+      "url": "https://ai.google.dev/gemini-api/docs/changelog",
+      "id": "gemini-api-release-notes-2",
+      "fetched_at": "2026-05-30T15:08:06.508Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://ai.google.dev/gemini-api/docs/changelog?hl=vi",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 39263
+    },
+    {
+      "title": "Gemini API pricing",
+      "url": "https://ai.google.dev/pricing",
+      "id": "gemini-api-pricing-3",
+      "fetched_at": "2026-05-30T15:08:12.561Z",
+      "fetch_status": "fetch-failed",
+      "error": "fetch failed"
+    },
+    {
+      "title": "Gemini app",
+      "url": "https://gemini.google.com/",
+      "id": "gemini-app-4",
+      "fetched_at": "2026-05-30T15:08:23.041Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://gemini.google.com/",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 22
+    },
+    {
+      "title": "Google AI Blog",
+      "url": "https://blog.google/technology/ai/",
+      "id": "google-ai-blog-5",
+      "fetched_at": "2026-05-30T15:08:28.388Z",
+      "fetch_status": "fetch-failed",
+      "error": "fetch failed"
+    },
+    {
+      "title": "Google Developers Blog",
+      "url": "https://developers.googleblog.com/",
+      "id": "google-developers-blog-6",
+      "fetched_at": "2026-05-30T15:08:38.534Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://developers.googleblog.com/",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 9287
+    }
+  ]
+}
