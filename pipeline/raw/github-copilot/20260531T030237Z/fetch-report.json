@@ -1,0 +1,39 @@
+{
+  "service": "GitHub Copilot",
+  "runStamp": "20260531T030237Z",
+  "sources": [
+    {
+      "title": "GitHub Copilot docs",
+      "url": "https://docs.github.com/en/copilot",
+      "id": "github-copilot-docs-1",
+      "fetched_at": "2026-05-31T03:02:37.608Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://docs.github.com/en/copilot",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 12323
+    },
+    {
+      "title": "Copilot plans",
+      "url": "https://docs.github.com/en/copilot/get-started/plans",
+      "id": "copilot-plans-2",
+      "fetched_at": "2026-05-31T03:02:37.764Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://docs.github.com/en/copilot/get-started/plans",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 18158
+    },
+    {
+      "title": "GitHub Copilot changelog",
+      "url": "https://github.blog/changelog/label/copilot/",
+      "id": "github-copilot-changelog-3",
+      "fetched_at": "2026-05-31T03:02:37.786Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://github.blog/changelog/label/copilot/",
+      "content_type": "text/html; charset=UTF-8",
+      "text_chars": 5064
+    }
+  ]
+}
