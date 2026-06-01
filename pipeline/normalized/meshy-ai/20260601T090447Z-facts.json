@@ -1,0 +1,46 @@
+{
+  "service": "Meshy.ai",
+  "generated_at": "2026-06-01T09:04:54.328Z",
+  "facts": [
+    {
+      "service": "Meshy.ai",
+      "topic": "source-collection",
+      "fact": "Meshy.ai official site was collected for source-backed extraction.",
+      "source_url": "https://www.meshy.ai/",
+      "source_title": "Meshy.ai official site",
+      "last_checked": "2026-06-01",
+      "status": "indexed",
+      "target_page": ""
+    },
+    {
+      "service": "Meshy.ai",
+      "topic": "source-collection",
+      "fact": "Meshy.ai docs was collected for source-backed extraction.",
+      "source_url": "https://docs.meshy.ai/",
+      "source_title": "Meshy.ai docs",
+      "last_checked": "2026-06-01",
+      "status": "indexed",
+      "target_page": ""
+    },
+    {
+      "service": "Meshy.ai",
+      "topic": "source-collection",
+      "fact": "Meshy.ai pricing was collected for source-backed extraction.",
+      "source_url": "https://www.meshy.ai/pricing",
+      "source_title": "Meshy.ai pricing",
+      "last_checked": "2026-06-01",
+      "status": "indexed",
+      "target_page": ""
+    },
+    {
+      "service": "Meshy.ai",
+      "topic": "source-collection",
+      "fact": "Meshy.ai blog was collected for source-backed extraction.",
+      "source_url": "https://www.meshy.ai/blog",
+      "source_title": "Meshy.ai blog",
+      "last_checked": "2026-06-01",
+      "status": "indexed",
+      "target_page": ""
+    }
+  ]
+}
