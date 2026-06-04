@@ -1,0 +1,78 @@
+{
+  "service": "ChatGPT",
+  "runStamp": "20260604T090649Z",
+  "sources": [
+    {
+      "id": "chatgpt-release-notes",
+      "title": "ChatGPT release notes",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "status": "covered",
+      "fetched_at": "2026-06-04T09:06:49.595Z",
+      "fetch_status": "blocked",
+      "http_status": 403,
+      "final_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "content_type": "text/html; charset=UTF-8",
+      "text_chars": 41
+    },
+    {
+      "id": "chatgpt",
+      "title": "About ChatGPT Pro tiers",
+      "url": "https://help.openai.com/en/articles/9793128-what-is-chatgpt-pro",
+      "status": "covered",
+      "fetched_at": "2026-06-04T09:06:49.771Z",
+      "fetch_status": "blocked",
+      "http_status": 403,
+      "final_url": "https://help.openai.com/en/articles/9793128-what-is-chatgpt-pro",
+      "content_type": "text/html; charset=UTF-8",
+      "text_chars": 41
+    },
+    {
+      "id": "chatgpt-plus",
+      "title": "What is ChatGPT Plus?",
+      "url": "https://help.openai.com/en/articles/6950777-chatgpt-plus",
+      "status": "covered",
+      "fetched_at": "2026-06-04T09:06:49.821Z",
+      "fetch_status": "blocked",
+      "http_status": 403,
+      "final_url": "https://help.openai.com/en/articles/6950777-chatgpt-plus",
+      "content_type": "text/html; charset=UTF-8",
+      "text_chars": 41
+    },
+    {
+      "id": "codex-rate-card",
+      "title": "Codex rate card",
+      "url": "https://help.openai.com/en/articles/20001106",
+      "status": "covered",
+      "fetched_at": "2026-06-04T09:06:49.869Z",
+      "fetch_status": "blocked",
+      "http_status": 403,
+      "final_url": "https://help.openai.com/en/articles/20001106",
+      "content_type": "text/html; charset=UTF-8",
+      "text_chars": 41
+    },
+    {
+      "id": "openai-platform-docs",
+      "title": "OpenAI API Platform Documentation",
+      "url": "https://platform.openai.com/docs",
+      "status": "indexed",
+      "fetched_at": "2026-06-04T09:06:49.914Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://developers.openai.com/api/docs",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 13932
+    },
+    {
+      "id": "codex-changelog",
+      "title": "Codex changelog",
+      "url": "https://developers.openai.com/codex/changelog/",
+      "status": "covered",
+      "fetched_at": "2026-06-04T09:06:50.277Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://developers.openai.com/codex/changelog",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 212914
+    }
+  ]
+}
