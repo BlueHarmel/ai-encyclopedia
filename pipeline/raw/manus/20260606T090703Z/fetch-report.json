@@ -1,0 +1,39 @@
+{
+  "service": "Manus",
+  "runStamp": "20260606T090703Z",
+  "sources": [
+    {
+      "title": "Manus official site",
+      "url": "https://manus.im/",
+      "id": "manus-official-site-1",
+      "fetched_at": "2026-06-06T09:07:03.460Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://manus.im/",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 767
+    },
+    {
+      "title": "Manus blog",
+      "url": "https://manus.im/blog",
+      "id": "manus-blog-2",
+      "fetched_at": "2026-06-06T09:07:06.803Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://manus.im/blog",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 9565
+    },
+    {
+      "title": "Manus pricing",
+      "url": "https://manus.im/pricing",
+      "id": "manus-pricing-3",
+      "fetched_at": "2026-06-06T09:07:08.492Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://manus.im/pricing",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 702
+    }
+  ]
+}
