@@ -1,0 +1,50 @@
+{
+  "service": "Meshy.ai",
+  "runStamp": "20260608T150918Z",
+  "sources": [
+    {
+      "title": "Meshy.ai official site",
+      "url": "https://www.meshy.ai/",
+      "id": "meshy-ai-official-site-1",
+      "fetched_at": "2026-06-08T15:09:18.557Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://www.meshy.ai/",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 13523
+    },
+    {
+      "title": "Meshy.ai docs",
+      "url": "https://docs.meshy.ai/",
+      "id": "meshy-ai-docs-2",
+      "fetched_at": "2026-06-08T15:09:25.632Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://docs.meshy.ai/en",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 3319
+    },
+    {
+      "title": "Meshy.ai pricing",
+      "url": "https://www.meshy.ai/pricing",
+      "id": "meshy-ai-pricing-3",
+      "fetched_at": "2026-06-08T15:09:30.563Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://www.meshy.ai/pricing",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 14661
+    },
+    {
+      "title": "Meshy.ai blog",
+      "url": "https://www.meshy.ai/blog",
+      "id": "meshy-ai-blog-4",
+      "fetched_at": "2026-06-08T15:09:37.044Z",
+      "fetch_status": "fetched",
+      "http_status": 200,
+      "final_url": "https://www.meshy.ai/blog",
+      "content_type": "text/html; charset=utf-8",
+      "text_chars": 6191
+    }
+  ]
+}
