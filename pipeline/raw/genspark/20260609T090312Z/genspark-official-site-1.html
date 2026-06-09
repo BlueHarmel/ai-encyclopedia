@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"
+    />
+    <title>Genspark</title>
+    <link
+      rel="icon"
+      href="https://cdn1.genspark.ai/user-upload-image/manual/favicon.ico"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn1.genspark.ai/user-upload-image/manual/404_test.css"
+    />
+  </head>
+  <body>
+    <div class="bb">
+      <div class="s1"></div>
+      <div class="s2"></div>
+      <div class="s3"></div>
+    </div>
+    <div class="iw">
+      <div class="hh">
+        <div class="logo">
+          <img
+            src="https://cdn1.genspark.ai/user-upload-image/manual/genspark_logo.png"
+            alt="logo"
+          />
+        </div>
+      </div>
+      <div class="cc">
+        <div class="dd">
+          <div class="tt">
+            Service unavailable. Please check your internet connection.
+          </div>
+          <div class="form-container">
+            <form id="codeForm" onsubmit="setCookie(event)">
+              <input
+                type="text"
+                id="codeInput"
+                class="code-input"
+                maxlength="8"
+                pattern="[A-Za-z0-9]+"
+                placeholder=""
+                required
+              />
+              <button type="submit" class="submit-button">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    function setCookie(event) {
+      event.preventDefault()
+      let codeValue = document.getElementById('codeInput').value
+      document.cookie = `cn_code=${codeValue}; path=/`
+      location.reload()
+    }
+  </script>
+</html>
