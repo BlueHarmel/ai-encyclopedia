@@ -1,0 +1,1 @@
+406 - Not Acceptable 406 Not acceptable The server cannot produce a response matching the values defined.
