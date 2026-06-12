@@ -1,0 +1,36 @@
+{
+  "service": "Runway ML",
+  "generated_at": "2026-06-12T03:12:22.880Z",
+  "facts": [
+    {
+      "service": "Runway ML",
+      "topic": "source-collection",
+      "fact": "Runway ML official site was collected for source-backed extraction.",
+      "source_url": "https://runwayml.com/",
+      "source_title": "Runway ML official site",
+      "last_checked": "2026-06-12",
+      "status": "indexed",
+      "target_page": ""
+    },
+    {
+      "service": "Runway ML",
+      "topic": "source-collection",
+      "fact": "Runway ML docs was collected for source-backed extraction.",
+      "source_url": "https://help.runwayml.com/",
+      "source_title": "Runway ML docs",
+      "last_checked": "2026-06-12",
+      "status": "blocked",
+      "target_page": ""
+    },
+    {
+      "service": "Runway ML",
+      "topic": "source-collection",
+      "fact": "Runway ML pricing was collected for source-backed extraction.",
+      "source_url": "https://runwayml.com/pricing",
+      "source_title": "Runway ML pricing",
+      "last_checked": "2026-06-12",
+      "status": "indexed",
+      "target_page": ""
+    }
+  ]
+}
